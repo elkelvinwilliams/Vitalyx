@@ -11,7 +11,7 @@ Generated 2026-09-07 from `VYTALIX_INVESTOR_CRM.csv`. Activity counters are zero
 | BELOW 50 | 2 |
 | PHONE NUMBERS VERIFIED (public, sourced) | 5 |
 | PHONE NOT PUBLICLY AVAILABLE | 64 |
-| EMAILS VERIFIED (public, sourced) | 1 |
+| EMAILS VERIFIED (public, sourced) | 9 |
 | DECISION MAKERS IDENTIFIED (public role) | 59 |
 | INVESTORS CONTACTED | 0 |
 | CALLS MADE | 0 |
