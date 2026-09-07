@@ -1,0 +1,18 @@
+# Investor CRM raw-record schema (one CSV per research category)
+
+Write with Python's csv module (QUOTE_ALL). Exactly these headers, in this order:
+
+investor_name,investor_type,subcategory,country,city,website,linkedin_url,phone_investment_team,phone_office,phone_investor_relations,phone_source_url,phone_verification_status,email_investment,email_general,email_source_url,investment_focus,healthcare_focus,technology_focus,geography_focus,investment_stage,typical_ticket,fund_size_or_aum,relevant_portfolio,decision_maker_name,decision_maker_role,decision_maker_source_url,contact_route,warm_intro_possibility,source_urls,last_verified,notes,why_investor_for_vytalix,likely_objection,pitch_angle,sector_fit_20,stage_fit_15,ticket_fit_15,geo_fit_10,strategic_fit_15,maternalink_fit_10,accessibility_5,network_value_10,c_phone_3,c_direct_route_2,c_named_dm_1,c_email_1,c_linkedin_1,c_warm_intro_1,c_info_quality_1
+
+Field rules
+- investor_type: one of Angel Network | Angel Investor | Venture Capital | Family Office | Strategic / Corporate VC | Impact / DFI | Government / Innovation Fund | University / Institutional Fund
+- phone_*: ONLY a number that appeared in a public search result attributed to the investor's OFFICIAL website/contact page, an official regulator register (FCA register, Companies House), or the organisation's official listing. Never from ZoomInfo, RocketReach, ContactOut, Apollo, Lusha, SignalHire or similar scraped directories. Never a personal mobile. If none: leave the phone fields empty and set phone_verification_status = "PHONE NOT PUBLICLY AVAILABLE". If found: phone_verification_status = "VERIFIED 2026-09-07 (source in phone_source_url)". Format numbers as shown by the source.
+- email_*: only addresses shown on official pages (e.g., hello@, info@, pitch@, submissions pages). Otherwise "NOT PUBLICLY AVAILABLE". Never construct firstname.lastname@ addresses.
+- decision_maker_*: a named partner/principal/head of investment ONLY if they are publicly listed on the firm's team page or in a reputable article/LinkedIn result. Role must be their public role. No personal contact data. If none found: "NOT PUBLICLY IDENTIFIED".
+- contact_route: the practical route, e.g. "Web pitch form: URL", "Email hello@…", "Warm intro via portfolio founder", "LinkedIn to named partner".
+- warm_intro_possibility: "Yes – <route>", "Possible – <route>" or "No known route".
+- source_urls: semicolon-separated URLs actually seen in search results.
+- last_verified: 2026-09-07 for anything checked today; otherwise "Unverified (prior knowledge)".
+- Sub-scores are integers within the stated maximum. Fit rubric: Sector fit /20 (health-tech, digital health, AI, healthcare relevance); Stage fit /15 (pre-seed/seed/Series A appetite); Ticket fit /15 (£50k–£2m appetite for Vytalix's first rounds; pure growth funds score low); Geo fit /10 (UK 10, UK+Africa 10, Europe 7, US-only-that-invests-in-UK 6, Africa-only 8); Strategic fit /15 (can add customers, clinicians, government, distribution, credibility); MaternaLink fit /10 (maternal/women's/global health/Africa health relevance); Accessibility /5 (how reachable); Network value /10 (follow-on investors, health systems, governments).
+- Contactability rubric: c_phone_3 (3 = verified investment-team/office phone, 1 = corporate switchboard only, 0 = none); c_direct_route_2 (2 = pitch form or investment email, 1 = general email only, 0 = none); c_named_dm_1; c_email_1; c_linkedin_1; c_warm_intro_1 (1 if Yes/Possible); c_info_quality_1.
+- Investor-only: no customers, suppliers, marketing leads, accelerators-without-investment, or consultancies. Accelerators that invest cash for equity (e.g., with a fund) are allowed under Venture Capital with subcategory "Accelerator fund".
