@@ -133,3 +133,6 @@ textarea{min-height:120px}.field{display:grid;gap:.35rem}.field-row{display:grid
 .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{.site-header,.site-footer,.cookie,.side-nav{display:none}}
+
+/* nav buttons keep their own colours */
+.nav a.btn-primary{color:#fff}.nav a.btn-primary:hover{background:var(--blue-dark)}.nav a.btn-secondary{color:var(--blue)}
