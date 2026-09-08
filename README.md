@@ -56,5 +56,12 @@
 - `docs/15_LEGAL_AND_REGULATORY.md`, `docs/16_ORGANISATION_AND_SOPS.md`, `docs/17_FOUNDER_OPERATING_SYSTEM.md`
 - `operations/KPI_DASHBOARD.csv`, `operations/PIPELINE_TRACKERS.csv`
 
+## Live websites
+- Vytalix: https://claude.ai/code/artifact/cc65bf98-acb9-451e-a9d4-eed9553ac632
+- MaternaLink (with demo dashboard): https://claude.ai/code/artifact/39a7187c-c6d5-4eaf-9c6b-38dab166ce40
+
+## Exports
+`exports/pdf` (branded PDFs and `Vytalix_Executive_Pack.pdf`), `exports/pdf/decks`, `exports/xlsx` (branded workbooks, pricing calculator, readiness scorecard), `exports/pptx`, `exports/docx`, `exports/live`. Rebuild with `python3 exports/build_pdfs.py`, `build_deck_pdfs.py`, `build_xlsx.py`, `build_exports.py`.
+
 ## Naming
 The repository is named "Vitalyx"; the brand in the founder's brief is "Vytalix". Treat the repository name as a typo pending name and trademark clearance (see the audit).

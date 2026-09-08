@@ -6,7 +6,7 @@ Built 8 September 2026 from the Vytalix company-build repository. Everything is 
 1. `docs/23_INVESTOR_READINESS_AND_WINNING_CONCEPT` — what to do to become investor-ready, the Maternal Continuity Layer concept, and the government-contract playbook.
 2. `docs/00_MASTER_AUDIT` — where the business stands (score 11/100) and the top problems and opportunities.
 3. `docs/19_FIRST_30_DAYS` and `docs/18_90_DAY_EXECUTION_PLAN` — day-by-day and 90-day plans from Monday 14 September 2026.
-4. `assets/INVESTOR_ONE_PAGER` and `exports/pptx/INVESTOR_PITCH_DECK.pptx` — what investors see (only after the pre-conditions in doc 23 are met).
+4. `exports/pdf/Vytalix_Executive_Pack.pdf` (the seven core documents in one PDF), then `exports/pptx/INVESTOR_PITCH_DECK.pptx` — what investors see (only after the pre-conditions in doc 23 are met).
 5. `docs/21_MATERNALINK_PRICING` — pricing per product and annual service.
 6. `investors/` — 316-investor CRM (xlsx), Top 25, call lists, outreach scripts, dashboard.
 
@@ -14,6 +14,10 @@ Built 8 September 2026 from the Vytalix company-build repository. Everything is 
 | Folder | Contents |
 |---|---|
 | `docs/` | 24 strategy, product, finance, legal and operations documents (Markdown) |
+| `exports/pdf/` | Every document as a branded PDF with title page, contents and page numbers; `Vytalix_Executive_Pack.pdf` bundles the seven documents to read first |
+| `exports/pdf/decks/` | The four decks as 16:9 PDF slides |
+| `exports/xlsx/` | Branded workbooks with cover sheets: Investor CRM, Financial Model, Partner War Room, KPI Dashboard, Pipeline Trackers, Content Calendar, MaternaLink Pricing Calculator (with formulas), Investor Readiness Scorecard (live score) |
+| `exports/live/` | Single-file versions of both websites (published at the links in the README) |
 | `exports/docx/` | The same documents as Word files |
 | `exports/pptx/` | Investor pitch deck, corporate presentation, sales deck, partnership deck (PowerPoint, with speaker notes) |
 | `assets/` | Company profile, service catalogue, pricing structure, proposal template, business plan, one-pager, content calendar, launch campaign |
