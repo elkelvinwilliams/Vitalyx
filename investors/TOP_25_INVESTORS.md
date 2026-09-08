@@ -199,7 +199,7 @@ Ranked by Overall Score (0.85 × Fit /100 + 1.5 × Contactability /10). Phone nu
 3. **Why they fit MaternaLink:** MaternaLink fit 7/10 — Yes - health tech is a named sector; specific health names (e.g. Reliance Health, Remedial Health) are prior knowledge - TO VALIDATE
 4. **Investment stage:** Pre-seed, Seed, Pre-Series A
 5. **Typical ticket:** First cheque up to US$3m, average ~US$1.5m (Fund II); Fund I cheques were up to US$1m
-6. **Phone number:** +234 809 041 5327 (VERIFIED 2026-09-07 (source in phone_source_url); source: https://www.venturesplatform.com/contact-us)
+6. **Phone number:** +234 809 041 5327 (VERIFIED 2026-09-07 from official contact page; NOTE a different number (+234 908 874 3072) appears in third-party directories – confirm by calling the official number first; source: https://www.venturesplatform.com/contact-us)
 7. **Email / contact route:** NOT PUBLICLY AVAILABLE — Email hello@venturesplatform.com or web contact form https://www.venturesplatform.com/contact-us; phone +234 809 041 5327
 8. **Relevant decision maker:** Kola Aina (Founder & General Partner)
 9. **Best introduction route:** Possible - via Ventures Park (Abuja) community or any Nigerian portfolio founder

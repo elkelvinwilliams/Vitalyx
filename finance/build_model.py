@@ -400,6 +400,8 @@ class Model:
         self.wb = Workbook()
         self.A = {}  # assumption key -> row
         self.rows = {}  # (sheet, key) -> row
+        self.layout_pass = False  # True during pass 1 of build(): unknown row refs are tolerated (see build)
+        self.missing = set()
 
     def aref(self, key):
         return f"Assumptions!$F${self.A[key]}"
@@ -564,6 +566,13 @@ class Model:
         return r
 
     def ref(self, sheet, key, m):
+        if (sheet, key) not in self.rows:
+            if self.layout_pass:
+                # Forward reference (e.g. P&L → Cash flow grants, Opening cash → Closing cash). Row positions are
+                # learned in pass 1 and the sheet is rebuilt in pass 2 with the full map.
+                self.missing.add((sheet, key))
+                return "0"
+            raise KeyError(f"Row {(sheet, key)} referenced but never built (missing even after layout pass)")
         return q(sheet, f"{mcol(m)}{self.rows[(sheet, key)]}")
 
     def ratio_annual(self, ws, r, num_key, den_key):
@@ -1036,6 +1045,23 @@ class Model:
             ws.cell(row=i, column=1).alignment = Alignment(wrap_text=True, vertical="top")
 
     def build(self, results, sens):
+        """Two-pass build. Some rows reference rows built later (P&L grant income → Cash flow grants; Opening cash →
+        Closing cash). Pass 1 lays out every sheet to learn all row positions (forward refs return a placeholder);
+        pass 2 rebuilds the workbook from scratch with the complete row map so every formula points at a real row."""
+        self.layout_pass = True
+        self._build_sheets(results, sens)
+        forward = sorted(self.missing)
+        rows = dict(self.rows)
+        self.wb = Workbook()
+        self.A = {}
+        self.rows = rows
+        self.layout_pass = False
+        self.missing = set()
+        self._build_sheets(results, sens)
+        self.forward_refs = forward
+        return self.wb
+
+    def _build_sheets(self, results, sens):
         self.build_assumptions()
         # Headcount must exist before Revenue (consultant flag reference) — create sheets in display order but fill rows first.
         self.build_headcount()
