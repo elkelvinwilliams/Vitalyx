@@ -8,14 +8,14 @@
 :root {
   /* Brand palette (03_BRAND_SYSTEM §7) */
   --ink: #0F2233;
-  --deep: #123B4A;
-  --teal: #0F6E73;
-  --teal-dark: #0B565A;
+  --deep: #0F2354;
+  --teal: #153892; /* Vytalix Blue — sampled from the logo, 8 Sept 2026 */
+  --teal-dark: #0E2A70;
   --ember: #BF3E27;
-  --mint: #7FE0C3;
+  --mint: #9DB8FF;
   --bone: #F7F4EE;
   --paper: #FFFFFF;
-  --mist: #E6F1F0;
+  --mist: #E9EDF8;
   --slate: #46545F;
   --line: #D9D4CA;
   --night: #0A1A26;
@@ -40,7 +40,7 @@
   --btn-primary-text: var(--paper);
   --panel-bg: var(--deep);
   --panel-text: var(--bone);
-  --panel-muted: #C9D6DA;
+  --panel-muted: #C7D0E8;
   --panel-accent: var(--mint);
   --focus: var(--ember);
   --tag-bg: #FBEAE5;
@@ -690,3 +690,9 @@ form { max-width: 40rem; }
   body { background: #fff; color: #000; }
   a { color: #000; }
 }
+
+/* Real logo (added 8 Sept 2026). PNG with transparent background; inverted to white on dark surfaces. */
+.brand-logo{height:46px;width:auto;display:block}
+@media (max-width:640px){.brand-logo{height:38px}}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .brand-logo{filter:brightness(0) invert(1)}}
+:root[data-theme="dark"] .brand-logo{filter:brightness(0) invert(1)}

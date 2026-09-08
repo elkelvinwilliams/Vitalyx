@@ -1,3 +1,5 @@
+> **Update 8 September 2026 — the real logo.** The founder supplied the Vytalix logo: a heart outline whose right-hand stroke becomes a circuit trace ending in a node, the wordmark "Vytalix" and the strapline "Technology for Life", in a single deep blue sampled at **#153892**. The palette below is updated accordingly: **Vytalix Blue #153892** replaces "Vytal Teal" as the primary colour; Deep becomes #0F2354; Mist becomes #E9EDF8; the dark-surface highlight becomes #9DB8FF. Ember remains the single warm accent (≤5% of any surface). Logo files: `website/assets/img/vytalix-logo.png` (full lock-up, transparent) and `vytalix-mark.png` (heart mark). Do not redraw or recolour the logo; use the mark alone only below 120 px wide. Clear space = the height of the "V" on all sides.
+
 # VYTALIX — Brand System
 
 **Document 03 · Brand & Web** · Version 0.1 (draft) · 7 September 2026
@@ -110,14 +112,14 @@ Warm neutrals + deep teal + a single warm accent. Deliberately not "hospital blu
 | Token | Name | Hex | Role |
 |---|---|---|---|
 | `--ink` | Ink | `#0F2233` | Primary text; dark surfaces |
-| `--deep` | Deep | `#123B4A` | Secondary dark surface, hero panels |
-| `--teal` | Vytal Teal | `#0F6E73` | Primary brand colour; links; primary buttons |
-| `--teal-dark` | Teal Dark | `#0B565A` | Hover/active states |
+| `--deep` | Deep | `#0F2354` | Secondary dark surface, hero panels |
+| `--teal` (token name kept for CSS stability) | **Vytalix Blue** | `#153892` | Primary brand colour from the logo; links; primary buttons |
+| `--teal-dark` | Blue Dark | `#0E2A70` | Hover/active states |
 | `--ember` | Ember | `#BF3E27` | Single accent: the Y-node, key CTAs, emphasis. Use sparingly (≤5% of any surface). |
-| `--mint` | Signal Mint | `#7FE0C3` | Highlights on dark surfaces; illustration accent. Never as text on light. |
+| `--mint` | Signal Blue | `#9DB8FF` | Highlights on dark surfaces; illustration accent. Never as text on light. |
 | `--bone` | Bone | `#F7F4EE` | Page background |
 | `--paper` | Paper | `#FFFFFF` | Cards, forms |
-| `--mist` | Mist | `#E6F1F0` | Tinted section backgrounds |
+| `--mist` | Mist | `#E9EDF8` | Tinted section backgrounds |
 | `--slate` | Slate | `#46545F` | Secondary text |
 | `--line` | Line | `#D9D4CA` | Borders, dividers |
 | `--night` | Night | `#0A1A26` | Dark-theme background |

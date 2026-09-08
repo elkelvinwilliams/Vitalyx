@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Request a pilot — MaternaLink by Vytalix</title>
+<meta name="description" content="Request a 12-week co-designed pilot of MaternaLink for your maternity service or programme.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#153892">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website"><meta property="og:site_name" content="MaternaLink by Vytalix"><meta property="og:title" content="Request a pilot — MaternaLink by Vytalix"><meta property="og:description" content="Request a 12-week co-designed pilot of MaternaLink for your maternity service or programme."><meta property="og:url" content="https://maternalink.example/pilot.html"><meta property="og:image" content="https://maternalink.example/assets/img/og-image.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="assets/css/maternalink.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"MaternaLink","applicationCategory":"HealthApplication","operatingSystem":"Web","description":"Request a 12-week co-designed pilot of MaternaLink for your maternity service or programme.","creator":{"@type":"Organization","name":"Vytalix","slogan":"Technology for Life"},"offers":{"@type":"Offer","description":"Pilot programmes by invitation; pricing on request"}}</script>
+
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="MaternaLink by Vytalix — home">
+      <img src="assets/img/vytalix-mark.png" alt="" width="66" height="80">
+      <span><span class="name">Materna<em>Link</em></span><span class="by">by Vytalix · Technology for Life</span></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="nav" aria-label="Primary">
+      <ul><li><a href="platform.html" data-i18n="nav_platform">Platform</a></li><li><a href="programmes.html" data-i18n="nav_programmes">Programmes</a></li><li><a href="security.html" data-i18n="nav_security">Security &amp; data</a></li><li><a href="pricing.html" data-i18n="nav_pricing">Pricing</a></li>
+        <li><a class="btn btn-secondary btn-sm" href="login.html" data-i18n="nav_login">Operator access</a></li>
+        <li><a class="btn btn-primary btn-sm" href="pilot.html" data-i18n="nav_pilot">Request a pilot</a></li>
+      </ul>
+      <div class="lang" role="group" aria-label="Language"><button type="button" data-lang="en" aria-pressed="true">EN</button><button type="button" data-lang="fr" aria-pressed="false">FR</button></div>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="hero"><div class="container"><span class="eyebrow">Request a pilot</span><h1>Tell us about your service or programme</h1><p class="lead">We reply within three working days. Pilots are co-designed with a named clinical lead and run for 12 weeks with an evaluation report at the end.</p></div></section>
+<section><div class="container two-col">
+  <form id="pilot-form" class="card" action="#" method="post" novalidate>
+    <p class="help">TODO before launch: point <code>action</code> at Formspree, Netlify Forms or your CRM endpoint (see README). Until then the form shows a confirmation without sending.</p>
+    <div class="field-row"><div class="field"><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required></div><div class="field"><label for="role">Role</label><input id="role" name="role" placeholder="e.g., Head of Midwifery, Programme Manager"></div></div>
+    <div class="field-row"><div class="field"><label for="org">Organisation</label><input id="org" name="organisation" autocomplete="organization" required></div><div class="field"><label for="country">Country</label><input id="country" name="country" autocomplete="country-name"></div></div>
+    <div class="field-row"><div class="field"><label for="email">Work email</label><input id="email" name="email" type="email" autocomplete="email" required></div><div class="field"><label for="type">Organisation type</label><select id="type" name="type"><option>NHS trust or maternity unit</option><option>Private maternity provider</option><option>Government or state programme</option><option>NGO or donor-supported programme</option><option>Insurer or HMO</option><option>Other</option></select></div></div>
+    <div class="field"><label for="births">Approximate births per year or cohort size</label><input id="births" name="cohort" inputmode="numeric"></div>
+    <div class="field"><label for="msg">What problem would the pilot address?</label><textarea id="msg" name="message" placeholder="For example: postnatal follow-up completion; hypertension monitoring between appointments; continuity for community-based women"></textarea></div>
+    <div class="field"><label><input type="checkbox" name="consent" required style="width:auto;margin-right:.5rem">I agree to be contacted about this request. No patient information should be entered in this form.</label></div>
+    <button class="btn btn-primary" type="submit">Send request</button>
+    <p id="form-ok" class="notice blue" hidden tabindex="-1"><strong>Thank you.</strong>Your request has been recorded locally in this demo. Once the form endpoint is connected, you will receive a confirmation email.</p>
+  </form>
+  <div>
+    <div class="card tint"><h3>What a pilot includes</h3><ul class="ticks"><li>Co-design workshops with your clinical lead and midwives</li><li>Configuration of enrolment, check-ins, content and escalation rules you own</li><li>Training for the team; train-the-trainer for community programmes</li><li>Clinical-safety artefacts and a data-protection impact assessment</li><li>Weekly service reviews and an evaluation report you can publish</li></ul></div>
+    <div class="card" style="margin-top:1.2rem"><h3>What a pilot does not include</h3><ul class="ticks crosses"><li>Any diagnostic, predictive or treatment-recommendation feature</li><li>Replacement of your legal patient record</li><li>Claims of clinical outcomes before they are measured</li></ul></div>
+  </div>
+</div></section>
+
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><h4>MaternaLink by Vytalix</h4><p>A maternal and newborn care-coordination platform, in development. Designed with clinicians, subject to validation. Not a medical device.</p><p class="tag">Technology for Life</p></div>
+      <div><h4>Product</h4><ul><li><a href="platform.html">Platform</a></li><li><a href="programmes.html">Programmes</a></li><li><a href="security.html">Security &amp; data</a></li><li><a href="pricing.html">Pricing</a></li></ul></div>
+      <div><h4>Work with us</h4><ul><li><a href="pilot.html">Request a pilot</a></li><li><a href="login.html">Operator access</a></li><li><a href="dashboard.html">Demo dashboard</a></li><li><a href="../website/index.html">Vytalix group</a></li></ul></div>
+      <div><h4>Legal</h4><ul><li><a href="../website/privacy.html">Privacy</a></li><li><a href="../website/terms.html">Terms</a></li><li><a href="../website/cookie-policy.html">Cookies</a></li></ul></div>
+    </div>
+    <div class="footer-note">© 2026 Vytalix. [Legal entity name and company number — add after incorporation]. MaternaLink is in development and is not approved, assessed or validated by any regulator or health system. In an emergency, contact local emergency services.</div>
+  </div>
+</footer>
+<div id="cookie-banner" class="cookie" role="region" aria-label="Cookie preference"><p>We use only essential storage for language and this preference. No tracking cookies are set.</p><button class="btn btn-primary btn-sm" data-cookie="essential">OK</button></div>
+<script src="assets/js/i18n.js"></script><script src="assets/js/main.js"></script>
+</body>
+</html>

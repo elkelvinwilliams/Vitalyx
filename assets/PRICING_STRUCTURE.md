@@ -1,4 +1,6 @@
 # VYTALIX — Pricing Structure
+> **MaternaLink pricing (8 September 2026):** per-product and annual-service price books, cost-to-serve and worked examples are in `/docs/21_MATERNALINK_PRICING.md`; the public summary is on `/maternalink-site/pricing.html`. Those supersede any MaternaLink figures below.
+
 
 **Version:** 1.0 · 8 September 2026 · Status: PROPOSED · Owner: Founder (acting CMO/BD)
 Governed by `/FACTS_BASE.md`. All figures are ESTIMATE, in GBP, exclusive of VAT (VAT status TO VALIDATE), and consistent with `/docs/01_BUSINESS_MODEL.md` §2–§7 and `/docs/04_MATERNALINK_PRODUCT_STRATEGY.md` §9. Nothing here is a price we have ever charged; every price is a starting point to be tested in the first six proposals (`/docs/01_BUSINESS_MODEL.md` §8, item 2).

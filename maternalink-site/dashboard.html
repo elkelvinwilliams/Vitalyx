@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Demo dashboard — MaternaLink by Vytalix</title>
+<meta name="description" content="Demo operator dashboard with synthetic data: patients, escalation queue, timeline, notes, analytics.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#153892">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website"><meta property="og:site_name" content="MaternaLink by Vytalix"><meta property="og:title" content="Demo dashboard — MaternaLink by Vytalix"><meta property="og:description" content="Demo operator dashboard with synthetic data: patients, escalation queue, timeline, notes, analytics."><meta property="og:url" content="https://maternalink.example/dashboard.html"><meta property="og:image" content="https://maternalink.example/assets/img/og-image.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="assets/css/maternalink.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"MaternaLink","applicationCategory":"HealthApplication","operatingSystem":"Web","description":"Demo operator dashboard with synthetic data: patients, escalation queue, timeline, notes, analytics.","creator":{"@type":"Organization","name":"Vytalix","slogan":"Technology for Life"},"offers":{"@type":"Offer","description":"Pilot programmes by invitation; pricing on request"}}</script>
+
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="MaternaLink by Vytalix — home">
+      <img src="assets/img/vytalix-mark.png" alt="" width="66" height="80">
+      <span><span class="name">Materna<em>Link</em></span><span class="by">by Vytalix · Technology for Life</span></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="nav" aria-label="Primary">
+      <ul><li><a href="platform.html" data-i18n="nav_platform">Platform</a></li><li><a href="programmes.html" data-i18n="nav_programmes">Programmes</a></li><li><a href="security.html" data-i18n="nav_security">Security &amp; data</a></li><li><a href="pricing.html" data-i18n="nav_pricing">Pricing</a></li>
+        <li><a class="btn btn-secondary btn-sm" href="login.html" data-i18n="nav_login">Operator access</a></li>
+        <li><a class="btn btn-primary btn-sm" href="pilot.html" data-i18n="nav_pilot">Request a pilot</a></li>
+      </ul>
+      <div class="lang" role="group" aria-label="Language"><button type="button" data-lang="en" aria-pressed="true">EN</button><button type="button" data-lang="fr" aria-pressed="false">FR</button></div>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<div class="container">
+<div class="demo-banner"><strong>Demo dashboard.</strong> Synthetic data only; nothing here is a real patient. Flags are examples of programme-configured rules for human review; MaternaLink does not diagnose, predict or recommend treatment.</div>
+<div class="app">
+  <nav class="side-nav" aria-label="Dashboard">
+    <div class="who"><strong>Demo operator</strong><br>Community Maternity Programme · Site A</div>
+    <button data-view="patients" aria-current="page">Patients</button>
+    <button data-view="alerts">Escalation queue <span id="alert-count" class="badge badge-high" style="margin-left:auto">0</span></button>
+    <button data-view="analytics">Analytics</button>
+    <button data-view="admin">Admin</button>
+    <hr style="border:0;border-top:1px solid var(--border);margin:.8rem 0">
+    <a class="btn btn-secondary btn-sm" href="login.html">Sign out</a>
+  </nav>
+  <div class="main-panel" id="view"></div>
+  <aside>
+    <div class="aside-card"><h4>Recently flagged</h4><div id="aside-flags"></div></div>
+    <div class="aside-card"><h4>Needs contact today</h4><div id="aside-contact"></div></div>
+    <div class="aside-card"><h4>Sync status</h4><p class="help" style="margin:0">Device: <strong>online</strong> · last sync 2 min ago · 0 records pending</p></div>
+  </aside>
+</div>
+</div>
+
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><h4>MaternaLink by Vytalix</h4><p>A maternal and newborn care-coordination platform, in development. Designed with clinicians, subject to validation. Not a medical device.</p><p class="tag">Technology for Life</p></div>
+      <div><h4>Product</h4><ul><li><a href="platform.html">Platform</a></li><li><a href="programmes.html">Programmes</a></li><li><a href="security.html">Security &amp; data</a></li><li><a href="pricing.html">Pricing</a></li></ul></div>
+      <div><h4>Work with us</h4><ul><li><a href="pilot.html">Request a pilot</a></li><li><a href="login.html">Operator access</a></li><li><a href="dashboard.html">Demo dashboard</a></li><li><a href="../website/index.html">Vytalix group</a></li></ul></div>
+      <div><h4>Legal</h4><ul><li><a href="../website/privacy.html">Privacy</a></li><li><a href="../website/terms.html">Terms</a></li><li><a href="../website/cookie-policy.html">Cookies</a></li></ul></div>
+    </div>
+    <div class="footer-note">© 2026 Vytalix. [Legal entity name and company number — add after incorporation]. MaternaLink is in development and is not approved, assessed or validated by any regulator or health system. In an emergency, contact local emergency services.</div>
+  </div>
+</footer>
+<div id="cookie-banner" class="cookie" role="region" aria-label="Cookie preference"><p>We use only essential storage for language and this preference. No tracking cookies are set.</p><button class="btn btn-primary btn-sm" data-cookie="essential">OK</button></div>
+<script src="assets/js/i18n.js"></script><script src="assets/js/main.js"></script><script src="assets/js/dashboard.js"></script>
+</body>
+</html>

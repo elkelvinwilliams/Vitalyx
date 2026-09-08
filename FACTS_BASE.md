@@ -25,6 +25,14 @@ Label every non-verified statement as ASSUMPTION, ESTIMATE, PROPOSED or TO VALID
 ### Competitive fact that changes the Ekiti/Nigeria strategy
 - Ekiti State already runs a maternal digital-health programme: **mDoc's "Digital Mom Project"** (CompleteHealth™ platform + NaviHealth AI), funded by **MSD for Mothers**, launched in Lagos on 10 Nov 2023 and extended to Ekiti; ~24,000 women onboarded and 500+ providers trained in Ekiti as of January 2026. mDoc also works with the Lagos State Ministry of Health. Source: Nigeria Health Watch (2026), Vanguard (Nov 2023), mDoc blog. **MaternaLink's Ekiti proposal is therefore entering a state with an incumbent, funded programme.** (VERIFIED via public reporting)
 
+
+### Additions 8 September 2026 (VERIFIED from founder-supplied files)
+- **Logo exists**: heart-and-circuit mark, "Vytalix" wordmark, "Technology for Life" strapline, deep blue #153892. Files in `website/assets/img/`.
+- **Prototype contents** (from a 101-second screen recording of https://maternal-health-psi.vercel.app): landing page in English and French ("Offline-first maternal and newborn monitoring for public health systems"; "Request a pilot"); operator login; dashboard with Patients (mothers with nested newborns, LOW/HIGH badges), Alert queue (HIGH/MEDIUM, assign, mark contacted), patient record with Overview (maternal summary, newborns, vitals, blood-pressure chart, risk events), Timeline (rule-based risk evaluations with reasons such as BP_HIGH and **suggested clinical actions**), Notes, Voice diaries (upload), CSV/PDF export; an Admin tab in one version. Test records include photographs of identifiable people. The product is branded "MaternalLink" / "Maternal Link" in the prototype.
+- **Innovation Provisional Proposal** (founder document): umbrella innovation group; mission "to enhance health and social care outcomes by leveraging technology and AI"; objectives: innovation development, AI integration, knowledge bridging, capacity building, policy and standards support.
+- **Expanded scope proposed by the founder**: an operating system, an overseas doctor-placement agency, sponsorship for African hospitals, hospital property and build. Scored in `docs/22_UPDATE_LOG_2026-09-08.md`; not adopted as divisions.
+- **MaternaLink feature ideas from the founder**: Maternity Watch issued at week 16 and returned after postnatal discharge; e-care patient database; maternity triage / maternity A&E; shorter appointments; voice tracing of baby movements; daily questionnaire; partner quizzes; symptom logging (itching hands and feet, vomiting); blood-glucose input for diabetes; hospitals replacing or integrating existing systems. Mapped in `product/MATERNALINK_FEATURE_ADDENDUM.md`.
+
 ## 2. What is NOT known (must be asked or validated)
 - Whether Vytalix is incorporated, where, and who the shareholders are.
 - The founder's exact role, time commitment, capital available, and personal domain expertise (clinical? commercial? technical?).
@@ -42,6 +50,10 @@ Label every non-verified statement as ASSUMPTION, ESTIMATE, PROPOSED or TO VALID
 - A6. First revenue is most likely to come from **Advisory/Consulting** (founder-led services) rather than from MaternaLink. MaternaLink is the venture/equity story; services are the cash story.
 - A7. Funding path: bootstrapped services + grants (Innovate UK, NIHR i4i where eligible, SBRI Healthcare, Wellcome, Grand Challenges) → angels/SEIS-EIS pre-seed → impact/health-tech seed. SEIS/EIS advance assurance is a priority action once incorporated (TO VALIDATE eligibility).
 - A8. No numbers in this repository are actuals. All financials are scenarios built from stated assumptions.
+- A9. Product name is **MaternaLink** (one "l") everywhere; the prototype's "MaternalLink" spelling is treated as legacy. Trademark search covers both.
+- A10. The prototype's risk engine and suggested clinical actions are treated as **programme-configured rules under the provider's clinical governance** pending a regulatory opinion; Vytalix does not ship pre-configured clinical rules or claim decision support until a pathway is documented.
+- A11. The Maternity Watch is pursued only as an **integration of a certified third-party wearable**, never as a Vytalix-manufactured device, and only after v1 software is live.
+- A12. Doctor placement, hospital sponsorship and hospital property are **out of scope for the Vytalix health-tech entity**; sponsorship and partnership strategy may be sold as an Advisory service; property belongs with the founder's separate property venture if ever pursued.
 
 ## 4. Language rules for every document
 - Say "MaternaLink (in development)" — never "MaternaLink, our proven platform".

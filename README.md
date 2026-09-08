@@ -20,11 +20,15 @@
 - `docs/11_COMPETITIVE_INTELLIGENCE.md` — direct, indirect, adjacent competitors; buildable advantages
 - `docs/12_PARTNERSHIP_STRATEGY.md` — ecosystem map, scoring, 12-month plan
 - `docs/20_DECISION_FRAMEWORK.md` — BUILD / TEST / DEFER / KILL scoring applied to live ideas
+- `docs/22_UPDATE_LOG_2026-09-08.md` — what changed after the logo, prototype recording and expanded scope were received
 
 ## Product and technology
 - `docs/04_MATERNALINK_PRODUCT_STRATEGY.md` — vision, personas, journeys, MVP→v3, regulatory, data, safety
 - `product/MATERNALINK_PRD.md`, `product/MATERNALINK_MVP_SPEC.md`, `product/MATERNALINK_ROADMAP.md`
 - `docs/07_TECHNOLOGY_ARCHITECTURE.md` — group stack, costs, lean year-1 stack
+- `product/MATERNALINK_FEATURE_ADDENDUM.md` — founder's feature list mapped to version and regulatory posture (8 Sept 2026)
+- `docs/21_MATERNALINK_PRICING.md` — MaternaLink pricing per product and annual service
+- `maternalink-site/` — rebuilt MaternaLink product site (EN/FR landing, platform, programmes, security, pricing, pilot request, operator login, demo dashboard)
 
 ## Finance and funding
 - `finance/Vytalix_Financial_Model_3yr.xlsx` (built by `finance/build_model.py`) — Conservative / Base / High-growth
