@@ -20,6 +20,8 @@
 - `docs/11_COMPETITIVE_INTELLIGENCE.md` — direct, indirect, adjacent competitors; buildable advantages
 - `docs/12_PARTNERSHIP_STRATEGY.md` — ecosystem map, scoring, 12-month plan
 - `docs/20_DECISION_FRAMEWORK.md` — BUILD / TEST / DEFER / KILL scoring applied to live ideas
+- `docs/23_INVESTOR_READINESS_AND_WINNING_CONCEPT.md` — readiness scorecard, data-room index, the Maternal Continuity Layer concept, government-contract playbook
+- `exports/` — Word and PowerPoint versions of every document and deck, plus `START_HERE.md` and the zip pack (`python3 exports/build_exports.py` regenerates)
 - `docs/22_UPDATE_LOG_2026-09-08.md` — what changed after the logo, prototype recording and expanded scope were received
 
 ## Product and technology
