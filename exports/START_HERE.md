@@ -1,5 +1,7 @@
 # VYTALIX INVESTOR & EXECUTION PACK — START HERE
 
+Two zip files: **Pack 1 — Documents** (branded PDFs, Excel, PowerPoint, Markdown sources, brand files) and **Pack 2 — Sites, Data and Source** (both websites, Word versions, investor CRM data, financial model source, operations trackers).
+
 Built 8 September 2026 from the Vytalix company-build repository. Everything is a draft for a pre-formation company: nothing here claims traction, approval, partners or revenue that do not exist. Read `FACTS_BASE.md` first.
 
 ## Read in this order
