@@ -127,7 +127,7 @@ Ranked by Overall Score (0.85 × Fit /100 + 1.5 × Contactability /10). Phone nu
 3. **Why they fit MaternaLink:** MaternaLink fit 10/10 — Yes – maternal, newborn, child and women's health is a core programme area (e.g. Saving Lives at Birth legacy, Every Woman Every Child innovations)
 4. **Investment stage:** Seed (c. CAD 100k–250k grants) to Transition To Scale (up to c. CAD 1m–2m repayable/equity)
 5. **Typical ticket:** CAD 100k–2m by stream
-6. **Phone number:** +1 (416) 673-6568 (VERIFIED 2026-09-07 (source in phone_source_url); source: https://www.grandchallenges.ca/terms-and-conditions/)
+6. **Phone number:** +1 (416) 673-6568 (VERIFIED 2026-09-07 from source shown, BUT QA 2026-09-08 found conflicting numbers (416-673-6567 in a government registry; 416-583-5821 in a directory for a newer MaRS West Tower address) – confirm on https://www.grandchallenges.ca/ before calling; email info@grandchallenges.ca is the safer first route; source: https://www.grandchallenges.ca/terms-and-conditions/)
 7. **Email / contact route:** NOT PUBLICLY AVAILABLE — Open calls via https://www.grandchallenges.ca/ (Fluxx portal); office at MaRS Centre, 661 University Avenue, Suite 1720, Toronto; phone +1 (416) 673-6568
 8. **Relevant decision maker:** Karlee Silver (Chief Executive Officer)
 9. **Best introduction route:** Possible – via Nigerian GCC-funded innovators and Nigeria Health Watch network
