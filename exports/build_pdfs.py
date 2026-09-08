@@ -4,8 +4,8 @@ Run: python3 exports/build_pdfs.py   Outputs: exports/pdf/*.pdf"""
 import os,re,glob,html,base64,asyncio,json,sys
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT=os.path.join(ROOT,'exports','pdf'); os.makedirs(OUT,exist_ok=True)
-LOGO=base64.b64encode(open(os.path.join(ROOT,'website','assets','img','vytalix-logo.png'),'rb').read()).decode()
-MARK=base64.b64encode(open(os.path.join(ROOT,'website','assets','img','vytalix-mark.png'),'rb').read()).decode()
+LOGO=base64.b64encode(open(os.path.join(ROOT,'brand','vytalix-logo-900.png'),'rb').read()).decode()
+MARK=base64.b64encode(open(os.path.join(ROOT,'brand','vytalix-mark-300.png'),'rb').read()).decode()
 CHROME='/opt/pw-browsers/chromium-1194/chrome-linux/chrome'
 DATE='8 September 2026'
 FONT_CSS=os.environ.get('VX_FONT_CSS','')

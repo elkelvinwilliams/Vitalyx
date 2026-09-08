@@ -4,8 +4,8 @@ Run: python3 exports/build_deck_pdfs.py   Outputs: exports/pdf/decks/*.pdf"""
 import os,re,html,base64,asyncio
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT=os.path.join(ROOT,'exports','pdf','decks'); os.makedirs(OUT,exist_ok=True)
-LOGO=base64.b64encode(open(os.path.join(ROOT,'website','assets','img','vytalix-logo.png'),'rb').read()).decode()
-MARK=base64.b64encode(open(os.path.join(ROOT,'website','assets','img','vytalix-mark.png'),'rb').read()).decode()
+LOGO=base64.b64encode(open(os.path.join(ROOT,'brand','vytalix-logo-900.png'),'rb').read()).decode()
+MARK=base64.b64encode(open(os.path.join(ROOT,'brand','vytalix-mark-300.png'),'rb').read()).decode()
 CHROME='/opt/pw-browsers/chromium-1194/chrome-linux/chrome'
 DECKS=[('INVESTOR_PITCH_DECK','Investor pitch','Pre-seed · September 2026 · Draft for discussion'),('CORPORATE_PRESENTATION','Vytalix corporate presentation','Technology for Life · September 2026'),('SALES_DECK','Advisory & Consulting','Services for healthcare organisations, founders and public bodies'),('PARTNERSHIP_DECK','MaternaLink partnership proposal','Co-designing the first evaluation · in development')]
 CSS='''
