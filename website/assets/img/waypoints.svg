@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" aria-hidden="true" focusable="false">
+  <!-- Roadmap with validation gates. Teal waypoints; ember gates. -->
+  <rect width="900" height="360" fill="#123B4A"/>
+  <path d="M60 280 C 200 280, 220 120, 340 120 C 460 120, 480 260, 600 260 C 720 260, 740 80, 850 80" fill="none" stroke="#7FE0C3" stroke-width="2" stroke-dasharray="6 10" stroke-linecap="round" opacity="0.8"/>
+  <g fill="#123B4A" stroke="#7FE0C3" stroke-width="3">
+    <circle cx="60" cy="280" r="10"/>
+    <circle cx="340" cy="120" r="10"/>
+    <circle cx="600" cy="260" r="10"/>
+    <circle cx="850" cy="80" r="10"/>
+  </g>
+  <g fill="#BF3E27">
+    <circle cx="200" cy="205" r="9"/>
+    <circle cx="470" cy="192" r="9"/>
+    <circle cx="725" cy="175" r="9"/>
+  </g>
+  <g fill="none" stroke="#BF3E27" stroke-width="1.5" opacity="0.5">
+    <circle cx="200" cy="205" r="20"/>
+    <circle cx="470" cy="192" r="20"/>
+    <circle cx="725" cy="175" r="20"/>
+  </g>
+  <g font-family="Manrope, Arial, sans-serif" font-size="14" fill="#F7F4EE">
+    <text x="60" y="320" text-anchor="middle">Discovery</text>
+    <text x="340" y="96" text-anchor="middle">MVP</text>
+    <text x="600" y="300" text-anchor="middle">Service evaluation</text>
+    <text x="850" y="56" text-anchor="middle">Pilot</text>
+  </g>
+  <g font-family="Manrope, Arial, sans-serif" font-size="12" fill="#F4A88F">
+    <text x="200" y="245" text-anchor="middle">Gate: IP + audit</text>
+    <text x="470" y="232" text-anchor="middle">Gate: safety case</text>
+    <text x="725" y="215" text-anchor="middle">Gate: evidence</text>
+  </g>
+</svg>

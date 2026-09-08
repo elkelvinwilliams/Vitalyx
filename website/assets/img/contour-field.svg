@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+  <!-- Soft topographic contour field. Stroke uses currentColor so it follows the page theme. -->
+  <g fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M300 300 C 300 240, 360 200, 450 200 C 540 200, 600 240, 600 300 C 600 360, 540 400, 450 400 C 360 400, 300 360, 300 300 Z"/>
+    <path d="M240 300 C 240 210, 330 150, 450 150 C 570 150, 660 210, 660 300 C 660 390, 570 450, 450 450 C 330 450, 240 390, 240 300 Z" opacity="0.85"/>
+    <path d="M180 300 C 180 180, 300 100, 450 100 C 600 100, 720 180, 720 300 C 720 420, 600 500, 450 500 C 300 500, 180 420, 180 300 Z" opacity="0.7"/>
+    <path d="M120 300 C 120 150, 270 50, 450 50 C 630 50, 780 150, 780 300 C 780 450, 630 550, 450 550 C 270 550, 120 450, 120 300 Z" opacity="0.55"/>
+    <path d="M60 300 C 60 120, 240 0, 450 0 C 660 0, 840 120, 840 300 C 840 480, 660 600, 450 600 C 240 600, 60 480, 60 300 Z" opacity="0.4"/>
+    <path d="M0 300 C 0 90, 210 -50, 450 -50 C 690 -50, 900 90, 900 300 C 900 510, 690 650, 450 650 C 210 650, 0 510, 0 300 Z" opacity="0.25"/>
+  </g>
+</svg>

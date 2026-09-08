@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-labelledby="t">
+  <title id="t">Vytalix — Technology for Life</title>
+  <!-- Render to og-image.png (1200x630) before launch. Fonts fall back to Georgia/Arial when rendered outside a browser. -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A1A26"/>
+      <stop offset="1" stop-color="#123B4A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <g fill="none" stroke="#7FE0C3" stroke-width="2" stroke-linecap="round" opacity="0.55">
+    <path d="M700 40 C 820 180, 880 260, 940 330"/>
+    <path d="M1180 60 C 1080 170, 1010 260, 940 330"/>
+    <path d="M760 620 C 820 500, 880 410, 940 330"/>
+    <path d="M1190 560 C 1090 470, 1010 400, 940 330"/>
+    <path d="M620 330 C 720 330, 840 330, 940 330" opacity="0.5"/>
+  </g>
+  <g fill="none" stroke="#F7F4EE" stroke-width="1.5" opacity="0.18">
+    <path d="M640 80 C 760 210, 860 280, 980 360"/>
+    <path d="M1120 20 C 1040 150, 990 250, 900 380"/>
+    <path d="M700 600 C 780 500, 860 420, 1000 300"/>
+  </g>
+  <circle cx="940" cy="330" r="14" fill="#BF3E27"/>
+  <circle cx="940" cy="330" r="30" fill="none" stroke="#BF3E27" stroke-width="2" opacity="0.5"/>
+  <g transform="translate(96 96) scale(0.52)">
+    <g fill="none" stroke="#F7F4EE" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="0,0 40,100 80,0"/>
+      <polyline points="108,0 148,50 188,0"/>
+      <line x1="148" y1="50" x2="148" y2="100"/>
+      <line x1="216" y1="0" x2="296" y2="0"/>
+      <line x1="256" y1="0" x2="256" y2="100"/>
+      <polyline points="324,100 364,0 404,100"/>
+      <line x1="341" y1="64" x2="387" y2="64"/>
+      <polyline points="432,0 432,100 502,100"/>
+      <line x1="532" y1="0" x2="532" y2="100"/>
+      <line x1="562" y1="0" x2="642" y2="100"/>
+      <line x1="642" y1="0" x2="562" y2="100"/>
+    </g>
+    <circle cx="148" cy="50" r="12" fill="#BF3E27"/>
+  </g>
+  <text x="96" y="330" font-family="Fraunces, Georgia, serif" font-size="72" fill="#F7F4EE">Technology for Life</text>
+  <text x="96" y="392" font-family="Manrope, Arial, sans-serif" font-size="30" fill="#7FE0C3">Technology that earns its place in care.</text>
+  <text x="96" y="540" font-family="Manrope, Arial, sans-serif" font-size="22" fill="#A9B8C2">Advisory · Consulting · Health Solutions · E-Learning</text>
+  <text x="96" y="576" font-family="Manrope, Arial, sans-serif" font-size="18" fill="#A9B8C2">Pre-seed, founder-led. MaternaLink is in development.</text>
+</svg>

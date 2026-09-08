@@ -4,7 +4,50 @@ Generated from CRM fields; edit for voice before sending. Replace [Founder], [co
 
 ---
 
-## 1. Octopus Ventures
+## 1. SBRI Healthcare (NHS England / Accelerated Access Collaborative, managed by LGC)
+
+**PHONE OPENING**
+
+"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling SBRI Healthcare (NHS England / Accelerated Access Collaborative, managed by LGC) because of your work with Innovation portfolio at https://sbrihealthcare.co.uk/companies/ incl. maternity and women's-health digital tools. I'm not asking for a decision today; I'd like 20 minutes with the investment team to test whether this is a fit for your Pre-revenue eligible; needs NHS partner and credible team mandate. Is the investment team the right route, and what's the best way to get a slot?"
+
+**EMAIL**
+
+Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with SBRI Healthcare (NHS England / Accelerated Access Collaborative, managed by LGC)?
+
+Dear there,
+
+I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
+
+I'm writing to you specifically because SBRI Healthcare (NHS England / Accelerated Access Collaborative, managed by LGC) backs Innovation portfolio at https://sbrihealthcare.co.uk/companies/ incl. maternity and women's-health digital tools, and because sBRI Healthcare pays 100% of development costs when a competition theme matches, and maternity and health inequalities are recurring NHS priorities that MaternaLink v1 directly addresses.
+
+Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Secure a maternity-unit clinical champion and apply to the next maternity or health-inequalities themed call with a non-diagnostic care-coordination Phase 1.
+
+Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
+
+Kind regards,
+[Founder]
+Founder, Vytalix — Technology for Life
+[phone] · [email] · [link]
+
+**LINKEDIN**
+
+Connection note (≤300 chars): "Hi there, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following SBRI Healthcare (NHS England / Accelerated Access Collaborative, managed by LGC)'s work with Innovation portfolio at https://sbrihealthcare.co.uk/companies/ incl. maternity and women's-health digital tools. Would value connecting."
+
+Message after connection: "Thanks for connecting, there. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Secure a maternity-unit clinical champion and apply to the next maternity or health-inequalities themed call with a non-diagnostic care-coordination Phase 1. Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
+
+**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: Assessors will ask for an NHS clinical partner, a credible technical team and evidence of need, none of which Vytalix can yet document. — I'd rather hear it early."
+
+**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at SBRI Healthcare (NHS England / Accelerated Access Collaborative, managed by LGC) or a fund you'd suggest?"
+
+**FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
+
+**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'Assessors will ask for an NHS clinical partner, a credible technical team and evidence of need, none' answered directly (3) · 8) Agree next step (2).
+
+**CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
+
+---
+
+## 2. Octopus Ventures
 
 **PHONE OPENING**
 
@@ -47,7 +90,50 @@ Message after connection: "Thanks for connecting, Will. Quick context: we're pre
 
 ---
 
-## 2. Ada Ventures
+## 3. Innovate UK (UKRI)
+
+**PHONE OPENING**
+
+"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling Innovate UK (UKRI) because of your work with Thousands of UK health-tech grants incl. maternal and women's-health digital projects. I'm not asking for a decision today; I'd like 20 minutes with the investment team to test whether this is a fit for your Any – pre-revenue eligible for grants mandate. Is the investment team the right route, and what's the best way to get a slot?"
+
+**EMAIL**
+
+Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with Innovate UK (UKRI)?
+
+Dear there,
+
+I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
+
+I'm writing to you specifically because Innovate UK (UKRI) backs Thousands of UK health-tech grants incl. maternal and women's-health digital projects, and because innovate UK is the most accessible non-dilutive funder for a newly incorporated UK health-tech and can fund the feasibility and clinical-partnership work MaternaLink needs before any equity round.
+
+Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Incorporate, then apply for a feasibility-stage grant (Biomedical Catalyst or open Smart round) with an NHS trust or university obstetrics partner and honest v1 non-diagnostic scope.
+
+Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
+
+Kind regards,
+[Founder]
+Founder, Vytalix — Technology for Life
+[phone] · [email] · [link]
+
+**LINKEDIN**
+
+Connection note (≤300 chars): "Hi there, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following Innovate UK (UKRI)'s work with Thousands of UK health-tech grants incl. maternal and women's-health digital projects. Would value connecting."
+
+Message after connection: "Thanks for connecting, there. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Incorporate, then apply for a feasibility-stage grant (Biomedical Catalyst or open Smart round) with an NHS trust or university obstetrics partner and honest v1 Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
+
+**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: Vytalix is not yet incorporated, cannot show match funding or a delivery partner, and must not overclaim clinical capability in an applicati — I'd rather hear it early."
+
+**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at Innovate UK (UKRI) or a fund you'd suggest?"
+
+**FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
+
+**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'Vytalix is not yet incorporated, cannot show match funding or a delivery partner, and must not overc' answered directly (3) · 8) Agree next step (2).
+
+**CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
+
+---
+
+## 4. Ada Ventures
 
 **PHONE OPENING**
 
@@ -90,7 +176,50 @@ Message after connection: "Thanks for connecting, Check. Quick context: we're pr
 
 ---
 
-## 3. TLcom Capital
+## 5. NIHR Invention for Innovation (i4i) Programme
+
+**PHONE OPENING**
+
+"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling NIHR Invention for Innovation (i4i) Programme because of your work with UK medtech and digital-health SMEs. I'm not asking for a decision today; I'd like 20 minutes with the investment team to test whether this is a fit for your Pre-revenue SMEs with a prototype and clinical partner mandate. Is the investment team the right route, and what's the best way to get a slot?"
+
+**EMAIL**
+
+Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with NIHR Invention for Innovation (i4i) Programme?
+
+Dear there,
+
+I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
+
+I'm writing to you specifically because NIHR Invention for Innovation (i4i) Programme backs UK medtech and digital-health SMEs, and because nIHR i4i is the UK's dedicated funder for taking a health technology like the MaternaLink risk-score from prototype to clinical evaluation with NHS partners.
+
+Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Use i4i Connect for the MIS research track once a university obstetrics group agrees to co-apply, keeping claims to 'intended to support' language.
+
+Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
+
+Kind regards,
+[Founder]
+Founder, Vytalix — Technology for Life
+[phone] · [email] · [link]
+
+**LINKEDIN**
+
+Connection note (≤300 chars): "Hi there, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following NIHR Invention for Innovation (i4i) Programme's work with UK medtech and digital-health SMEs. Would value connecting."
+
+Message after connection: "Thanks for connecting, there. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Use i4i Connect for the MIS research track once a university obstetrics group agrees to co-apply, keeping claims to 'intended to support' language. Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
+
+**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: i4i expects a working prototype, a defined clinical need and an NHS/academic collaborator, and the AI risk-score currently has no data or va — I'd rather hear it early."
+
+**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at NIHR Invention for Innovation (i4i) Programme or a fund you'd suggest?"
+
+**FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
+
+**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'i4i expects a working prototype, a defined clinical need and an NHS/academic collaborator, and the A' answered directly (3) · 8) Agree next step (2).
+
+**CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
+
+---
+
+## 6. TLcom Capital
 
 **PHONE OPENING**
 
@@ -133,7 +262,50 @@ Message after connection: "Thanks for connecting, Eloho. Quick context: we're pr
 
 ---
 
-## 4. AlbionVC
+## 7. Goddess Gaia Ventures
+
+**PHONE OPENING**
+
+"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling Goddess Gaia Ventures because of your work with Portfolio page lists early-stage women's-health companies (see https://www.ggventuresgroup.com/portfolio). I'm not asking for a decision today; I'd like 20 minutes with Priya Oberoi to test whether this is a fit for your Pre-seed, seed, pre-Series A mandate. Is Priya Oberoi the right route, and what's the best way to get a slot?"
+
+**EMAIL**
+
+Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with Goddess Gaia Ventures?
+
+Dear Priya,
+
+I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
+
+I'm writing to you specifically because Goddess Gaia Ventures backs Portfolio page lists early-stage women's-health companies (see https://www.ggventuresgroup.com/portfolio), and because the only UK-based fund investing exclusively in women's health at pre-Series A, so MaternaLink's Black-maternal-health focus fits its mandate directly.
+
+Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Lead with the MBRRACE-UK disparity data and a concrete NHS maternity pilot plan, positioning MaternaLink as a care-coordination product with a UK-first path.
+
+Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
+
+Kind regards,
+[Founder]
+Founder, Vytalix — Technology for Life
+[phone] · [email] · [link]
+
+**LINKEDIN**
+
+Connection note (≤300 chars): "Hi Priya, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following Goddess Gaia Ventures's work with Portfolio page lists early-stage women's-health companies (see https://www.ggventuresgroup.com/portfolio). Would value connecting."
+
+Message after connection: "Thanks for connecting, Priya. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Lead with the MBRRACE-UK disparity data and a concrete NHS maternity pilot plan, positioning MaternaLink as a care-coordination product with a UK-first path. Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
+
+**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: Vytalix is pre-incorporation with unresolved MaternaLink IP ownership and no clinical partner, which a small fund cannot underwrite. — I'd rather hear it early."
+
+**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at Goddess Gaia Ventures or a fund you'd suggest?"
+
+**FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
+
+**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'Vytalix is pre-incorporation with unresolved MaternaLink IP ownership and no clinical partner, which' answered directly (3) · 8) Agree next step (2).
+
+**CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
+
+---
+
+## 8. AlbionVC
 
 **PHONE OPENING**
 
@@ -176,7 +348,50 @@ Message after connection: "Thanks for connecting, Dr. Quick context: we're pre-s
 
 ---
 
-## 5. Ventures Platform
+## 9. Grand Challenges Canada
+
+**PHONE OPENING**
+
+"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling Grand Challenges Canada because of your work with Hundreds of maternal/newborn health innovations across Africa and Asia incl. Nigerian digital-health projects. I'm not asking for a decision today; I'd like 20 minutes with Karlee Silver to test whether this is a fit for your Seed (c. CAD 100k–250k grants) to Transition To Scale (up to c. CAD 1m–2m repayable/equity) mandate. Is Karlee Silver the right route, and what's the best way to get a slot?"
+
+**EMAIL**
+
+Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with Grand Challenges Canada?
+
+Dear Karlee,
+
+I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
+
+I'm writing to you specifically because Grand Challenges Canada backs Hundreds of maternal/newborn health innovations across Africa and Asia incl. Nigerian digital-health projects, and because grand Challenges Canada is one of the few funders whose core mandate is literally maternal and newborn health innovation in countries like Nigeria, with seed cheques sized for a pre-seed company.
+
+Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Apply with a Nigerian clinical or state partner for a seed grant testing maternal care-coordination in a state without an incumbent programme, positioning the AI risk-score as a later research track.
+
+Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
+
+Kind regards,
+[Founder]
+Founder, Vytalix — Technology for Life
+[phone] · [email] · [link]
+
+**LINKEDIN**
+
+Connection note (≤300 chars): "Hi Karlee, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following Grand Challenges Canada's work with Hundreds of maternal/newborn health innovations across Africa and Asia incl. Nigerian digital-health projects. Would value connecting."
+
+Message after connection: "Thanks for connecting, Karlee. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Apply with a Nigerian clinical or state partner for a seed grant testing maternal care-coordination in a state without an incumbent programme, positioning the A Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
+
+**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: GCC needs a credible LMIC implementing partner and an evidence plan, and it may see MaternaLink as duplicating the MSD-for-Mothers-funded mD — I'd rather hear it early."
+
+**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at Grand Challenges Canada or a fund you'd suggest?"
+
+**FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
+
+**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'GCC needs a credible LMIC implementing partner and an evidence plan, and it may see MaternaLink as d' answered directly (3) · 8) Agree next step (2).
+
+**CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
+
+---
+
+## 10. Ventures Platform
 
 **PHONE OPENING**
 
@@ -219,7 +434,222 @@ Message after connection: "Thanks for connecting, Kola. Quick context: we're pre
 
 ---
 
-## 6. LocalGlobe (Phoenix Court)
+## 11. Nina Capital
+
+**PHONE OPENING**
+
+"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling Nina Capital because of your work with 30+ health-tech companies including several UK-headquartered ones (see https://www.nina.capital/companies – names TO VALIDATE). I'm not asking for a decision today; I'd like 20 minutes with Marta G. Zanchi to test whether this is a fit for your Pre-seed and seed (first cheque), follow-on to Series A mandate. Is Marta G. Zanchi the right route, and what's the best way to get a slot?"
+
+**EMAIL**
+
+Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with Nina Capital?
+
+Dear Marta,
+
+I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
+
+I'm writing to you specifically because Nina Capital backs 30+ health-tech companies including several UK-headquartered ones (see https://www.nina.capital/companies – names TO VALIDATE), and because nina is a pure-play pre-seed health-tech investor that backs UK companies, making it one of the few EU funds that could lead Vytalix's first round.
+
+Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Use Nina's needs-led framework: present the maternal-care-coordination unmet need with MBRRACE-UK evidence and a defined first NHS trust pilot.
+
+Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
+
+Kind regards,
+[Founder]
+Founder, Vytalix — Technology for Life
+[phone] · [email] · [link]
+
+**LINKEDIN**
+
+Connection note (≤300 chars): "Hi Marta, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following Nina Capital's work with 30+ health-tech companies including several UK-headquartered ones (see https://www.nina.capital/companies – names TO VALIDATE). Would value connecting."
+
+Message after connection: "Thanks for connecting, Marta. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Use Nina's needs-led framework: present the maternal-care-coordination unmet need with MBRRACE-UK evidence and a defined first NHS trust pilot. Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
+
+**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: Nina invests in needs-validated products with founding teams in place, while Vytalix has no clinical partner, no incorporated entity and unr — I'd rather hear it early."
+
+**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at Nina Capital or a fund you'd suggest?"
+
+**FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
+
+**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'Nina invests in needs-validated products with founding teams in place, while Vytalix has no clinical' answered directly (3) · 8) Agree next step (2).
+
+**CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
+
+---
+
+## 12. o2h Ventures
+
+**PHONE OPENING**
+
+"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling o2h Ventures because of your work with Cambridge/UK biotech and health-tech seed companies (TO VALIDATE on official portfolio page). I'm not asking for a decision today; I'd like 20 minutes with Sunil Shah to test whether this is a fit for your Pre-seed (SEIS), Seed (EIS) mandate. Is Sunil Shah the right route, and what's the best way to get a slot?"
+
+**EMAIL**
+
+Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with o2h Ventures?
+
+Dear Sunil,
+
+I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
+
+I'm writing to you specifically because o2h Ventures backs Cambridge/UK biotech and health-tech seed companies (TO VALIDATE on official portfolio page), and because a dedicated SEIS/EIS health investor writing pre-seed cheques in the exact £100k–£500k range Vytalix needs first, with an open pitch-day route.
+
+Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Frame MaternaLink's v3 multimodal risk-prediction research track (with a named clinical data partner) as the knowledge-intensive story while v1 software builds distribution.
+
+Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
+
+Kind regards,
+[Founder]
+Founder, Vytalix — Technology for Life
+[phone] · [email] · [link]
+
+**LINKEDIN**
+
+Connection note (≤300 chars): "Hi Sunil, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following o2h Ventures's work with Cambridge/UK biotech and health-tech seed companies (TO VALIDATE on official portfolio page). Would value connecting."
+
+Message after connection: "Thanks for connecting, Sunil. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Frame MaternaLink's v3 multimodal risk-prediction research track (with a named clinical data partner) as the knowledge-intensive story while v1 software builds  Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
+
+**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: o2h's core thesis is science-led therapeutics and IP-heavy biotech; a care-coordination software platform without proprietary science or cli — I'd rather hear it early."
+
+**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at o2h Ventures or a fund you'd suggest?"
+
+**FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
+
+**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'o2h's core thesis is science-led therapeutics and IP-heavy biotech; a care-coordination software pla' answered directly (3) · 8) Agree next step (2).
+
+**CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
+
+---
+
+## 13. Founders Factory Africa
+
+**PHONE OPENING**
+
+"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling Founders Factory Africa because of your work with Health-tech names in portfolio (prior knowledge. I'm not asking for a decision today; I'd like 20 minutes with Sam Sturm – confirm on team page to test whether this is a fit for your Pre-seed and Seed (Accelerate / Scale programmes) mandate. Is Sam Sturm – confirm on team page the right route, and what's the best way to get a slot?"
+
+**EMAIL**
+
+Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with Founders Factory Africa?
+
+Dear Sam,
+
+I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
+
+I'm writing to you specifically because Founders Factory Africa backs Health-tech names in portfolio (prior knowledge, and because combines cash with hands-on product and venture-building support, which is exactly what a pre-formation team with a prototype dashboard and no engineering capacity needs.
+
+Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Apply with MaternaLink framed as an Africa-first care-coordination product (Nigeria pilot pathway) and ask whether the health vertical is still open under the Mastercard Foundation programme.
+
+Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
+
+Kind regards,
+[Founder]
+Founder, Vytalix — Technology for Life
+[phone] · [email] · [link]
+
+**LINKEDIN**
+
+Connection note (≤300 chars): "Hi Sam, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following Founders Factory Africa's work with Health-tech names in portfolio (prior knowledge. Would value connecting."
+
+Message after connection: "Thanks for connecting, Sam. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Apply with MaternaLink framed as an Africa-first care-coordination product (Nigeria pilot pathway) and ask whether the health vertical is still open under the M Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
+
+**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: Programme eligibility is built around startups operating in Africa with committed full-time founders, and Vytalix's founder time commitment  — I'd rather hear it early."
+
+**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at Founders Factory Africa or a fund you'd suggest?"
+
+**FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
+
+**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'Programme eligibility is built around startups operating in Africa with committed full-time founders' answered directly (3) · 8) Agree next step (2).
+
+**CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
+
+---
+
+## 14. Villgro Africa
+
+**PHONE OPENING**
+
+"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling Villgro Africa because of your work with Enzi Health (last-mile care) per official site. I'm not asking for a decision today; I'd like 20 minutes with Wilfred Njagi – confirm on team page to test whether this is a fit for your Pre-seed / Seed (incubation stage) mandate. Is Wilfred Njagi – confirm on team page the right route, and what's the best way to get a slot?"
+
+**EMAIL**
+
+Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with Villgro Africa?
+
+Dear Wilfred,
+
+I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
+
+I'm writing to you specifically because Villgro Africa backs Enzi Health (last-mile care) per official site, and because the only Africa investor in this list that is health-only and built for pre-seed ventures, so MaternaLink's maternal care-coordination thesis is squarely in mandate.
+
+Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Apply through a funding call with MaternaLink's Africa track (Nigeria/Kenya care coordination) and ask for incubation plus a small seed grant/equity blend rather than a priced round.
+
+Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
+
+Kind regards,
+[Founder]
+Founder, Vytalix — Technology for Life
+[phone] · [email] · [link]
+
+**LINKEDIN**
+
+Connection note (≤300 chars): "Hi Wilfred, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following Villgro Africa's work with Enzi Health (last-mile care) per official site. Would value connecting."
+
+Message after connection: "Thanks for connecting, Wilfred. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Apply through a funding call with MaternaLink's Africa track (Nigeria/Kenya care coordination) and ask for incubation plus a small seed grant/equity blend rathe Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
+
+**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: Villgro backs African-founded ventures operating in Kenya/Africa with small cheques, and a UK-domiciled parent chasing NHS trusts will look  — I'd rather hear it early."
+
+**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at Villgro Africa or a fund you'd suggest?"
+
+**FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
+
+**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'Villgro backs African-founded ventures operating in Kenya/Africa with small cheques, and a UK-domici' answered directly (3) · 8) Agree next step (2).
+
+**CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
+
+---
+
+## 15. Global Innovation Fund (GIF)
+
+**PHONE OPENING**
+
+"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling Global Innovation Fund (GIF) because of your work with Health and digital-health innovations in Africa and South Asia. I'm not asking for a decision today; I'd like 20 minutes with Joseph Ssentongo to test whether this is a fit for your Pilot (c. US$50k–$230k), Test & Transition (up to c. US$2.3m), Scale (up to US$15m) mandate. Is Joseph Ssentongo the right route, and what's the best way to get a slot?"
+
+**EMAIL**
+
+Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with Global Innovation Fund (GIF)?
+
+Dear Joseph,
+
+I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
+
+I'm writing to you specifically because Global Innovation Fund (GIF) backs Health and digital-health innovations in Africa and South Asia, and because gIF is London-based, funds maternal and digital-health innovations in Nigeria at pilot stage with US$50k-scale grants and equity, and demands the kind of evidence design that MaternaLink's re-based v1 needs anyway.
+
+Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Enter at Pilot stage with a rigorously scoped Nigerian maternal care-coordination pilot, an evaluation partner, and a clear cost-per-woman assumption to be tested.
+
+Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
+
+Kind regards,
+[Founder]
+Founder, Vytalix — Technology for Life
+[phone] · [email] · [link]
+
+**LINKEDIN**
+
+Connection note (≤300 chars): "Hi Joseph, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following Global Innovation Fund (GIF)'s work with Health and digital-health innovations in Africa and South Asia. Would value connecting."
+
+Message after connection: "Thanks for connecting, Joseph. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Enter at Pilot stage with a rigorously scoped Nigerian maternal care-coordination pilot, an evaluation partner, and a clear cost-per-woman assumption to be test Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
+
+**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: GIF funds innovations with a testable evidence plan and a low-income end-user, whereas Vytalix has only a concept deck, no pilot partner and — I'd rather hear it early."
+
+**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at Global Innovation Fund (GIF) or a fund you'd suggest?"
+
+**FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
+
+**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'GIF funds innovations with a testable evidence plan and a low-income end-user, whereas Vytalix has o' answered directly (3) · 8) Agree next step (2).
+
+**CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
+
+---
+
+## 16. LocalGlobe (Phoenix Court)
 
 **PHONE OPENING**
 
@@ -262,7 +692,50 @@ Message after connection: "Thanks for connecting, Julia. Quick context: we're pr
 
 ---
 
-## 7. Future Africa
+## 17. Calm/Storm Ventures
+
+**PHONE OPENING**
+
+"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling Calm/Storm Ventures because of your work with Probably Genetic and other early health-tech companies (see https://www.calmstorm.vc/portfolio). I'm not asking for a decision today; I'd like 20 minutes with Lucanus Polagnoli to test whether this is a fit for your Pre-seed and seed mandate. Is Lucanus Polagnoli the right route, and what's the best way to get a slot?"
+
+**EMAIL**
+
+Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with Calm/Storm Ventures?
+
+Dear Lucanus,
+
+I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
+
+I'm writing to you specifically because Calm/Storm Ventures backs Probably Genetic and other early health-tech companies (see https://www.calmstorm.vc/portfolio), and because calm/Storm writes small pre-seed health-tech cheques across Europe and the US and has backed women's-health founders.
+
+Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Email hello@ with a crisp purpose-driven narrative on maternal-health disparities and a request to join the founder network alongside a small cheque.
+
+Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
+
+Kind regards,
+[Founder]
+Founder, Vytalix — Technology for Life
+[phone] · [email] · [link]
+
+**LINKEDIN**
+
+Connection note (≤300 chars): "Hi Lucanus, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following Calm/Storm Ventures's work with Probably Genetic and other early health-tech companies (see https://www.calmstorm.vc/portfolio). Would value connecting."
+
+Message after connection: "Thanks for connecting, Lucanus. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Email hello@ with a crisp purpose-driven narrative on maternal-health disparities and a request to join the founder network alongside a small cheque. Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
+
+**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: The fund backs founders with prior operating or clinical track records, and Vytalix's team and IP structure are undocumented. — I'd rather hear it early."
+
+**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at Calm/Storm Ventures or a fund you'd suggest?"
+
+**FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
+
+**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'The fund backs founders with prior operating or clinical track records, and Vytalix's team and IP st' answered directly (3) · 8) Agree next step (2).
+
+**CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
+
+---
+
+## 18. Future Africa
 
 **PHONE OPENING**
 
@@ -305,7 +778,50 @@ Message after connection: "Thanks for connecting, Iyinoluwa. Quick context: we'r
 
 ---
 
-## 8. Seedcamp
+## 19. RH Capital (Rhia Ventures)
+
+**PHONE OPENING**
+
+"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling RH Capital (Rhia Ventures) because of your work with Maternal-health and reproductive-health startups (e.g.. I'm not asking for a decision today; I'd like 20 minutes with Elizabeth Bailey to test whether this is a fit for your Seed to Series A (some pre-seed) mandate. Is Elizabeth Bailey the right route, and what's the best way to get a slot?"
+
+**EMAIL**
+
+Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with RH Capital (Rhia Ventures)?
+
+Dear Elizabeth,
+
+I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
+
+I'm writing to you specifically because RH Capital (Rhia Ventures) backs Maternal-health and reproductive-health startups (e.g., and because rH Capital's explicit maternal-health and health-equity mandate mirrors MaternaLink's focus on reducing disparities for Black mothers.
+
+Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Position MaternaLink as a UK/African maternal-equity platform whose learnings translate to the US, and ask for advice and co-investor introductions before capital.
+
+Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
+
+Kind regards,
+[Founder]
+Founder, Vytalix — Technology for Life
+[phone] · [email] · [link]
+
+**LINKEDIN**
+
+Connection note (≤300 chars): "Hi Elizabeth, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following RH Capital (Rhia Ventures)'s work with Maternal-health and reproductive-health startups (e.g.. Would value connecting."
+
+Message after connection: "Thanks for connecting, Elizabeth. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Position MaternaLink as a UK/African maternal-equity platform whose learnings translate to the US, and ask for advice and co-investor introductions before capit Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
+
+**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: The fund invests almost exclusively in US companies serving US patients, so a UK/Nigeria-first startup is outside its geography. — I'd rather hear it early."
+
+**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at RH Capital (Rhia Ventures) or a fund you'd suggest?"
+
+**FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
+
+**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'The fund invests almost exclusively in US companies serving US patients, so a UK/Nigeria-first start' answered directly (3) · 8) Agree next step (2).
+
+**CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
+
+---
+
+## 20. Seedcamp
 
 **PHONE OPENING**
 
@@ -348,7 +864,50 @@ Message after connection: "Thanks for connecting, Reshma. Quick context: we're p
 
 ---
 
-## 9. Ingressive Capital
+## 21. AAIC Investment (Asia Africa Investment & Consulting) – Africa Healthcare Fund
+
+**PHONE OPENING**
+
+"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling AAIC Investment (Asia Africa Investment & Consulting) – Africa Healthcare Fund because of your work with Revital Healthcare (Kenya medical devices). I'm not asking for a decision today; I'd like 20 minutes with Susumu Tsubaki – confirm on leadership page to test whether this is a fit for your Seed to Series B (prior knowledge) mandate. Is Susumu Tsubaki – confirm on leadership page the right route, and what's the best way to get a slot?"
+
+**EMAIL**
+
+Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with AAIC Investment (Asia Africa Investment & Consulting) – Africa Healthcare Fund?
+
+Dear Susumu,
+
+I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
+
+I'm writing to you specifically because AAIC Investment (Asia Africa Investment & Consulting) – Africa Healthcare Fund backs Revital Healthcare (Kenya medical devices), and because a dedicated Africa healthcare fund with a Nairobi office and Egypt presence, so it understands maternal-health economics in African public systems better than generalist VCs.
+
+Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Send a short note to pr-investment@aa-ic.com introducing MaternaLink's Nigeria care-coordination model and ask to be tracked for AHF2 once an African operating entity and first pilot exist.
+
+Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
+
+Kind regards,
+[Founder]
+Founder, Vytalix — Technology for Life
+[phone] · [email] · [link]
+
+**LINKEDIN**
+
+Connection note (≤300 chars): "Hi Susumu, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following AAIC Investment (Asia Africa Investment & Consulting) – Africa Healthcare Fund's work with Revital Healthcare (Kenya medical devices). Would value connecting."
+
+Message after connection: "Thanks for connecting, Susumu. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Send a short note to pr-investment@aa-ic.com introducing MaternaLink's Nigeria care-coordination model and ask to be tracked for AHF2 once an African operating  Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
+
+**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: AAIC typically writes larger cheques into revenue-generating healthcare companies with African operations, and Vytalix has no revenue, no Af — I'd rather hear it early."
+
+**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at AAIC Investment (Asia Africa Investment & Consulting) – Africa Healthcare Fund or a fund you'd suggest?"
+
+**FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
+
+**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'AAIC typically writes larger cheques into revenue-generating healthcare companies with African opera' answered directly (3) · 8) Agree next step (2).
+
+**CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
+
+---
+
+## 22. Ingressive Capital
 
 **PHONE OPENING**
 
@@ -391,7 +950,7 @@ Message after connection: "Thanks for connecting, Maya. Quick context: we're pre
 
 ---
 
-## 10. MMC Ventures
+## 23. MMC Ventures
 
 **PHONE OPENING**
 
@@ -434,152 +993,23 @@ Message after connection: "Thanks for connecting, Simon. Quick context: we're pr
 
 ---
 
-## 11. Impact X Capital Partners
+## 24. Angel Academe
 
 **PHONE OPENING**
 
-"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling Impact X Capital Partners because of your work with Peanut (women's/motherhood community platform. I'm not asking for a decision today; I'd like 20 minutes with Eric Collins to test whether this is a fit for your Seed, Series A mandate. Is Eric Collins the right route, and what's the best way to get a slot?"
+"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling Angel Academe because of your work with Bea Fertility (women's health). I'm not asking for a decision today; I'd like 20 minutes with the investment team to test whether this is a fit for your Pre-seed and Seed mandate. Is the investment team the right route, and what's the best way to get a slot?"
 
 **EMAIL**
 
-Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with Impact X Capital Partners?
-
-Dear Eric,
-
-I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
-
-I'm writing to you specifically because Impact X Capital Partners backs Peanut (women's/motherhood community platform, and because impact X exists to fund under-represented founders and has backed a motherhood platform, so a Black founder tackling Black maternal-health disparities is squarely on thesis.
-
-Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Frame Vytalix as a UK-first maternal-equity company with government-market optionality in Africa, backed by a costed pilot and an IP-clean structure.
-
-Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
-
-Kind regards,
-[Founder]
-Founder, Vytalix — Technology for Life
-[phone] · [email] · [link]
-
-**LINKEDIN**
-
-Connection note (≤300 chars): "Hi Eric, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following Impact X Capital Partners's work with Peanut (women's/motherhood community platform. Would value connecting."
-
-Message after connection: "Thanks for connecting, Eric. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Frame Vytalix as a UK-first maternal-equity company with government-market optionality in Africa, backed by a costed pilot and an IP-clean structure. Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
-
-**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: Impact X will still require venture-scale economics and will challenge the £300-per-woman Nigeria pricing and the missing UK clinical partne — I'd rather hear it early."
-
-**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at Impact X Capital Partners or a fund you'd suggest?"
-
-**FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
-
-**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'Impact X will still require venture-scale economics and will challenge the £300-per-woman Nigeria pr' answered directly (3) · 8) Agree next step (2).
-
-**CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
-
----
-
-## 12. Bethnal Green Ventures
-
-**PHONE OPENING**
-
-"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling Bethnal Green Ventures because of your work with DrDoctor (NHS patient engagement). I'm not asking for a decision today; I'd like 20 minutes with Paul Miller to test whether this is a fit for your Pre-seed (programme), seed follow-on mandate. Is Paul Miller the right route, and what's the best way to get a slot?"
-
-**EMAIL**
-
-Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with Bethnal Green Ventures?
-
-Dear Paul,
-
-I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
-
-I'm writing to you specifically because Bethnal Green Ventures backs DrDoctor (NHS patient engagement), and because bGV is an accessible tech-for-good first investor whose health theme and Peppy/DrDoctor alumni map directly onto a maternal-health care-coordination platform.
-
-Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Apply with a full-time MaternaLink team commitment and a UK Black maternal-health equity framing, using the programme to secure an NHS pilot conversation.
-
-Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
-
-Kind regards,
-[Founder]
-Founder, Vytalix — Technology for Life
-[phone] · [email] · [link]
-
-**LINKEDIN**
-
-Connection note (≤300 chars): "Hi Paul, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following Bethnal Green Ventures's work with DrDoctor (NHS patient engagement). Would value connecting."
-
-Message after connection: "Thanks for connecting, Paul. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Apply with a full-time MaternaLink team commitment and a UK Black maternal-health equity framing, using the programme to secure an NHS pilot conversation. Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
-
-**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: BGV invests in dedicated founding teams inside a cohort programme, and will question whether a founder also running a property venture can c — I'd rather hear it early."
-
-**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at Bethnal Green Ventures or a fund you'd suggest?"
-
-**FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
-
-**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'BGV invests in dedicated founding teams inside a cohort programme, and will question whether a found' answered directly (3) · 8) Agree next step (2).
-
-**CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
-
----
-
-## 13. Microtraction
-
-**PHONE OPENING**
-
-"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling Microtraction because of your work with 70+ companies across enterprise. I'm not asking for a decision today; I'd like 20 minutes with Dayo Koleowo to test whether this is a fit for your Pre-seed mandate. Is Dayo Koleowo the right route, and what's the best way to get a slot?"
-
-**EMAIL**
-
-Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with Microtraction?
-
-Dear Dayo,
-
-I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
-
-I'm writing to you specifically because Microtraction backs 70+ companies across enterprise, and because one of the few African funds with a public, no-intro-needed pre-seed application and a fixed US$100k cheque that fits a first Vytalix round.
-
-Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Apply once the technical co-founder/IP position is documented, presenting MaternaLink as a technical product with a clear Nigeria-first go-to-market.
-
-Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
-
-Kind regards,
-[Founder]
-Founder, Vytalix — Technology for Life
-[phone] · [email] · [link]
-
-**LINKEDIN**
-
-Connection note (≤300 chars): "Hi Dayo, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following Microtraction's work with 70+ companies across enterprise. Would value connecting."
-
-Message after connection: "Thanks for connecting, Dayo. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Apply once the technical co-founder/IP position is documented, presenting MaternaLink as a technical product with a clear Nigeria-first go-to-market. Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
-
-**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: Their thesis requires a technical co-founder on the cap table and Vytalix has not evidenced who wrote or owns the MaternaLink prototype. — I'd rather hear it early."
-
-**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at Microtraction or a fund you'd suggest?"
-
-**FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
-
-**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'Their thesis requires a technical co-founder on the cap table and Vytalix has not evidenced who wrot' answered directly (3) · 8) Agree next step (2).
-
-**CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
-
----
-
-## 14. Crista Galli Ventures
-
-**PHONE OPENING**
-
-"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling Crista Galli Ventures because of your work with Healthtech portfolio TO VALIDATE (prior knowledge insufficient to name reliably). I'm not asking for a decision today; I'd like 20 minutes with the investment team to test whether this is a fit for your Seed, Series A mandate. Is the investment team the right route, and what's the best way to get a slot?"
-
-**EMAIL**
-
-Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with Crista Galli Ventures?
+Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with Angel Academe?
 
 Dear there,
 
 I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
 
-I'm writing to you specifically because Crista Galli Ventures backs Healthtech portfolio TO VALIDATE (prior knowledge insufficient to name reliably), and because crista Galli invests only in healthtech at seed, with patient, evergreen capital and clinical understanding that could tolerate MaternaLink's longer validation path.
+I'm writing to you specifically because Angel Academe backs Bea Fertility (women's health), and because angel Academe is a fee-free UK pre-seed network that already backs women's-health companies like Bea Fertility, so a maternal-health platform fits its investors' interests directly.
 
-Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Lead with the re-based non-diagnostic v1, an explicit UK MDR/SaMD roadmap for the AI track and a named clinical advisor, showing regulatory maturity rather than hype.
+Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. If a woman co-founder or clinical co-founder joins, apply via the founders form positioning MaternaLink (in development) as a UK maternal care-coordination platform led by an inclusive team.
 
 Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
 
@@ -590,39 +1020,39 @@ Founder, Vytalix — Technology for Life
 
 **LINKEDIN**
 
-Connection note (≤300 chars): "Hi there, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following Crista Galli Ventures's work with Healthtech portfolio TO VALIDATE (prior knowledge insufficient to name reliably). Would value connecting."
+Connection note (≤300 chars): "Hi there, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following Angel Academe's work with Bea Fertility (women's health). Would value connecting."
 
-Message after connection: "Thanks for connecting, there. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Lead with the re-based non-diagnostic v1, an explicit UK MDR/SaMD roadmap for the AI track and a named clinical advisor, showing regulatory maturity rather than Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
+Message after connection: "Thanks for connecting, there. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. If a woman co-founder or clinical co-founder joins, apply via the founders form positioning MaternaLink (in development) as a UK maternal care-coordination plat Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
 
-**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: A clinically literate investor will immediately probe the absence of clinical partners, ethics approvals and a regulatory strategy behind th — I'd rather hear it early."
+**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: Angel Academe requires at least one woman founder on the cap table, and Vytalix's founding team composition is currently undocumented. — I'd rather hear it early."
 
-**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at Crista Galli Ventures or a fund you'd suggest?"
+**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at Angel Academe or a fund you'd suggest?"
 
 **FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
 
-**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'A clinically literate investor will immediately probe the absence of clinical partners, ethics appro' answered directly (3) · 8) Agree next step (2).
+**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'Angel Academe requires at least one woman founder on the cap table, and Vytalix's founding team comp' answered directly (3) · 8) Agree next step (2).
 
 **CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
 
 ---
 
-## 15. Cornerstone VC
+## 25. Form Ventures
 
 **PHONE OPENING**
 
-"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling Cornerstone VC because of your work with Health names TO VALIDATE. I'm not asking for a decision today; I'd like 20 minutes with Rodney Appiah to test whether this is a fit for your Pre-seed, Seed mandate. Is Rodney Appiah the right route, and what's the best way to get a slot?"
+"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling Form Ventures because of your work with Organise (worker-voice civic platform – listed on official site). I'm not asking for a decision today; I'd like 20 minutes with Leo Ringer to test whether this is a fit for your Pre-seed, Seed mandate. Is Leo Ringer the right route, and what's the best way to get a slot?"
 
 **EMAIL**
 
-Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with Cornerstone VC?
+Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with Form Ventures?
 
-Dear Rodney,
+Dear Leo,
 
 I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
 
-I'm writing to you specifically because Cornerstone VC backs Health names TO VALIDATE, and because cornerstone writes true pre-seed cheques into diverse UK founding teams, matching both Vytalix's stage and the founder's profile.
+I'm writing to you specifically because Form Ventures backs Organise (worker-voice civic platform – listed on official site), and because form's whole thesis is start-ups whose market is shaped by regulation and public policy – exactly MaternaLink's NHS maternity-safety and government-procurement context.
 
-Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Formalise the team (technical co-founder, clinical advisor, IP assignment) and pitch a £500k pre-seed to reach a UK maternity pilot and SEIS/EIS-qualifying milestones.
+Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Lead with the UK maternal-safety policy agenda (MBRRACE-UK disparities, Ockenden/Kirkup reforms) and a v1 non-diagnostic care-coordination platform that NHS trusts can adopt without SaMD classification.
 
 Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
 
@@ -633,446 +1063,16 @@ Founder, Vytalix — Technology for Life
 
 **LINKEDIN**
 
-Connection note (≤300 chars): "Hi Rodney, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following Cornerstone VC's work with Health names TO VALIDATE. Would value connecting."
+Connection note (≤300 chars): "Hi Leo, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following Form Ventures's work with Organise (worker-voice civic platform – listed on official site). Would value connecting."
 
-Message after connection: "Thanks for connecting, Rodney. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Formalise the team (technical co-founder, clinical advisor, IP assignment) and pitch a £500k pre-seed to reach a UK maternity pilot and SEIS/EIS-qualifying mile Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
+Message after connection: "Thanks for connecting, Leo. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Lead with the UK maternal-safety policy agenda (MBRRACE-UK disparities, Ockenden/Kirkup reforms) and a v1 non-diagnostic care-coordination platform that NHS tru Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
 
-**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: Cornerstone will look for a full-time, complementary founding team with technical ownership, which the current founder-plus-external-'Matern — I'd rather hear it early."
+**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: Form wants a UK-first policy wedge with early evidence; the Nigeria government proposal and the undocumented MaternaLink ownership will read — I'd rather hear it early."
 
-**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at Cornerstone VC or a fund you'd suggest?"
-
-**FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
-
-**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'Cornerstone will look for a full-time, complementary founding team with technical ownership, which t' answered directly (3) · 8) Agree next step (2).
-
-**CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
-
----
-
-## 16. Ascension Ventures
-
-**PHONE OPENING**
-
-"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling Ascension Ventures because of your work with Healthtech names TO VALIDATE. I'm not asking for a decision today; I'd like 20 minutes with Jean de Fougerolles to test whether this is a fit for your Pre-seed, Seed mandate. Is Jean de Fougerolles the right route, and what's the best way to get a slot?"
-
-**EMAIL**
-
-Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with Ascension Ventures?
-
-Dear Jean,
-
-I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
-
-I'm writing to you specifically because Ascension Ventures backs Healthtech names TO VALIDATE, and because ascension pairs SEIS/EIS pre-seed cheques with impact mandates, so a maternal-health platform addressing outcome disparities can qualify on both financial and impact criteria.
-
-Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Submit an impact-led pre-seed application with defined maternal-equity outcome metrics, the re-based non-diagnostic v1 and SEIS advance assurance.
-
-Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
-
-Kind regards,
-[Founder]
-Founder, Vytalix — Technology for Life
-[phone] · [email] · [link]
-
-**LINKEDIN**
-
-Connection note (≤300 chars): "Hi Jean, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following Ascension Ventures's work with Healthtech names TO VALIDATE. Would value connecting."
-
-Message after connection: "Thanks for connecting, Jean. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Submit an impact-led pre-seed application with defined maternal-equity outcome metrics, the re-based non-diagnostic v1 and SEIS advance assurance. Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
-
-**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: Ascension will still require SEIS eligibility, an impact measurement plan and a full-time team, and will challenge unvalidated clinical clai — I'd rather hear it early."
-
-**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at Ascension Ventures or a fund you'd suggest?"
+**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at Form Ventures or a fund you'd suggest?"
 
 **FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
 
-**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'Ascension will still require SEIS eligibility, an impact measurement plan and a full-time team, and ' answered directly (3) · 8) Agree next step (2).
-
-**CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
-
----
-
-## 17. Zinc VC
-
-**PHONE OPENING**
-
-"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling Zinc VC because of your work with Mission-driven health ventures TO VALIDATE. I'm not asking for a decision today; I'd like 20 minutes with Ella Goldner to test whether this is a fit for your Pre-seed (programme) mandate. Is Ella Goldner the right route, and what's the best way to get a slot?"
-
-**EMAIL**
-
-Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with Zinc VC?
-
-Dear Ella,
-
-I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
-
-I'm writing to you specifically because Zinc VC backs Mission-driven health ventures TO VALIDATE, and because zinc builds mission-led health ventures with pre-seed capital and research support, and its family- and health-focused missions overlap with maternal health.
-
-Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Consider only if a relevant mission cohort opens (e.g. women's or family health) and the founder can commit full-time to building MaternaLink within it.
-
-Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
-
-Kind regards,
-[Founder]
-Founder, Vytalix — Technology for Life
-[phone] · [email] · [link]
-
-**LINKEDIN**
-
-Connection note (≤300 chars): "Hi Ella, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following Zinc VC's work with Mission-driven health ventures TO VALIDATE. Would value connecting."
-
-Message after connection: "Thanks for connecting, Ella. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Consider only if a relevant mission cohort opens (e.g. women's or family health) and the founder can commit full-time to building MaternaLink within it. Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
-
-**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: Zinc invests in ventures founded inside its programme, so an existing company with an existing product arrangement would need to be re-found — I'd rather hear it early."
-
-**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at Zinc VC or a fund you'd suggest?"
-
-**FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
-
-**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'Zinc invests in ventures founded inside its programme, so an existing company with an existing produ' answered directly (3) · 8) Agree next step (2).
-
-**CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
-
----
-
-## 18. Voltron Capital
-
-**PHONE OPENING**
-
-"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling Voltron Capital because of your work with Akoma Health. I'm not asking for a decision today; I'd like 20 minutes with Olumide Soyombo to test whether this is a fit for your Pre-seed mandate. Is Olumide Soyombo the right route, and what's the best way to get a slot?"
-
-**EMAIL**
-
-Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with Voltron Capital?
-
-Dear Olumide,
-
-I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
-
-I'm writing to you specifically because Voltron Capital backs Akoma Health, and because small pre-seed cheques (US$20k-100k) from a Lagos fund that already backs a Nigerian digital-health company (Akoma Health).
-
-Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Present the Nigerian go-to-market for MaternaLink (in development) with a Lagos-based operating presence and the Ekiti conversation as early demand evidence.
-
-Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
-
-Kind regards,
-[Founder]
-Founder, Vytalix — Technology for Life
-[phone] · [email] · [link]
-
-**LINKEDIN**
-
-Connection note (≤300 chars): "Hi Olumide, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following Voltron Capital's work with Akoma Health. Would value connecting."
-
-Message after connection: "Thanks for connecting, Olumide. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Present the Nigerian go-to-market for MaternaLink (in development) with a Lagos-based operating presence and the Ekiti conversation as early demand evidence. Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
-
-**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: Fund focuses on Africa-based founders building for Africa and may see a UK-domiciled holding company with a Nigerian proposal as not yet 'in — I'd rather hear it early."
-
-**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at Voltron Capital or a fund you'd suggest?"
-
-**FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
-
-**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'Fund focuses on Africa-based founders building for Africa and may see a UK-domiciled holding company' answered directly (3) · 8) Agree next step (2).
-
-**CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
-
----
-
-## 19. Mercia Ventures (Mercia Asset Management)
-
-**PHONE OPENING**
-
-"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling Mercia Ventures (Mercia Asset Management) because of your work with Life sciences and health companies such as Locate Bio and MIP Discovery (prior knowledge. I'm not asking for a decision today; I'd like 20 minutes with Julian Viggars to test whether this is a fit for your Seed, Series A, growth mandate. Is Julian Viggars the right route, and what's the best way to get a slot?"
-
-**EMAIL**
-
-Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with Mercia Ventures (Mercia Asset Management)?
-
-Dear Julian,
-
-I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
-
-I'm writing to you specifically because Mercia Ventures (Mercia Asset Management) backs Life sciences and health companies such as Locate Bio and MIP Discovery (prior knowledge, and because mercia writes small early-stage cheques through EIS and regional funds and names digital health as a sector, making it one of the few institutional options at Vytalix's ticket size.
-
-Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. If Vytalix locates in the Midlands or North, pitch the UK-first care-coordination platform for a regional maternity system and use EIS eligibility to unlock a Mercia EIS cheque.
-
-Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
-
-Kind regards,
-[Founder]
-Founder, Vytalix — Technology for Life
-[phone] · [email] · [link]
-
-**LINKEDIN**
-
-Connection note (≤300 chars): "Hi Julian, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following Mercia Ventures (Mercia Asset Management)'s work with Life sciences and health companies such as Locate Bio and MIP Discovery (prior knowledge. Would value connecting."
-
-Message after connection: "Thanks for connecting, Julian. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. If Vytalix locates in the Midlands or North, pitch the UK-first care-coordination platform for a regional maternity system and use EIS eligibility to unlock a M Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
-
-**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: Regional funds require the company to be located in the fund region and to show a UK commercial pathway, so a London-registered group with a — I'd rather hear it early."
-
-**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at Mercia Ventures (Mercia Asset Management) or a fund you'd suggest?"
-
-**FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
-
-**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'Regional funds require the company to be located in the fund region and to show a UK commercial path' answered directly (3) · 8) Agree next step (2).
-
-**CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
-
----
-
-## 20. Amadeus Capital Partners
-
-**PHONE OPENING**
-
-"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling Amadeus Capital Partners because of your work with Doctify (patient-provider booking SaaS). I'm not asking for a decision today; I'd like 20 minutes with Anne Glover to test whether this is a fit for your Seed, Series A, growth mandate. Is Anne Glover the right route, and what's the best way to get a slot?"
-
-**EMAIL**
-
-Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with Amadeus Capital Partners?
-
-Dear Anne,
-
-I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
-
-I'm writing to you specifically because Amadeus Capital Partners backs Doctify (patient-provider booking SaaS), and because amadeus has a named healthtech vertical, a women's-health precedent (Igenomix) and a seed capability, giving Vytalix a credible deep-tech investor for the AI research track of MaternaLink.
-
-Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Approach only once a data partnership and ethics pathway exist, pitching the Maternal Instability Score research programme as a UK-MDR-ready SaMD opportunity built on MaternaLink's real-world maternal dataset.
-
-Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
-
-Kind regards,
-[Founder]
-Founder, Vytalix — Technology for Life
-[phone] · [email] · [link]
-
-**LINKEDIN**
-
-Connection note (≤300 chars): "Hi Anne, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following Amadeus Capital Partners's work with Doctify (patient-provider booking SaaS). Would value connecting."
-
-Message after connection: "Thanks for connecting, Anne. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Approach only once a data partnership and ethics pathway exist, pitching the Maternal Instability Score research programme as a UK-MDR-ready SaMD opportunity bu Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
-
-**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: Amadeus backs IP-rich, science-led companies with clinical evidence, and a pre-formation care-coordination platform with no validated model  — I'd rather hear it early."
-
-**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at Amadeus Capital Partners or a fund you'd suggest?"
-
-**FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
-
-**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'Amadeus backs IP-rich, science-led companies with clinical evidence, and a pre-formation care-coordi' answered directly (3) · 8) Agree next step (2).
-
-**CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
-
----
-
-## 21. Hoxton Ventures
-
-**PHONE OPENING**
-
-"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling Hoxton Ventures because of your work with Babylon Health (digital primary care). I'm not asking for a decision today; I'd like 20 minutes with Hussein Kanji to test whether this is a fit for your Seed, Series A mandate. Is Hussein Kanji the right route, and what's the best way to get a slot?"
-
-**EMAIL**
-
-Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with Hoxton Ventures?
-
-Dear Hussein,
-
-I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
-
-I'm writing to you specifically because Hoxton Ventures backs Babylon Health (digital primary care), and because hoxton is one of the few UK seed funds with a genuine healthcare thesis and global ambition, and has backed digital care delivery from seed.
-
-Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Frame maternal care coordination as a global category (rising maternal mortality in the US and UK equity gaps) with a defensible data asset, and show a route to US or multi-market expansion.
-
-Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
-
-Kind regards,
-[Founder]
-Founder, Vytalix — Technology for Life
-[phone] · [email] · [link]
-
-**LINKEDIN**
-
-Connection note (≤300 chars): "Hi Hussein, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following Hoxton Ventures's work with Babylon Health (digital primary care). Would value connecting."
-
-Message after connection: "Thanks for connecting, Hussein. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Frame maternal care coordination as a global category (rising maternal mortality in the US and UK equity gaps) with a defensible data asset, and show a route to Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
-
-**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: Hoxton looks for founders who can dominate a large global category, and will see UK maternity services plus Nigerian state contracts as frag — I'd rather hear it early."
-
-**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at Hoxton Ventures or a fund you'd suggest?"
-
-**FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
-
-**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'Hoxton looks for founders who can dominate a large global category, and will see UK maternity servic' answered directly (3) · 8) Agree next step (2).
-
-**CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
-
----
-
-## 22. UK Innovation & Science Seed Fund (UKI2S) / Future Planet Capital
-
-**PHONE OPENING**
-
-"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling UK Innovation & Science Seed Fund (UKI2S) / Future Planet Capital because of your work with Public-research-base health spinouts TO VALIDATE. I'm not asking for a decision today; I'd like 20 minutes with Douglas Hansen-Luke to test whether this is a fit for your Pre-seed, Seed mandate. Is Douglas Hansen-Luke the right route, and what's the best way to get a slot?"
-
-**EMAIL**
-
-Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with UK Innovation & Science Seed Fund (UKI2S) / Future Planet Capital?
-
-Dear Douglas,
-
-I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
-
-I'm writing to you specifically because UK Innovation & Science Seed Fund (UKI2S) / Future Planet Capital backs Public-research-base health spinouts TO VALIDATE, and because uKI2S writes early science-seed cheques into companies tied to the UK public research base, which MaternaLink's AI track could access through an NIHR or university research partnership.
-
-Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Secure a research partnership (e.g. NIHR maternity research unit) and pitch the maternal risk-scoring science as a co-developed public-research-base spinout.
-
-Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
-
-Kind regards,
-[Founder]
-Founder, Vytalix — Technology for Life
-[phone] · [email] · [link]
-
-**LINKEDIN**
-
-Connection note (≤300 chars): "Hi Douglas, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following UK Innovation & Science Seed Fund (UKI2S) / Future Planet Capital's work with Public-research-base health spinouts TO VALIDATE. Would value connecting."
-
-Message after connection: "Thanks for connecting, Douglas. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Secure a research partnership (e.g. NIHR maternity research unit) and pitch the maternal risk-scoring science as a co-developed public-research-base spinout. Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
-
-**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: Without a formal link to a UK public research organisation, Vytalix does not meet UKI2S's eligibility criteria regardless of mission. — I'd rather hear it early."
-
-**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at UK Innovation & Science Seed Fund (UKI2S) / Future Planet Capital or a fund you'd suggest?"
-
-**FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
-
-**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'Without a formal link to a UK public research organisation, Vytalix does not meet UKI2S's eligibilit' answered directly (3) · 8) Agree next step (2).
-
-**CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
-
----
-
-## 23. SFC Capital
-
-**PHONE OPENING**
-
-"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling SFC Capital because of your work with Healthtech names TO VALIDATE. I'm not asking for a decision today; I'd like 20 minutes with Stephen Page to test whether this is a fit for your Pre-seed, Seed mandate. Is Stephen Page the right route, and what's the best way to get a slot?"
-
-**EMAIL**
-
-Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with SFC Capital?
-
-Dear Stephen,
-
-I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
-
-I'm writing to you specifically because SFC Capital backs Healthtech names TO VALIDATE, and because sFC is the highest-volume SEIS investor in the UK with an open application route, so it is the most accessible institutional first cheque once Vytalix has SEIS advance assurance.
-
-Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Incorporate, secure SEIS advance assurance and apply with a UK-centred plan (advisory revenue plus MaternaLink UK pilot), requesting £150k-£250k as part of a wider angel round.
-
-Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
-
-Kind regards,
-[Founder]
-Founder, Vytalix — Technology for Life
-[phone] · [email] · [link]
-
-**LINKEDIN**
-
-Connection note (≤300 chars): "Hi Stephen, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following SFC Capital's work with Healthtech names TO VALIDATE. Would value connecting."
-
-Message after connection: "Thanks for connecting, Stephen. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Incorporate, secure SEIS advance assurance and apply with a UK-centred plan (advisory revenue plus MaternaLink UK pilot), requesting £150k-£250k as part of a wi Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
-
-**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: SFC will require a UK-incorporated, SEIS-eligible company with a full-time team, and may find the Nigeria government-sales model at odds wit — I'd rather hear it early."
-
-**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at SFC Capital or a fund you'd suggest?"
-
-**FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
-
-**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'SFC will require a UK-incorporated, SEIS-eligible company with a full-time team, and may find the Ni' answered directly (3) · 8) Agree next step (2).
-
-**CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
-
----
-
-## 24. Downing Ventures
-
-**PHONE OPENING**
-
-"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling Downing Ventures because of your work with FundamentalVR (surgical simulation) and other healthtech companies (prior knowledge. I'm not asking for a decision today; I'd like 20 minutes with the investment team to test whether this is a fit for your Seed, Series A mandate. Is the investment team the right route, and what's the best way to get a slot?"
-
-**EMAIL**
-
-Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with Downing Ventures?
-
-Dear there,
-
-I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
-
-I'm writing to you specifically because Downing Ventures backs FundamentalVR (surgical simulation) and other healthtech companies (prior knowledge, and because downing Ventures has a dedicated healthtech vertical and EIS money that can back UK seed rounds, making it a natural target once Vytalix has EIS advance assurance.
-
-Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Present a cleaned-up cap table with MaternaLink IP assigned, an NHS-facing v1 roadmap and an EIS-qualifying £500k-£1m round with a named lead angel.
-
-Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
-
-Kind regards,
-[Founder]
-Founder, Vytalix — Technology for Life
-[phone] · [email] · [link]
-
-**LINKEDIN**
-
-Connection note (≤300 chars): "Hi there, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following Downing Ventures's work with FundamentalVR (surgical simulation) and other healthtech companies (prior knowledge. Would value connecting."
-
-Message after connection: "Thanks for connecting, there. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Present a cleaned-up cap table with MaternaLink IP assigned, an NHS-facing v1 roadmap and an EIS-qualifying £500k-£1m round with a named lead angel. Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
-
-**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: Downing will want evidence of clinical or NHS engagement and a clear software product, and will see the undocumented MaternaLink ownership a — I'd rather hear it early."
-
-**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at Downing Ventures or a fund you'd suggest?"
-
-**FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
-
-**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'Downing will want evidence of clinical or NHS engagement and a clear software product, and will see ' answered directly (3) · 8) Agree next step (2).
-
-**CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
-
----
-
-## 25. Playfair Capital
-
-**PHONE OPENING**
-
-"Hello, my name is [Founder], founder of Vytalix, a UK health-technology group building MaternaLink, a maternal-health coordination platform in development for the UK and Nigeria. I'm calling Playfair Capital because of your work with Healthtech names TO VALIDATE. I'm not asking for a decision today; I'd like 20 minutes with Chris Smith to test whether this is a fit for your Pre-seed, Seed mandate. Is Chris Smith the right route, and what's the best way to get a slot?"
-
-**EMAIL**
-
-Subject: Maternal-health platform (UK + Nigeria) — 20 minutes with Playfair Capital?
-
-Dear Chris,
-
-I'm the founder of Vytalix, a UK health-technology group. We're developing MaternaLink, a maternal care-coordination and communication platform for health systems in the UK and Nigeria, alongside an advisory practice that funds our early work.
-
-I'm writing to you specifically because Playfair Capital backs Healthtech names TO VALIDATE, and because playfair writes genuine pre-seed cheques, welcomes cold pitches and runs inclusion-focused office hours, making it one of the most accessible institutional pre-seed options for Vytalix.
-
-Where we are, honestly: pre-seed, founder-led, a working prototype, an open conversation with a Nigerian state ministry, and a UK pilot programme in design. We are raising a small SEIS/EIS-eligible pre-seed round to fund the pilot and clinical advisory work [confirm once assured]. Apply with a crisp pre-seed plan: team, MaternaLink IP assigned, 20 customer-discovery interviews with midwives/ICBs, and a 12-month path to a paid pilot.
-
-Could I have 20 minutes to test the fit against your mandate? I'll send a one-pager ahead of the call.
-
-Kind regards,
-[Founder]
-Founder, Vytalix — Technology for Life
-[phone] · [email] · [link]
-
-**LINKEDIN**
-
-Connection note (≤300 chars): "Hi Chris, founder of Vytalix here (UK health-tech; maternal-health platform in development for UK + Nigeria). Following Playfair Capital's work with Healthtech names TO VALIDATE. Would value connecting."
-
-Message after connection: "Thanks for connecting, Chris. Quick context: we're pre-seed, building MaternaLink with a services arm funding the early work. Apply with a crisp pre-seed plan: team, MaternaLink IP assigned, 20 customer-discovery interviews with midwives/ICBs, and a 12-month path to a paid pilot. Open to a 20-minute call in the next two weeks? Happy to send a one-pager first."
-
-**FOLLOW-UP #1 (day 4):** "Sharing the one-pager as promised [link]. The specific question I'd like your view on: Playfair will want a full-time founding team with technical capability and evidence of customer discovery, not a concept deck and a third-pa — I'd rather hear it early."
-
-**FOLLOW-UP #2 (day 10):** "One update since I wrote: [milestone, e.g., advisory board member confirmed / pilot LOI]. If timing is wrong, could you point me to the right person at Playfair Capital or a fund you'd suggest?"
-
-**FOLLOW-UP #3 (day 21):** "Closing the loop. I'll add you to our quarterly investor update unless you'd prefer not; next update covers pilot progress and the first revenue quarter. Thanks for your time."
-
-**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'Playfair will want a full-time founding team with technical capability and evidence of customer disc' answered directly (3) · 8) Agree next step (2).
+**MEETING (20–30 min):** 1) Their mandate and process (5) · 2) Problem and why now (3) · 3) What exists today, no inflation (4) · 4) MaternaLink v1 and evidence plan (5) · 5) Business model: services + platform (3) · 6) Round, use of funds, milestones (3) · 7) Their objection: 'Form wants a UK-first policy wedge with early evidence; the Nigeria government proposal and the undo' answered directly (3) · 8) Agree next step (2).
 
 **CLOSE:** Ask: "Based on what you've seen, is this within mandate? If yes, what would you need to see to lead or co-invest at pre-seed, and by when?" Convert to: data-room access → second call with a partner → term discussion. Log stage in CRM.
