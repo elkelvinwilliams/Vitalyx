@@ -4,15 +4,15 @@ Generated 2026-09-07 from `VYTALIX_INVESTOR_CRM.csv`. Activity counters are zero
 
 | Metric | Value |
 |---|---|
-| TOTAL INVESTORS | 253 |
+| TOTAL INVESTORS | 293 |
 | A-TIER (fit 80–100) | 7 |
-| B-TIER (65–79) | 73 |
-| C-TIER (50–64) | 116 |
-| BELOW 50 | 57 |
-| PHONE NUMBERS VERIFIED (public, sourced) | 33 |
-| PHONE NOT PUBLICLY AVAILABLE | 220 |
-| EMAILS VERIFIED (public, sourced) | 43 |
-| DECISION MAKERS IDENTIFIED (public role) | 198 |
+| B-TIER (65–79) | 87 |
+| C-TIER (50–64) | 135 |
+| BELOW 50 | 64 |
+| PHONE NUMBERS VERIFIED (public, sourced) | 45 |
+| PHONE NOT PUBLICLY AVAILABLE | 248 |
+| EMAILS VERIFIED (public, sourced) | 54 |
+| DECISION MAKERS IDENTIFIED (public role) | 215 |
 | INVESTORS CONTACTED | 0 |
 | CALLS MADE | 0 |
 | RESPONSES | 0 |
@@ -26,31 +26,32 @@ Generated 2026-09-07 from `VYTALIX_INVESTOR_CRM.csv`. Activity counters are zero
 | Type | Count | A | B | C |
 |---|---|---|---|---|
 | Venture Capital | 158 | 4 | 56 | 76 |
+| Angel Network | 41 | 0 | 14 | 23 |
 | Impact / DFI | 38 | 0 | 7 | 13 |
 | Family Office | 23 | 0 | 3 | 7 |
-| Angel Network | 15 | 0 | 4 | 10 |
-| Strategic / Corporate VC | 11 | 0 | 2 | 8 |
+| Strategic / Corporate VC | 21 | 0 | 3 | 13 |
 | Government / Innovation Fund | 8 | 3 | 1 | 2 |
+| University / Institutional Fund | 4 | 0 | 3 | 1 |
 
 ## By country (top 15)
 
 | Country | Count |
 |---|---|
-| United Kingdom | 118 |
-| United States | 47 |
-| Nigeria | 14 |
-| France | 9 |
-| Germany | 8 |
-| South Africa | 7 |
-| Kenya | 7 |
+| United Kingdom | 142 |
+| United States | 48 |
+| Nigeria | 17 |
+| France | 10 |
+| South Africa | 9 |
+| Germany | 9 |
+| Kenya | 8 |
 | Switzerland | 7 |
 | Netherlands | 4 |
 | Belgium | 4 |
 | Sweden | 3 |
+| Egypt | 3 |
 | Norway | 3 |
 | Canada | 2 |
-| Egypt | 2 |
-| Spain | 1 |
+| Ghana | 2 |
 
 ## Pipeline stages (all records start at Researched)
 

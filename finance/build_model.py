@@ -72,8 +72,9 @@ HIRES = [
 
 ASSUMPTIONS = [
     ("H", "General"),
-    ("opening_cash", "Opening cash (founder capital, month 1)", (10000, 20000, 30000), "GBP", "ASSUMPTION",
-     "Founder's own contribution; TO VALIDATE with founder."),
+    ("opening_cash", "Opening cash (founder capital + director's loan, month 1)", (25000, 35000, 50000), "GBP", "ASSUMPTION",
+     "Founder's own contribution incl. a director's loan that bridges month-1 set-up costs until the pre-seed lands; TO VALIDATE with founder. "
+     "(Revised 8 Sept 2026 from £10k/£20k/£30k, which left cash negative in months 2–5 of every scenario.)"),
     ("collection_lag", "Collection lag — services & MaternaLink invoices", (1, 1, 1), "months", "ASSUMPTION",
      "E-learning collected same month (prepaid)."),
     ("avail_days", "Founder available working days per month", (17.33, 17.33, 17.33), "days", "ASSUMPTION",
@@ -160,14 +161,15 @@ ASSUMPTIONS = [
     ("pen_lower", "Qualifying earnings lower limit (annual)", (6240, 6240, 6240), "GBP", "KNOWN", "2026/27 band £6,240–£50,270 (same source)."),
     ("pen_upper", "Qualifying earnings upper limit (annual)", (50270, 50270, 50270), "GBP", "KNOWN", ""),
     ("H", "Founder and hires (start month; 99 = not hired within model)"),
-    ("founder_start", "Founder salary — start month", (4, 2, 1), "month", "ASSUMPTION",
-     "Conservative: founder draws nothing until first invoices are paid."),
+    ("founder_start", "Founder salary — start month", (4, 3, 3), "month", "ASSUMPTION",
+     "Founder draws nothing until the first invoices (month 2) are collected (month 3, one-month lag). Conservative waits one more month. "
+     "(Revised 8 Sept 2026 from 4/2/1.)"),
     ("founder_salary", "Founder salary (annual)", (36000, 48000, 60000), "GBP/year", "ASSUMPTION",
      "Below market; opportunity cost £120k (01_BUSINESS_MODEL §3)."),
 ]
 HIRE_INPUTS = {
     "product_lead": ((13, 7, 4), (60000, 65000, 70000)),
-    "dev1": ((19, 10, 6), (50000, 55000, 60000)),
+    "dev1": ((99, 10, 6), (50000, 55000, 60000)),
     "dev2": ((99, 22, 12), (50000, 55000, 60000)),
     "dev3": ((99, 99, 24), (55000, 55000, 60000)),
     "bd_lead": ((99, 16, 10), (45000, 50000, 55000)),
@@ -183,19 +185,24 @@ for k, lab in HIRES:
         note = "Nigeria-based role modelled with UK on-costs as a conservative simplification; local employment/contractor route TO VALIDATE."
     if k == "consultant":
         note = "Adds billable capacity (see Advisory block)."
+    if k == "dev1":
+        note = "Conservative: not hired — a £250k pre-seed cannot carry a second technical salary (cash went negative at month 31 when it was); contractors instead. (Revised 8 Sept 2026 from month 19.)"
     ASSUMPTIONS.append((f"{k}_start", f"{lab} — start month", st, "month", "ASSUMPTION", note))
     ASSUMPTIONS.append((f"{k}_salary", f"{lab} — annual salary", sal, "GBP/year", "ESTIMATE", ""))
 
 OPEX_CATS = [
-    ("contractors", "Contractors (dev, design, fractional clinical safety officer)", ((1500, 2500, 3000), (4000, 6000, 6000), (8000, 10000, 8000))),
-    ("technology", "Technology (cloud, hosting, messaging, tooling)", ((300, 800, 1500), (600, 1500, 3000), (1500, 4000, 8000))),
-    ("marketing", "Marketing (content, events, paid tests)", ((300, 600, 1000), (750, 2000, 3000), (2000, 5000, 8000))),
+    # Y2/Y3 Base and High-growth levels were raised on 8 Sept 2026 so that the seed money is actually spent on scaling
+    # (implementation contractors, in-country delivery, hosting at volume, demand generation). Before the revision Base
+    # burned ~£20k/month after a £2m seed and High-growth was EBITDA-positive from month 2 with £11m unspent at month 36.
+    ("contractors", "Contractors (dev, design, implementation, fractional clinical safety officer)", ((1500, 2500, 3000), (4000, 10000, 20000), (8000, 30000, 45000))),
+    ("technology", "Technology (cloud, hosting, messaging, tooling)", ((300, 800, 1500), (600, 3000, 6000), (1500, 10000, 20000))),
+    ("marketing", "Marketing (content, events, paid tests, demand generation)", ((300, 600, 1000), (750, 4000, 12000), (2000, 15000, 35000))),
     ("legal", "Legal (ongoing contracts, IP, employment)", ((300, 400, 500), (500, 800, 1000), (1000, 1500, 2000))),
-    ("compliance", "Compliance & regulatory (ICO, Cyber Essentials, DTAC/DSPT, clinical safety)", ((150, 400, 800), (300, 1000, 1500), (600, 2000, 3000))),
+    ("compliance", "Compliance & regulatory (ICO, Cyber Essentials, DTAC/DSPT, clinical safety)", ((150, 400, 800), (300, 1000, 3000), (600, 4000, 5000))),
     ("insurance", "Insurance (PI, PL, D&O, cyber)", ((120, 150, 200), (150, 250, 400), (200, 400, 700))),
     ("software", "Software subscriptions", ((120, 200, 300), (200, 400, 700), (300, 800, 1500))),
-    ("travel", "Travel (UK and Nigeria)", ((200, 400, 600), (400, 1000, 1500), (800, 2500, 4000))),
-    ("operations", "Operations (co-working, recruitment, misc.)", ((100, 300, 600), (250, 800, 1500), (500, 2000, 4000))),
+    ("travel", "Travel (UK and Nigeria)", ((200, 400, 600), (400, 1500, 4000), (800, 6000, 10000))),
+    ("operations", "Operations (co-working, recruitment, in-country field support, misc.)", ((100, 300, 600), (250, 1500, 5000), (500, 8000, 15000))),
     ("accountancy", "Accountancy, payroll, company secretarial", ((150, 200, 250), (200, 300, 400), (250, 400, 600))),
 ]
 ASSUMPTIONS.append(("H", "Other operating costs (GBP per month, by year)"))
@@ -210,8 +217,10 @@ ASSUMPTIONS += [
     ("preseed_m", "Pre-seed month", (6, 4, 3), "month", "PROPOSED", ""),
     ("seed_amt", "Seed equity amount", (0, 2000000, 3000000), "GBP", "PROPOSED", "Only raised if milestones in 09_FUNDING_STRATEGY are TRUE."),
     ("seed_m", "Seed month", (99, 20, 14), "month", "PROPOSED", ""),
-    ("seriesa_amt", "Series A equity amount", (0, 0, 6000000), "GBP", "PROPOSED", "High-growth only, month 32."),
-    ("seriesa_m", "Series A month", (99, 99, 32), "month", "PROPOSED", ""),
+    ("seriesa_amt", "Series A equity amount", (0, 0, 0), "GBP", "PROPOSED",
+     "Not in the 36-month model in any scenario: no scenario needs it for solvency within 36 months, and High-growth reaches EBITDA break-even. "
+     "Series A (£6m–£12m) is a month 30–42 growth-capital decision — see 09_FUNDING_STRATEGY. Set an amount and month here to test it. (Revised 8 Sept 2026: was £6m at month 32 in High-growth, raised while cash-generative with £4m in the bank.)"),
+    ("seriesa_m", "Series A month", (99, 99, 99), "month", "PROPOSED", ""),
     ("grant1_amt", "Grant 1 (e.g., Innovate UK Smart / SBRI Healthcare)", (0, 75000, 150000), "GBP", "TO VALIDATE",
      "Competitive; success rates low. Recognised as other income when received (simplification)."),
     ("grant1_m", "Grant 1 month", (99, 14, 9), "month", "TO VALIDATE", ""),
@@ -363,6 +372,8 @@ def compute(v):
         peak_need=max(0.0, -min(cum_pre)),
         peak_need_month=cum_pre.index(min(cum_pre)) + 1,
         be_month=first([e > 0 for e in ebitda]),
+        # sustained break-even: first month from which EBITDA stays positive through month 36 (the honest break-even)
+        be_sust_month=first([all(e > 0 for e in ebitda[i:]) for i in range(MONTHS)]),
         be_cum_month=first([c > 0 for c in cum_net]),
         min_cash=min(closing),
         min_cash_month=closing.index(min(closing)) + 1,
@@ -720,6 +731,7 @@ class Model:
         self.row(ws, r, "opex", "TOTAL OPERATING EXPENSES", lambda m: f"SUM({mcol(m)}{self.rows[(S,'employment')]}:{mcol(m)}{r-1})", bold=True); r += 2
         self.row(ws, r, "ebitda", "EBITDA / OPERATING RESULT (before grants)", lambda m: f"{self.ref(S,'gp',m)}+{self.ref(S,'opex',m)}", bold=True); r += 1
         self.row(ws, r, "ebitda_flag", "EBITDA positive (1/0)", lambda m: f"IF({self.ref(S,'ebitda',m)}>0,1,0)", '0', None); r += 1
+        self.row(ws, r, "ebitda_sust_flag", "EBITDA positive from this month to month 36 (1/0) — sustained break-even", lambda m: f"IF(MIN({mcol(m)}{self.rows[(S,'ebitda')]}:{LAST}{self.rows[(S,'ebitda')]})>0,1,0)", '0', None); r += 1
         self.row(ws, r, "grants", "Grant income (other income; TO VALIDATE)", lambda m: f"{self.ref('Cash flow','grants',m)}"); r += 1
         self.row(ws, r, "net", "NET RESULT BEFORE TAX", lambda m: f"{self.ref(S,'ebitda',m)}+{self.ref(S,'grants',m)}", bold=True); r += 1
         self.row(ws, r, "cum_net", "Cumulative net result", lambda m: f"{self.ref(S,'net',m)}" if m == 1 else f"{self.ref(S,'cum_net',m-1)}+{self.ref(S,'net',m)}", GBP, "end"); r += 1
@@ -796,6 +808,7 @@ class Model:
             ("3-year revenue", f"=SUM({rng(PL,'revenue')})", GBP),
             ("3-year EBITDA", f"=SUM({rng(PL,'ebitda')})", GBP),
             ("Headcount at month 36", f"=INDEX({rng(HC,'headcount')},1,{MONTHS})", '0'),
+            ("First month of SUSTAINED positive EBITDA (stays positive to month 36)", f'=IFERROR(MATCH(1,{rng(PL,"ebitda_sust_flag")},0),"Not reached in 36 months")', '0'),
         ]
         r = 4
         for label, f, fmt in items:
@@ -822,7 +835,7 @@ class Model:
         ws.cell(row=r, column=1, value="Reading this sheet").font = F_H
         notes = [
             "Peak cash need is the external money required to keep cash ≥ 0 with no equity or grants — the number to raise (plus a buffer of 20–30%).",
-            "Break-even = first month EBITDA > 0 (before grant income). Cumulative break-even is when losses to date are recovered.",
+            "Break-even = first month EBITDA > 0 (before grant income) — this can be a pre-salary blip in months 2–4; use the SUSTAINED figure (row 20) as the real break-even. Cumulative break-even is when losses to date are recovered.",
             "If the funded-through check shows SHORTFALL, the scenario's rounds are too small or too late for its cost base.",
             "Grants are recognised when received; they are competitive and none is secured (TO VALIDATE).",
         ]
@@ -876,7 +889,8 @@ class Model:
         ws.cell(row=r, column=1, value="Funding metrics").font = F_H
         r += 1
         for label, cell, fmt in [("Peak cash need before external funding", "B4", GBP), ("Month of peak cash need", "B5", '0'),
-                                 ("First month with positive EBITDA", "B7", '0'), ("Minimum closing cash after funding", "B10", GBP),
+                                 ("First month with positive EBITDA", "B7", '0'), ("First month of sustained positive EBITDA", "B20", '0'),
+                                 ("Minimum closing cash after funding", "B10", GBP),
                                  ("Funded-through check", "B12", None), ("Runway at month 36 (months)", "B14", NUM1)]:
             ws.cell(row=r, column=1, value=label)
             c = ws.cell(row=r, column=2, value=f"={q('Funding requirement', cell)}")
@@ -959,7 +973,8 @@ class Model:
             M = R["metrics"]
             for label, val, fmt in [("Peak cash need before external funding", M["peak_need"], GBP),
                                     ("Month of peak cash need", M["peak_need_month"], '0'),
-                                    ("First month with positive EBITDA", M["be_month"] or "Not reached in 36 months", '0'),
+                                    ("First month with positive EBITDA (may be a blip)", M["be_month"] or "Not reached in 36 months", '0'),
+                                    ("First month of SUSTAINED positive EBITDA (break-even)", M["be_sust_month"] or "Not reached in 36 months", '0'),
                                     ("First month cumulative result positive", M["be_cum_month"] or "Not reached in 36 months", '0'),
                                     ("Minimum closing cash after funding", M["min_cash"], GBP),
                                     ("Month of minimum closing cash", M["min_cash_month"], '0'),
@@ -1008,7 +1023,7 @@ class Model:
         ws["A1"] = "VYTALIX — 36-month financial model (Jan 2027 – Dec 2029)"
         ws["A1"].font = F_TITLE
         lines = [
-            "Status: SCENARIO MODEL v1, built 7 September 2026 by finance/build_model.py. GBP. UK-domiciled entity (to be incorporated — TO VALIDATE).",
+            "Status: SCENARIO MODEL v1.1, built 7 September 2026 and revised 8 September 2026 by finance/build_model.py. GBP. UK-domiciled entity (to be incorporated — TO VALIDATE).",
             "No figure in this workbook is an actual. Vytalix has no revenue, customers, contracts, grants or product in production (FACTS_BASE.md). Every number is a scenario built from the stated assumptions.",
             "",
             "HOW TO USE",
@@ -1029,6 +1044,14 @@ class Model:
             "No VAT, corporation tax, depreciation, interest or R&D tax relief. Grants are recognised as other income when received and are entirely TO VALIDATE (competitive, none applied for).",
             "The Ekiti proposal's £300 per woman per year is UNVALIDATED (FACTS_BASE A5) and is not used; Africa licences are modelled at £3–£12 per woman per year and UK at £8–£40.",
             "Labels: KNOWN (rate cited to a public source, still TO VALIDATE against gov.uk before use) · ESTIMATE · ASSUMPTION · PROPOSED · TO VALIDATE.",
+            "",
+            "CHANGE LOG — 8 SEPTEMBER 2026 (sanity-check revision; see notes on each Assumptions row)",
+            "1. Opening cash £25k/£35k/£50k (was £10k/£20k/£30k) and founder draw from month 4/3/3 (was 4/2/1): cash was negative in months 2–5 of every scenario before the pre-seed landed.",
+            "2. Conservative no longer hires Developer 1 (month 19 → not hired): with a £250k pre-seed, cash went negative at month 31. Conservative now ends month 36 with ~£21k and ~2 months' runway — the honest 'services-only' outcome.",
+            "3. Base Y3 and High-growth Y2–Y3 operating costs raised (contractors, technology, marketing, compliance, travel, operations) so the seed is actually spent on scaling. Before: Base burned ~£20k/month after a £2m seed; High-growth was EBITDA-positive from month 2 with £11m unspent at month 36.",
+            "4. Series A removed from the 36-month model (was £6m at month 32 in High-growth, raised while cash-generative). No scenario needs it for solvency within 36 months; it is a month 30–42 decision in 09_FUNDING_STRATEGY. The input rows remain for testing.",
+            "5. Added 'sustained break-even' (first month from which EBITDA stays positive to month 36) to P&L, Funding requirement (row 20), Dashboard and Static summary — the previous 'first positive month' was a pre-salary blip (month 2–4).",
+            "6. Build order fix: the P&L grant row and the Opening-cash row reference rows built later; the builder now runs a two-pass layout so every formula points at a real row. Formula-reference checker no longer flags string concatenations (&Assumptions!D4).",
             "",
             "SOURCES CITED (retrieved 7 Sept 2026 via web search; verify on gov.uk before external use)",
             "Employer NI 15%, secondary threshold £5,000, Employment Allowance £10,500 (2026/27): https://www.moorepay.co.uk/payroll-hr-rates/tax-and-national-insurance-changes/ ; https://employerscalculator.co.uk/guides/employer-ni-rates-2026-27",
@@ -1175,7 +1198,7 @@ def check_workbook(path):
     wb = load_workbook(path)
     names = set(wb.sheetnames)
     n_formulas, problems = 0, []
-    ref_re = re.compile(r"(?:'([^']+)'|([A-Za-z0-9_&]+))!\$?([A-Z]{1,3})\$?(\d+)")
+    ref_re = re.compile(r"(?:'([^']+)'|([A-Za-z0-9_]+))!\$?([A-Z]{1,3})\$?(\d+)")  # names with & (P&L) are always quoted
     for ws in wb.worksheets:
         for row in ws.iter_rows():
             for c in row:
@@ -1213,7 +1236,12 @@ def verify_with_libreoffice(path, results):
         os.makedirs(outdir, exist_ok=True)
         subprocess.run(["soffice", "--headless", "--calc", "--convert-to", "xlsx", "--outdir", outdir, p],
                        check=True, capture_output=True, timeout=180)
-        wbv = load_workbook(os.path.join(outdir, f"s{si}.xlsx"), data_only=True)
+        converted = os.path.join(outdir, f"s{si}.xlsx")
+        if not os.path.exists(converted):
+            report.append("  LibreOffice did not produce a recalculated file (Calc filter missing or headless conversion "
+                          "unsupported in this environment) — verification skipped. Re-run on a machine with LibreOffice Calc.")
+            break
+        wbv = load_workbook(converted, data_only=True)
         maxdiff = 0.0
         for sheet, key, pk in keyrows:
             r = model.rows[(sheet, key)]
@@ -1230,7 +1258,7 @@ def verify_with_libreoffice(path, results):
         fr = wbv["Funding requirement"]
         report.append(f"  {SCEN_NAMES[si]}: max |excel-python| on key rows = {maxdiff:.4f}; "
                       f"Funding sheet: peak need={fr['B4'].value:,.0f} (py {results[si]['metrics']['peak_need']:,.0f}), "
-                      f"break-even={fr['B7'].value} (py {results[si]['metrics']['be_month']}), "
+                      f"break-even={fr['B7'].value} (py {results[si]['metrics']['be_month']}), sustained={fr['B20'].value} (py {results[si]['metrics']['be_sust_month']}), "
                       f"min cash={fr['B10'].value:,.0f} (py {results[si]['metrics']['min_cash']:,.0f}), "
                       f"check='{fr['B12'].value}'")
         errs = 0
@@ -1255,7 +1283,7 @@ def main():
         R, M = results[si], results[si]["metrics"]
         print(f"\n{name}: revenue by year " + ", ".join(f"{y}: £{R['annual']['revenue'][y]:,.0f}" for y in YEARS)
               + f" | EBITDA " + ", ".join(f"{y}: £{R['annual']['ebitda'][y]:,.0f}" for y in YEARS))
-        print(f"  peak need £{M['peak_need']:,.0f} (m{M['peak_need_month']}), break-even m{M['be_month']}, "
+        print(f"  peak need £{M['peak_need']:,.0f} (m{M['peak_need_month']}), first +EBITDA m{M['be_month']}, sustained break-even m{M['be_sust_month']}, "
               f"min cash £{M['min_cash']:,.0f} (m{M['min_cash_month']}), closing m36 £{M['closing_36']:,.0f}, "
               f"equity £{M['equity_total']:,.0f}, grants £{M['grants_total']:,.0f}, headcount " +
               ", ".join(str(R['annual']['headcount'][y]) for y in YEARS))
