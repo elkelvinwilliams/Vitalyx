@@ -4,51 +4,33 @@ Ranked by Overall Score (0.85 × Fit /100 + 1.5 × Contactability /10). Phone nu
 
 | Rank | Investor | Type | Country | Fit | Contact. | Phone (best) | Route |
 |---|---|---|---|---|---|---|---|
-| 1 | SBRI Healthcare (NHS England / Accelerated Access Collaborative, managed by LGC) | Government / Innovation Fund | United Kingdom | 87 | 7 | +44 20 8843 8125 | sbri@lgcgroup.com or +44 20 8843 8125 ; competitions via https://sbrihealthcare. |
-| 2 | Octopus Ventures | Venture Capital | United Kingdom | 85 | 6 | PHONE NOT PUBLICLY AVAILABLE | Web pitch form: https://octopusventures.com/contact/ (pre-seed team makes decisi |
-| 3 | Innovate UK (UKRI) | Government / Innovation Fund | United Kingdom | 83 | 7 | 0300 321 4357 | Innovation Funding Service https://apply-for-innovation-funding.service.gov.uk/  |
-| 4 | Ada Ventures | Venture Capital | United Kingdom | 82 | 6 | PHONE NOT PUBLICLY AVAILABLE | Web pitch portal on https://www.adaventures.com/ (dedicated founder submission f |
-| 5 | NIHR Invention for Innovation (i4i) Programme | Government / Innovation Fund | United Kingdom | 81 | 7 | 020 8843 8080 | i4i@nihr.ac.uk (eligibility queries) or 020 8843 8080 ; applications via NIHR fu |
-| 6 | TLcom Capital | Venture Capital | United Kingdom | 77 | 9 | +44 20 82377070 (London); +234 708 4974244 (Lagos) | Pitch page https://www.tlcomcapital.com/contact ('Pitch to Us'); email info@tlco |
-| 7 | Goddess Gaia Ventures | Venture Capital | United Kingdom | 81 | 6 | PHONE NOT PUBLICLY AVAILABLE | Web contact form: https://www.ggventuresgroup.com/contact-8; LinkedIn to Priya O |
-| 8 | AlbionVC | Venture Capital | United Kingdom | 80 | 7 | +44 (0)20 7601 1850 | Contact form https://albion.vc/contact-us/ or office phone; Healthtech Hub https |
-| 9 | Grand Challenges Canada | Impact / DFI | Canada | 78 | 7 | +1 (416) 673-6568 | Open calls via https://www.grandchallenges.ca/ (Fluxx portal); office at MaRS Ce |
-| 10 | Ventures Platform | Venture Capital | Nigeria | 77 | 8 | +234 809 041 5327 | Email hello@venturesplatform.com or web contact form https://www.venturesplatfor |
-| 11 | Nina Capital | Venture Capital | Spain | 79 | 6 | PHONE NOT PUBLICLY AVAILABLE | Web contact page: https://www.nina.capital/contact; LinkedIn to Marta G. Zanchi  |
-| 12 | GC Angels | Angel Network | United Kingdom | 74 | 9 | 0161 233 2656 | Email GCangels@growthco.uk or phone 0161 233 2656; enquiry form at https://gcang |
-| 13 | Cambridge Enterprise Seed Funds | University / Institutional Fund | United Kingdom | 73 | 9 | 01223 763723 | Email CESF@enterprise.cam.ac.uk or phone 01223 763723 (Seed Funds team) |
-| 14 | o2h Ventures | Venture Capital | United Kingdom | 73 | 9 | 07341612481 | Email invest@o2h.com; phone 07341612481 (number published on the official contac |
-| 15 | Founders Factory Africa | Venture Capital | South Africa | 76 | 7 | PHONE NOT PUBLICLY AVAILABLE | Apply online https://www.foundersfactory.africa/apply; email africa-enquiries@fo |
-| 16 | Villgro Africa | Impact / DFI | Kenya | 78 | 5 | PHONE NOT PUBLICLY AVAILABLE | Website contact/funding-calls pages https://villgroafrica.org/ and https://villg |
-| 17 | Global Innovation Fund (GIF) | Impact / DFI | United Kingdom | 76 | 6 | PHONE NOT PUBLICLY AVAILABLE | Application form only: https://www.globalinnovation.fund/apply-for-funding (no e |
-| 18 | NorthInvest | Angel Network | United Kingdom | 69 | 10 | +44 113 320 0777 | Email info@northinvest.co.uk or founder application via https://northinvest.co.u |
-| 19 | LocalGlobe (Phoenix Court) | Venture Capital | United Kingdom | 77 | 5 | PHONE NOT PUBLICLY AVAILABLE | Website submission via https://www.phoenixcourt.vc/localglobe (no formal form; w |
-| 20 | Calm/Storm Ventures | Venture Capital | Austria | 75 | 6 | PHONE NOT PUBLICLY AVAILABLE | Email hello@calmstorm.vc; LinkedIn to Lucanus Polagnoli |
-| 21 | Future Africa | Venture Capital | Nigeria | 74 | 7 | PHONE NOT PUBLICLY AVAILABLE | Email funding@future.africa with a proposal (recommendation from network preferr |
-| 22 | RH Capital (Rhia Ventures) | Venture Capital | United States | 74 | 7 | PHONE NOT PUBLICLY AVAILABLE | Web contact: https://rhcapital.vc/contact/; email info@rhiaventures.org |
-| 23 | Seedcamp | Venture Capital | United Kingdom | 74 | 7 | +442039362828 | Web application via https://seedcamp.com/contact/ (email submission guidance on  |
-| 24 | AAIC Investment (Asia Africa Investment & Consulting) – Africa Healthcare Fund | Venture Capital | Singapore | 73 | 7 | PHONE NOT PUBLICLY AVAILABLE | Email pr-investment@aa-ic.com; Singapore office 180B Bencoolen Street #05-02, Si |
-| 25 | Ingressive Capital | Venture Capital | Nigeria | 73 | 7 | PHONE NOT PUBLICLY AVAILABLE | Web application form https://ingressivecapital.com/application/; contact page ht |
+| 1 | Octopus Ventures | Venture Capital | United Kingdom | 85 | 6 | PHONE NOT PUBLICLY AVAILABLE | Web pitch form: https://octopusventures.com/contact/ (pre-seed team makes decisi |
+| 2 | Ada Ventures | Venture Capital | United Kingdom | 82 | 6 | PHONE NOT PUBLICLY AVAILABLE | Web pitch portal on https://www.adaventures.com/ (dedicated founder submission f |
+| 3 | TLcom Capital | Venture Capital | United Kingdom | 77 | 9 | +44 20 82377070 (London); +234 708 4974244 (Lagos) | Pitch page https://www.tlcomcapital.com/contact ('Pitch to Us'); email info@tlco |
+| 4 | Goddess Gaia Ventures | Venture Capital | United Kingdom | 81 | 6 | PHONE NOT PUBLICLY AVAILABLE | Web contact form: https://www.ggventuresgroup.com/contact-8; LinkedIn to Priya O |
+| 5 | AlbionVC | Venture Capital | United Kingdom | 80 | 7 | +44 (0)20 7601 1850 | Contact form https://albion.vc/contact-us/ or office phone; Healthtech Hub https |
+| 6 | Grand Challenges Canada | Impact / DFI | Canada | 78 | 7 | +1 (416) 673-6568 | Open calls via https://www.grandchallenges.ca/ (Fluxx portal); office at MaRS Ce |
+| 7 | Ventures Platform | Venture Capital | Nigeria | 77 | 8 | +234 809 041 5327 | Email hello@venturesplatform.com or web contact form https://www.venturesplatfor |
+| 8 | Nina Capital | Venture Capital | Spain | 79 | 6 | PHONE NOT PUBLICLY AVAILABLE | Web contact page: https://www.nina.capital/contact; LinkedIn to Marta G. Zanchi  |
+| 9 | GC Angels | Angel Network | United Kingdom | 74 | 9 | 0161 233 2656 | Email GCangels@growthco.uk or phone 0161 233 2656; enquiry form at https://gcang |
+| 10 | Cambridge Enterprise Seed Funds | University / Institutional Fund | United Kingdom | 73 | 9 | 01223 763723 | Email CESF@enterprise.cam.ac.uk or phone 01223 763723 (Seed Funds team) |
+| 11 | o2h Ventures | Venture Capital | United Kingdom | 73 | 9 | 07341612481 | Email invest@o2h.com; phone 07341612481 (number published on the official contac |
+| 12 | Founders Factory Africa | Venture Capital | South Africa | 76 | 7 | PHONE NOT PUBLICLY AVAILABLE | Apply online https://www.foundersfactory.africa/apply; email africa-enquiries@fo |
+| 13 | Villgro Africa | Impact / DFI | Kenya | 78 | 5 | PHONE NOT PUBLICLY AVAILABLE | Website contact/funding-calls pages https://villgroafrica.org/ and https://villg |
+| 14 | Global Innovation Fund (GIF) | Impact / DFI | United Kingdom | 76 | 6 | PHONE NOT PUBLICLY AVAILABLE | Application form only: https://www.globalinnovation.fund/apply-for-funding (no e |
+| 15 | NorthInvest | Angel Network | United Kingdom | 69 | 10 | +44 113 320 0777 | Email info@northinvest.co.uk or founder application via https://northinvest.co.u |
+| 16 | LocalGlobe (Phoenix Court) | Venture Capital | United Kingdom | 77 | 5 | PHONE NOT PUBLICLY AVAILABLE | Website submission via https://www.phoenixcourt.vc/localglobe (no formal form; w |
+| 17 | Calm/Storm Ventures | Venture Capital | Austria | 75 | 6 | PHONE NOT PUBLICLY AVAILABLE | Email hello@calmstorm.vc; LinkedIn to Lucanus Polagnoli |
+| 18 | Future Africa | Venture Capital | Nigeria | 74 | 7 | PHONE NOT PUBLICLY AVAILABLE | Email funding@future.africa with a proposal (recommendation from network preferr |
+| 19 | RH Capital (Rhia Ventures) | Venture Capital | United States | 74 | 7 | PHONE NOT PUBLICLY AVAILABLE | Web contact: https://rhcapital.vc/contact/; email info@rhiaventures.org |
+| 20 | Seedcamp | Venture Capital | United Kingdom | 74 | 7 | +442039362828 | Web application via https://seedcamp.com/contact/ (email submission guidance on  |
+| 21 | AAIC Investment (Asia Africa Investment & Consulting) – Africa Healthcare Fund | Venture Capital | Singapore | 73 | 7 | PHONE NOT PUBLICLY AVAILABLE | Email pr-investment@aa-ic.com; Singapore office 180B Bencoolen Street #05-02, Si |
+| 22 | Ingressive Capital | Venture Capital | Nigeria | 73 | 7 | PHONE NOT PUBLICLY AVAILABLE | Web application form https://ingressivecapital.com/application/; contact page ht |
+| 23 | MMC Ventures | Venture Capital | United Kingdom | 72 | 8 | 020 7938 2220 | Email invest@mmc.vc or contact form https://mmc.vc/contact-us/ |
+| 24 | Angel Academe | Angel Network | United Kingdom | 76 | 5 | PHONE NOT PUBLICLY AVAILABLE | Founder application form at https://www.angelacademe.com/founders (no fees; cont |
+| 25 | UCL Technology Fund | University / Institutional Fund | United Kingdom | 76 | 5 | PHONE NOT PUBLICLY AVAILABLE | Email info@ucltf.co.uk; UCL researchers route via their UCLB Business Manager |
 
-## 1. SBRI Healthcare (NHS England / Accelerated Access Collaborative, managed by LGC) (VX-001)
-
-1. **Investor:** SBRI Healthcare (NHS England / Accelerated Access Collaborative, managed by LGC) — Government / Innovation Fund (NHS-funded NON-DILUTIVE development contracts (100% funded, competition-based) for health innovations), Teddington / London, United Kingdom — https://sbrihealthcare.co.uk/
-2. **Why they fit Vytalix:** SBRI Healthcare pays 100% of development costs when a competition theme matches, and maternity and health inequalities are recurring NHS priorities that MaternaLink v1 directly addresses.
-3. **Why they fit MaternaLink:** MaternaLink fit 8/10 — Yes – exclusively NHS-facing health innovation
-4. **Investment stage:** Pre-revenue eligible; needs NHS partner and credible team
-5. **Typical ticket:** c. £100k (Phase 1) to c. £1m (Phase 2) contracts
-6. **Phone number:** +44 20 8843 8125 (VERIFIED 2026-09-07 (source in phone_source_url); source: https://sbrihealthcare.co.uk/contact-us)
-7. **Email / contact route:** NOT PUBLICLY AVAILABLE — sbri@lgcgroup.com or +44 20 8843 8125 ; competitions via https://sbrihealthcare.co.uk/sbri-portal/
-8. **Relevant decision maker:** NOT PUBLICLY IDENTIFIED (NOT PUBLICLY IDENTIFIED)
-9. **Best introduction route:** Yes – SBRI Healthcare runs open briefing webinars for each competition
-10. **Relevant previous investment:** Innovation portfolio at https://sbrihealthcare.co.uk/companies/ incl. maternity and women's-health digital tools
-11. **Strategic value:** 13/15 strategic, 8/10 network — NON-DILUTIVE development contracts, not equity. Phone and email verified on official contact page 2026-09-07. Competitions are themed – wait for a maternity/women's-health/health-inequalities call; requires UK incorporat
-12. **Likely objection:** Assessors will ask for an NHS clinical partner, a credible technical team and evidence of need, none of which Vytalix can yet document.
-13. **Recommended pitch angle:** Secure a maternity-unit clinical champion and apply to the next maternity or health-inequalities themed call with a non-diagnostic care-coordination Phase 1.
-14. **Priority score:** Fit 87/100 · Contactability 7/10 · Overall 84 · Tier A
-15. **Next action:** Call investment team using verified number; follow with personalised email same day.
-
-## 2. Octopus Ventures (VX-002)
+## 1. Octopus Ventures (VX-001)
 
 1. **Investor:** Octopus Ventures — Venture Capital (Multi-stage VC with dedicated health team and pre-seed programme), London, United Kingdom — https://octopusventures.com/
 2. **Why they fit Vytalix:** Octopus runs a dedicated £100k pre-seed programme plus a health team that has already led rounds in women's-health companies (Vira Health), so it can meet Vytalix at pre-formation stage and follow on.
@@ -66,25 +48,7 @@ Ranked by Overall Score (0.85 × Fit /100 + 1.5 × Contactability /10). Phone nu
 14. **Priority score:** Fit 85/100 · Contactability 6/10 · Overall 81 · Tier A
 15. **Next action:** Verify phone via official contact page; send personalised email/LinkedIn to Will Gibbs; seek warm intro.
 
-## 3. Innovate UK (UKRI) (VX-003)
-
-1. **Investor:** Innovate UK (UKRI) — Government / Innovation Fund (UK national innovation agency – NON-DILUTIVE grants (Smart, Biomedical Catalyst, Women in Innovation) and innovation loans), Swindon, United Kingdom — https://www.ukri.org/councils/innovate-uk/
-2. **Why they fit Vytalix:** Innovate UK is the most accessible non-dilutive funder for a newly incorporated UK health-tech and can fund the feasibility and clinical-partnership work MaternaLink needs before any equity round.
-3. **Why they fit MaternaLink:** MaternaLink fit 6/10 — Yes – Biomedical Catalyst and health/AI competitions; digital health and maternal-health projects have been funded
-4. **Investment stage:** Any – pre-revenue eligible for grants
-5. **Typical ticket:** Grants typically £25k–£2m at 50–70% intervention rate; loans £100k–£2m
-6. **Phone number:** 0300 321 4357 (VERIFIED 2026-09-07 (source in phone_source_url); source: https://apply-for-innovation-funding.service.gov.uk/info/contact)
-7. **Email / contact route:** NOT PUBLICLY AVAILABLE — Innovation Funding Service https://apply-for-innovation-funding.service.gov.uk/ ; support 0300 321 4357 (9–12, 2–5 Mon–Fri) / support@iuk.ukri.org ; Innovate UK Business Connect 03333 403250
-8. **Relevant decision maker:** NOT PUBLICLY IDENTIFIED (NOT PUBLICLY IDENTIFIED)
-9. **Best introduction route:** Yes – Innovate UK Business Growth advisers and Business Connect are open to any UK company
-10. **Relevant previous investment:** Thousands of UK health-tech grants incl. maternal and women's-health digital projects
-11. **Strategic value:** 11/15 strategic, 8/10 network — NON-DILUTIVE: grants, not equity. Phone and email verified on official IFS contact page 2026-09-07. Requires UK incorporation, match funding (typically 30–50% for SMEs) and a UK project; Women in Innovation Awards 2025/2
-12. **Likely objection:** Vytalix is not yet incorporated, cannot show match funding or a delivery partner, and must not overclaim clinical capability in an application.
-13. **Recommended pitch angle:** Incorporate, then apply for a feasibility-stage grant (Biomedical Catalyst or open Smart round) with an NHS trust or university obstetrics partner and honest v1 non-diagnostic scope.
-14. **Priority score:** Fit 83/100 · Contactability 7/10 · Overall 81 · Tier A
-15. **Next action:** Call investment team using verified number; follow with personalised email same day.
-
-## 4. Ada Ventures (VX-004)
+## 2. Ada Ventures (VX-002)
 
 1. **Investor:** Ada Ventures — Venture Capital (Inclusive pre-seed / seed VC (themes: healthy ageing, climate equity, economic empowerment)), London, United Kingdom — https://www.adaventures.com/
 2. **Why they fit Vytalix:** Ada writes £250k-£1.5m pre-seed cheques through an open portal, has a health theme and an explicit inclusion mandate that aligns with MaternaLink's focus on Black maternal-health disparities.
@@ -102,25 +66,7 @@ Ranked by Overall Score (0.85 × Fit /100 + 1.5 × Contactability /10). Phone nu
 14. **Priority score:** Fit 82/100 · Contactability 6/10 · Overall 79 · Tier A
 15. **Next action:** Verify phone via official contact page; send personalised email/LinkedIn to Check Warner; seek warm intro.
 
-## 5. NIHR Invention for Innovation (i4i) Programme (VX-005)
-
-1. **Investor:** NIHR Invention for Innovation (i4i) Programme — Government / Innovation Fund (NIHR NON-DILUTIVE translational funding (i4i Connect for SMEs, Product Development Awards, Challenge Awards)), Twickenham / London, United Kingdom — https://www.nihr.ac.uk/research-funding/funding-programmes/invention-for-innovation
-2. **Why they fit Vytalix:** NIHR i4i is the UK's dedicated funder for taking a health technology like the MaternaLink risk-score from prototype to clinical evaluation with NHS partners.
-3. **Why they fit MaternaLink:** MaternaLink fit 7/10 — Yes – exclusively NHS health technology
-4. **Investment stage:** Pre-revenue SMEs with a prototype and clinical partner
-5. **Typical ticket:** i4i Connect £50k–£150k; PDA up to c. £1.5m
-6. **Phone number:** 020 8843 8080 (VERIFIED 2026-09-07 (source in phone_source_url); source: https://www.nihr.ac.uk/contact-us?letter=H)
-7. **Email / contact route:** NOT PUBLICLY AVAILABLE — i4i@nihr.ac.uk (eligibility queries) or 020 8843 8080 ; applications via NIHR funding portal
-8. **Relevant decision maker:** NOT PUBLICLY IDENTIFIED (NOT PUBLICLY IDENTIFIED)
-9. **Best introduction route:** Yes – NIHR Research Support Service offers free pre-application advice
-10. **Relevant previous investment:** UK medtech and digital-health SMEs; maternal-health devices and apps among awardees
-11. **Strategic value:** 12/15 strategic, 8/10 network — NON-DILUTIVE. Phone and email verified on official NIHR pages 2026-09-07. i4i is best suited to the MIS research track (SaMD pathway) rather than the v1 coordination platform; requires an NHS or academic co-applicant.
-12. **Likely objection:** i4i expects a working prototype, a defined clinical need and an NHS/academic collaborator, and the AI risk-score currently has no data or validation.
-13. **Recommended pitch angle:** Use i4i Connect for the MIS research track once a university obstetrics group agrees to co-apply, keeping claims to 'intended to support' language.
-14. **Priority score:** Fit 81/100 · Contactability 7/10 · Overall 79 · Tier A
-15. **Next action:** Call investment team using verified number; follow with personalised email same day.
-
-## 6. TLcom Capital (VX-006)
+## 3. TLcom Capital (VX-003)
 
 1. **Investor:** TLcom Capital — Venture Capital (Africa-focused seed/Series A VC (UK-registered LLP with Lagos and Nairobi offices)), London (also Lagos, Nairobi), United Kingdom — https://www.tlcomcapital.com
 2. **Why they fit Vytalix:** A London-registered Africa fund with Lagos and Nairobi offices, a healthcare mandate (Ilara Health) and a Lagos partner explicitly tasked with pre-seed and female-founder deals.
@@ -138,7 +84,7 @@ Ranked by Overall Score (0.85 × Fit /100 + 1.5 × Contactability /10). Phone nu
 14. **Priority score:** Fit 77/100 · Contactability 9/10 · Overall 79 · Tier B
 15. **Next action:** Call to qualify fit and process; log outcome; send one-pager.
 
-## 7. Goddess Gaia Ventures (VX-007)
+## 4. Goddess Gaia Ventures (VX-004)
 
 1. **Investor:** Goddess Gaia Ventures — Venture Capital (Women's-health / femtech VC (pre-Series A)), London, United Kingdom — https://www.ggventuresgroup.com/
 2. **Why they fit Vytalix:** The only UK-based fund investing exclusively in women's health at pre-Series A, so MaternaLink's Black-maternal-health focus fits its mandate directly.
@@ -156,7 +102,7 @@ Ranked by Overall Score (0.85 × Fit /100 + 1.5 × Contactability /10). Phone nu
 14. **Priority score:** Fit 81/100 · Contactability 6/10 · Overall 78 · Tier A
 15. **Next action:** Verify phone via official contact page; send personalised email/LinkedIn to Priya Oberoi; seek warm intro.
 
-## 8. AlbionVC (VX-008)
+## 5. AlbionVC (VX-005)
 
 1. **Investor:** AlbionVC — Venture Capital (UK seed / Series A VC for B2B software and healthcare (VCT-backed; manages UCL Technology Fund)), London, United Kingdom — https://albion.vc/
 2. **Why they fit Vytalix:** AlbionVC is one of the few UK VCs with a dedicated healthtech practice, NHS-facing portfolio and a verified office line, making it a realistic seed lead once Vytalix has a UK pilot.
@@ -174,7 +120,7 @@ Ranked by Overall Score (0.85 × Fit /100 + 1.5 × Contactability /10). Phone nu
 14. **Priority score:** Fit 80/100 · Contactability 7/10 · Overall 78 · Tier A
 15. **Next action:** Call investment team using verified number; follow with personalised email same day.
 
-## 9. Grand Challenges Canada (VX-009)
+## 6. Grand Challenges Canada (VX-006)
 
 1. **Investor:** Grand Challenges Canada — Impact / DFI (Government-funded innovation platform (grants, repayable grants, equity) with explicit maternal, newborn and child health focus), Toronto, Canada — https://www.grandchallenges.ca/
 2. **Why they fit Vytalix:** Grand Challenges Canada is one of the few funders whose core mandate is literally maternal and newborn health innovation in countries like Nigeria, with seed cheques sized for a pre-seed company.
@@ -192,7 +138,7 @@ Ranked by Overall Score (0.85 × Fit /100 + 1.5 × Contactability /10). Phone nu
 14. **Priority score:** Fit 78/100 · Contactability 7/10 · Overall 77 · Tier B
 15. **Next action:** Call to qualify fit and process; log outcome; send one-pager.
 
-## 10. Ventures Platform (VX-010)
+## 7. Ventures Platform (VX-007)
 
 1. **Investor:** Ventures Platform — Venture Capital (Africa-focused generalist VC (pre-seed to pre-Series A)), Lagos / Abuja, Nigeria — https://www.venturesplatform.com
 2. **Why they fit Vytalix:** The most active Nigerian-headquartered early-stage fund, with health tech as a named sector and a fresh US$84m Fund II (Aug 2026) that includes a pre-seed strategy.
@@ -210,7 +156,7 @@ Ranked by Overall Score (0.85 × Fit /100 + 1.5 × Contactability /10). Phone nu
 14. **Priority score:** Fit 77/100 · Contactability 8/10 · Overall 77 · Tier B
 15. **Next action:** Call to qualify fit and process; log outcome; send one-pager.
 
-## 11. Nina Capital (VX-011)
+## 8. Nina Capital (VX-008)
 
 1. **Investor:** Nina Capital — Venture Capital (Specialist early-stage health-tech VC (regulated AIFM, three funds)), Barcelona, Spain — https://www.nina.capital/
 2. **Why they fit Vytalix:** Nina is a pure-play pre-seed health-tech investor that backs UK companies, making it one of the few EU funds that could lead Vytalix's first round.
@@ -228,7 +174,7 @@ Ranked by Overall Score (0.85 × Fit /100 + 1.5 × Contactability /10). Phone nu
 14. **Priority score:** Fit 79/100 · Contactability 6/10 · Overall 76 · Tier B
 15. **Next action:** Email/LinkedIn introduction; request 20-minute call; verify phone.
 
-## 12. GC Angels (VX-012)
+## 9. GC Angels (VX-009)
 
 1. **Investor:** GC Angels — Angel Network (Public-backed early-stage equity vehicle and angel co-investment arm of The Growth Company (Greater Manchester Combined Authority)), Manchester, United Kingdom — https://gcangels.uk/
 2. **Why they fit Vytalix:** GC Angels writes small direct cheques alongside angels into pre-seed North West companies and sits inside Greater Manchester's devolved health system, a natural pilot environment for a maternity care-coordination platform.
@@ -246,7 +192,7 @@ Ranked by Overall Score (0.85 × Fit /100 + 1.5 × Contactability /10). Phone nu
 14. **Priority score:** Fit 74/100 · Contactability 9/10 · Overall 76 · Tier B
 15. **Next action:** Call to qualify fit and process; log outcome; send one-pager.
 
-## 13. Cambridge Enterprise Seed Funds (VX-013)
+## 10. Cambridge Enterprise Seed Funds (VX-010)
 
 1. **Investor:** Cambridge Enterprise Seed Funds — University / Institutional Fund (University of Cambridge seed funds investing in Cambridge spin-outs and start-ups (managed by Cambridge Enterprise; Parkwalk manages associated EIS funds)), Cambridge, United Kingdom — https://www.enterprise.cam.ac.uk/
 2. **Why they fit Vytalix:** Cambridge Enterprise Seed Funds back pre-revenue health ventures at true seed stage and carry strong follow-on investor networks.
@@ -264,7 +210,7 @@ Ranked by Overall Score (0.85 × Fit /100 + 1.5 × Contactability /10). Phone nu
 14. **Priority score:** Fit 73/100 · Contactability 9/10 · Overall 76 · Tier B
 15. **Next action:** Call to qualify fit and process; log outcome; send one-pager.
 
-## 14. o2h Ventures (VX-014)
+## 11. o2h Ventures (VX-011)
 
 1. **Investor:** o2h Ventures — Venture Capital (SEIS/EIS knowledge-intensive 'human health' funds (biotech, therapeutics, health-tech/AI)), Cambridge (Hauxton), United Kingdom — https://o2hventures.com
 2. **Why they fit Vytalix:** A dedicated SEIS/EIS health investor writing pre-seed cheques in the exact £100k–£500k range Vytalix needs first, with an open pitch-day route.
@@ -282,7 +228,7 @@ Ranked by Overall Score (0.85 × Fit /100 + 1.5 × Contactability /10). Phone nu
 14. **Priority score:** Fit 73/100 · Contactability 9/10 · Overall 76 · Tier B
 15. **Next action:** Call to qualify fit and process; log outcome; send one-pager.
 
-## 15. Founders Factory Africa (VX-015)
+## 12. Founders Factory Africa (VX-012)
 
 1. **Investor:** Founders Factory Africa — Venture Capital (Accelerator fund / venture studio (invests cash for equity)), Johannesburg, South Africa — https://www.foundersfactory.africa
 2. **Why they fit Vytalix:** Combines cash with hands-on product and venture-building support, which is exactly what a pre-formation team with a prototype dashboard and no engineering capacity needs.
@@ -300,7 +246,7 @@ Ranked by Overall Score (0.85 × Fit /100 + 1.5 × Contactability /10). Phone nu
 14. **Priority score:** Fit 76/100 · Contactability 7/10 · Overall 75 · Tier B
 15. **Next action:** Email/LinkedIn introduction; request 20-minute call; verify phone.
 
-## 16. Villgro Africa (VX-016)
+## 13. Villgro Africa (VX-013)
 
 1. **Investor:** Villgro Africa — Impact / DFI (Health-focused incubator and impact investor (seed cash for equity/grant blends)), Nairobi, Kenya — https://villgroafrica.org
 2. **Why they fit Vytalix:** The only Africa investor in this list that is health-only and built for pre-seed ventures, so MaternaLink's maternal care-coordination thesis is squarely in mandate.
@@ -318,7 +264,7 @@ Ranked by Overall Score (0.85 × Fit /100 + 1.5 × Contactability /10). Phone nu
 14. **Priority score:** Fit 78/100 · Contactability 5/10 · Overall 74 · Tier B
 15. **Next action:** Email/LinkedIn introduction; request 20-minute call; verify phone.
 
-## 17. Global Innovation Fund (GIF) (VX-017)
+## 14. Global Innovation Fund (GIF) (VX-014)
 
 1. **Investor:** Global Innovation Fund (GIF) — Impact / DFI (Non-profit impact-first investor (grants, equity, debt) backed by UK FCDO and others), London, United Kingdom — https://www.globalinnovation.fund/
 2. **Why they fit Vytalix:** GIF is London-based, funds maternal and digital-health innovations in Nigeria at pilot stage with US$50k-scale grants and equity, and demands the kind of evidence design that MaternaLink's re-based v1 needs anyway.
@@ -336,7 +282,7 @@ Ranked by Overall Score (0.85 × Fit /100 + 1.5 × Contactability /10). Phone nu
 14. **Priority score:** Fit 76/100 · Contactability 6/10 · Overall 74 · Tier B
 15. **Next action:** Email/LinkedIn introduction; request 20-minute call; verify phone.
 
-## 18. NorthInvest (VX-018)
+## 15. NorthInvest (VX-015)
 
 1. **Investor:** NorthInvest — Angel Network (Not-for-profit angel network and investor readiness organisation for the North of England), Leeds, United Kingdom — https://northinvest.co.uk/
 2. **Why they fit Vytalix:** NorthInvest offers free investor-readiness support and monthly pitch access to Northern angels, and Leeds's NHS digital cluster makes it a credible base for a maternal-health platform.
@@ -354,7 +300,7 @@ Ranked by Overall Score (0.85 × Fit /100 + 1.5 × Contactability /10). Phone nu
 14. **Priority score:** Fit 69/100 · Contactability 10/10 · Overall 74 · Tier B
 15. **Next action:** Call to qualify fit and process; log outcome; send one-pager.
 
-## 19. LocalGlobe (Phoenix Court) (VX-019)
+## 16. LocalGlobe (Phoenix Court) (VX-016)
 
 1. **Investor:** LocalGlobe (Phoenix Court) — Venture Capital (Pre-seed / seed VC (Phoenix Court group; Latitude for later stage)), London, United Kingdom — https://www.phoenixcourt.vc/localglobe
 2. **Why they fit Vytalix:** LocalGlobe seeds UK founders at pre-seed, has a health-tech partner and NHS-facing portfolio (Echo, Apian), and its Phoenix Court community lens fits a mission-led maternal-health company.
@@ -372,7 +318,7 @@ Ranked by Overall Score (0.85 × Fit /100 + 1.5 × Contactability /10). Phone nu
 14. **Priority score:** Fit 77/100 · Contactability 5/10 · Overall 73 · Tier B
 15. **Next action:** Email/LinkedIn introduction; request 20-minute call; verify phone.
 
-## 20. Calm/Storm Ventures (VX-020)
+## 17. Calm/Storm Ventures (VX-017)
 
 1. **Investor:** Calm/Storm Ventures — Venture Capital (Boutique health-tech seed VC and founder network), Vienna, Austria — https://www.calmstorm.vc/
 2. **Why they fit Vytalix:** Calm/Storm writes small pre-seed health-tech cheques across Europe and the US and has backed women's-health founders.
@@ -390,7 +336,7 @@ Ranked by Overall Score (0.85 × Fit /100 + 1.5 × Contactability /10). Phone nu
 14. **Priority score:** Fit 75/100 · Contactability 6/10 · Overall 73 · Tier B
 15. **Next action:** Email/LinkedIn introduction; request 20-minute call; verify phone.
 
-## 21. Future Africa (VX-021)
+## 18. Future Africa (VX-018)
 
 1. **Investor:** Future Africa — Venture Capital (Africa-focused pre-seed/seed VC (founder-collective model)), Lagos, Nigeria — https://www.future.africa
 2. **Why they fit Vytalix:** Writes cheques as small as US$25k at pre-seed for mission-driven African founders, which matches Vytalix's first-round size and its Nigeria expansion story.
@@ -408,7 +354,7 @@ Ranked by Overall Score (0.85 × Fit /100 + 1.5 × Contactability /10). Phone nu
 14. **Priority score:** Fit 74/100 · Contactability 7/10 · Overall 73 · Tier B
 15. **Next action:** Email/LinkedIn introduction; request 20-minute call; verify phone.
 
-## 22. RH Capital (Rhia Ventures) (VX-022)
+## 19. RH Capital (Rhia Ventures) (VX-019)
 
 1. **Investor:** RH Capital (Rhia Ventures) — Venture Capital (Impact women's-health VC fund managed by a non-profit), San Francisco, United States — https://rhcapital.vc/
 2. **Why they fit Vytalix:** RH Capital's explicit maternal-health and health-equity mandate mirrors MaternaLink's focus on reducing disparities for Black mothers.
@@ -426,7 +372,7 @@ Ranked by Overall Score (0.85 × Fit /100 + 1.5 × Contactability /10). Phone nu
 14. **Priority score:** Fit 74/100 · Contactability 7/10 · Overall 73 · Tier B
 15. **Next action:** Email/LinkedIn introduction; request 20-minute call; verify phone.
 
-## 23. Seedcamp (VX-023)
+## 20. Seedcamp (VX-020)
 
 1. **Investor:** Seedcamp — Venture Capital (Pre-seed / seed fund (Europe's seed fund)), London, United Kingdom — https://seedcamp.com/
 2. **Why they fit Vytalix:** Seedcamp invests at true pre-seed across Europe, lists healthtech as a vertical and accepts cold applications, so it is a plausible first institutional cheque once Vytalix is incorporated.
@@ -444,7 +390,7 @@ Ranked by Overall Score (0.85 × Fit /100 + 1.5 × Contactability /10). Phone nu
 14. **Priority score:** Fit 74/100 · Contactability 7/10 · Overall 73 · Tier B
 15. **Next action:** Call to qualify fit and process; log outcome; send one-pager.
 
-## 24. AAIC Investment (Asia Africa Investment & Consulting) – Africa Healthcare Fund (VX-024)
+## 21. AAIC Investment (Asia Africa Investment & Consulting) – Africa Healthcare Fund (VX-021)
 
 1. **Investor:** AAIC Investment (Asia Africa Investment & Consulting) – Africa Healthcare Fund — Venture Capital (Africa healthcare-focused VC (AHF1 / AHF2)), Singapore (offices in Nairobi, Cairo; Tokyo group HQ), Singapore — https://aaicinvestment.com
 2. **Why they fit Vytalix:** A dedicated Africa healthcare fund with a Nairobi office and Egypt presence, so it understands maternal-health economics in African public systems better than generalist VCs.
@@ -462,7 +408,7 @@ Ranked by Overall Score (0.85 × Fit /100 + 1.5 × Contactability /10). Phone nu
 14. **Priority score:** Fit 73/100 · Contactability 7/10 · Overall 73 · Tier B
 15. **Next action:** Email/LinkedIn introduction; request 20-minute call; verify phone.
 
-## 25. Ingressive Capital (VX-025)
+## 22. Ingressive Capital (VX-022)
 
 1. **Investor:** Ingressive Capital — Venture Capital (Africa-focused pre-seed/seed VC), Lagos, Nigeria — https://ingressivecapital.com
 2. **Why they fit Vytalix:** Lagos pre-seed fund with an open application form, US$100k-500k cheques and health tech explicitly in scope.
@@ -478,4 +424,58 @@ Ranked by Overall Score (0.85 × Fit /100 + 1.5 × Contactability /10). Phone nu
 12. **Likely objection:** They target ~10% ownership in Africa-domiciled companies with a product in market, and Vytalix has no incorporated entity, revenue or validated product yet.
 13. **Recommended pitch angle:** Frame MaternaLink as a Nigeria-first maternal care-coordination SaaS with a state-government sales motion, backed by UK clinical-governance standards.
 14. **Priority score:** Fit 73/100 · Contactability 7/10 · Overall 73 · Tier B
+15. **Next action:** Email/LinkedIn introduction; request 20-minute call; verify phone.
+
+## 23. MMC Ventures (VX-023)
+
+1. **Investor:** MMC Ventures — Venture Capital (Seed / Series A research-led VC (EIS and institutional funds)), London, United Kingdom — https://mmc.vc/
+2. **Why they fit Vytalix:** MMC has a named data-driven-health theme, a public invest@ inbox and an EIS fund that can write seed cheques into UK companies, making it reachable without a warm intro.
+3. **Why they fit MaternaLink:** MaternaLink fit 5/10 — Yes - 'data-driven health' is a named investment theme
+4. **Investment stage:** Seed, Series A (research-led)
+5. **Typical ticket:** c.£1m-£5m initial (ESTIMATE from public profiles); EIS fund also invests at seed
+6. **Phone number:** 020 7938 2220 (VERIFIED 2026-09-07 (source in phone_source_url); source: https://mmc.vc/contact-us/)
+7. **Email / contact route:** invest@mmc.vc — Email invest@mmc.vc or contact form https://mmc.vc/contact-us/
+8. **Relevant decision maker:** Simon Menashy (Partner (name from prior knowledge - confirm on https://mmc.vc/team/))
+9. **Best introduction route:** Possible - via Current Health or XUND founders (digital-health portfolio)
+10. **Relevant previous investment:** Current Health (remote patient monitoring, acquired by Best Buy), XUND (AI symptom-check / medical API, seed extension), Synthesia, Signal AI
+11. **Strategic value:** 10/15 strategic, 8/10 network — Office 24 High Holborn, London WC1V 6AZ and phone shown in official-domain (mmc.vc) search result. Research-led house; 'data-driven health' theme favours evidence and data assets Vytalix does not yet hold.
+12. **Likely objection:** MMC's research-led seed/Series A model expects product, data and early traction, which a pre-formation group without a validated MaternaLink prototype cannot yet show.
+13. **Recommended pitch angle:** Approach after incorporation and SEIS/EIS advance assurance with a data-strategy narrative: how MaternaLink's care-coordination v1 builds the longitudinal maternal dataset that later supports the (v3+) AI research track.
+14. **Priority score:** Fit 72/100 · Contactability 8/10 · Overall 73 · Tier B
+15. **Next action:** Call to qualify fit and process; log outcome; send one-pager.
+
+## 24. Angel Academe (VX-024)
+
+1. **Investor:** Angel Academe — Angel Network (Women-led angel network and EIS fund investing in tech startups with at least one woman founder), London, United Kingdom — https://www.angelacademe.com/
+2. **Why they fit Vytalix:** Angel Academe is a fee-free UK pre-seed network that already backs women's-health companies like Bea Fertility, so a maternal-health platform fits its investors' interests directly.
+3. **Why they fit MaternaLink:** MaternaLink fit 8/10 — Partial - health-tech is a regular theme (portfolio includes women's-health companies)
+4. **Investment stage:** Pre-seed and Seed
+5. **Typical ticket:** GBP 100k-500k per round from the network (ESTIMATE); EIS fund co-invests
+6. **Phone number:** PHONE NOT PUBLICLY AVAILABLE (PHONE NOT PUBLICLY AVAILABLE)
+7. **Email / contact route:** NOT PUBLICLY AVAILABLE — Founder application form at https://www.angelacademe.com/founders (no fees; contact page for other queries)
+8. **Relevant decision maker:** NOT PUBLICLY IDENTIFIED (NOT PUBLICLY IDENTIFIED)
+9. **Best introduction route:** Possible - via portfolio founders such as Bea Fertility
+10. **Relevant previous investment:** Bea Fertility (women's health), Provenance, Uncommon, Pherosyn (per official site news page)
+11. **Strategic value:** 7/15 strategic, 6/10 network — Official site uses online forms; no phone or email surfaced. Eligibility requires at least one woman founder - a co-founder decision for Vytalix.
+12. **Likely objection:** Angel Academe requires at least one woman founder on the cap table, and Vytalix's founding team composition is currently undocumented.
+13. **Recommended pitch angle:** If a woman co-founder or clinical co-founder joins, apply via the founders form positioning MaternaLink (in development) as a UK maternal care-coordination platform led by an inclusive team.
+14. **Priority score:** Fit 76/100 · Contactability 5/10 · Overall 72 · Tier B
+15. **Next action:** Email/LinkedIn introduction; request 20-minute call; verify phone.
+
+## 25. UCL Technology Fund (VX-025)
+
+1. **Investor:** UCL Technology Fund — University / Institutional Fund (University College London technology fund managed by AlbionVC with UCL Business (UCLB)), London, United Kingdom — https://ucltf.co.uk/
+2. **Why they fit Vytalix:** UCLTF sits next to UCL's Institute for Women's Health and UCLH, so a MaternaLink research collaboration with UCL could unlock both clinical validation and a natural seed investor.
+3. **Why they fit MaternaLink:** MaternaLink fit 6/10 — Yes - a large share of the portfolio is therapeutics, medtech and digital health (UCL / UCLH ecosystem)
+4. **Investment stage:** Pre-seed, Seed and Series A
+5. **Typical ticket:** GBP 250k-2m initial (ESTIMATE)
+6. **Phone number:** PHONE NOT PUBLICLY AVAILABLE (PHONE NOT PUBLICLY AVAILABLE)
+7. **Email / contact route:** NOT PUBLICLY AVAILABLE — Email info@ucltf.co.uk; UCL researchers route via their UCLB Business Manager
+8. **Relevant decision maker:** NOT PUBLICLY IDENTIFIED (NOT PUBLICLY IDENTIFIED)
+9. **Best introduction route:** Possible – via a UCL clinical academic (e.g. UCL Institute for Women's Health) joining as adviser
+10. **Relevant previous investment:** UCL health spin-outs (TO VALIDATE on official portfolio)
+11. **Strategic value:** 10/15 strategic, 8/10 network — Invests only in UCL-derived IP/companies; AlbionVC (in file 01) is the manager. No phone surfaced.
+12. **Likely objection:** UCLTF only funds companies built on UCL research or founded by UCL staff/students, which Vytalix is not.
+13. **Recommended pitch angle:** Pursue a research partnership with a UCL maternal-health group first; only then present MaternaLink's v3 AI risk-stratification track as UCL-linked IP eligible for UCLTF.
+14. **Priority score:** Fit 76/100 · Contactability 5/10 · Overall 72 · Tier B
 15. **Next action:** Email/LinkedIn introduction; request 20-minute call; verify phone.

@@ -13,7 +13,7 @@ from collections import OrderedDict, Counter
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 RAW = os.path.join(ROOT, "raw")
-TODAY = "2026-09-07"
+TODAY = "2026-09-08"
 
 SCHEMA = [l.strip() for l in open(os.path.join(RAW, "SCHEMA.md")) if l.startswith("investor_name,")][0].split(",")
 FIT = ["sector_fit_20","stage_fit_15","ticket_fit_15","geo_fit_10","strategic_fit_15","maternalink_fit_10","accessibility_5","network_value_10"]
@@ -84,8 +84,22 @@ def next_action(r, tier, con):
     if tier == "B": return "Email/LinkedIn introduction; request 20-minute call; verify phone."
     return "Monitor; add to quarterly update list; approach after first pilot/revenue."
 
+def is_grant_only(r):
+    sub = (r.get("subcategory","") + " " + r.get("investor_type","")).upper()
+    return "NON-DILUTIVE" in sub and "EQUITY" not in sub
+
+def write_non_dilutive(grants):
+    with open(os.path.join(ROOT, "NON_DILUTIVE_FUNDING_ROUTES.md"), "w", encoding="utf-8") as f:
+        f.write("# NON-DILUTIVE FUNDING ROUTES (kept outside the investor CRM)\n\nThese are grant or contract funders, not investors, so they are excluded from the 300-investor CRM, the Top 25 and the call lists in line with the investor-only rule. They remain high priority for the funding strategy (see `/docs/09_FUNDING_STRATEGY.md`).\n\n")
+        f.write("| Programme | What it funds | Stage / eligibility | Phone (public source) | Route | Source |\n|---|---|---|---|---|---|\n")
+        for r in grants:
+            f.write(f"| {r['investor_name']} | {r['subcategory'][:160]} | {r['investment_stage'][:120]} | {best_phone(r)} | {r['contact_route'][:160]} | {r['phone_source_url'] or r['source_urls'][:120]} |\n")
+
 def build():
     rows, dupes, bad = load()
+    grants = [r for r in rows if is_grant_only(r)]
+    rows = [r for r in rows if not is_grant_only(r)]
+    write_non_dilutive(grants)
     for cat, hdr in bad:
         print(f"WARNING: header mismatch in {cat}: {hdr}", file=sys.stderr)
     for r in rows:

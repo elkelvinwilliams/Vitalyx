@@ -35,6 +35,7 @@
 - `investors/VYTALIX_INVESTOR_CRM.xlsx` and `.csv` — master CRM with fit /100, contactability /10, tiers
 - `investors/TOP_25_INVESTORS.md`, `investors/CALL_LISTS.md`, `investors/OUTREACH_TOP25.md`
 - `investors/OUTREACH_ENGINE.md`, `investors/CRM_PIPELINE.md`, `investors/INVESTOR_DASHBOARD.md`
+- `investors/NON_DILUTIVE_FUNDING_ROUTES.md` — grant programmes kept outside the investor-only CRM
 - Rebuild after edits: `python3 investors/build_crm.py` (raw research in `investors/raw/`)
 
 ## Brand, website, go-to-market

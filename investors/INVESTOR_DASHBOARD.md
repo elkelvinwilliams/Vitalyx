@@ -1,17 +1,17 @@
 # VYTALIX INVESTOR DASHBOARD
 
-Generated 2026-09-07 from `VYTALIX_INVESTOR_CRM.csv`. Activity counters are zero because outreach has not started; update `CRM Status` in the CRM and re-run `build_crm.py`.
+Generated 2026-09-08 from `VYTALIX_INVESTOR_CRM.csv`. Activity counters are zero because outreach has not started; update `CRM Status` in the CRM and re-run `build_crm.py`.
 
 | Metric | Value |
 |---|---|
-| TOTAL INVESTORS | 319 |
-| A-TIER (fit 80–100) | 7 |
+| TOTAL INVESTORS | 316 |
+| A-TIER (fit 80–100) | 4 |
 | B-TIER (65–79) | 87 |
 | C-TIER (50–64) | 147 |
 | BELOW 50 | 78 |
-| PHONE NUMBERS VERIFIED (public, sourced) | 46 |
+| PHONE NUMBERS VERIFIED (public, sourced) | 43 |
 | PHONE NOT PUBLICLY AVAILABLE | 273 |
-| EMAILS VERIFIED (public, sourced) | 54 |
+| EMAILS VERIFIED (public, sourced) | 51 |
 | DECISION MAKERS IDENTIFIED (public role) | 220 |
 | INVESTORS CONTACTED | 0 |
 | CALLS MADE | 0 |
@@ -30,14 +30,14 @@ Generated 2026-09-07 from `VYTALIX_INVESTOR_CRM.csv`. Activity counters are zero
 | Angel Network | 41 | 0 | 14 | 23 |
 | Impact / DFI | 38 | 0 | 7 | 13 |
 | Family Office | 23 | 0 | 3 | 7 |
-| Government / Innovation Fund | 8 | 3 | 1 | 2 |
+| Government / Innovation Fund | 5 | 0 | 1 | 2 |
 | University / Institutional Fund | 4 | 0 | 3 | 1 |
 
 ## By country (top 15)
 
 | Country | Count |
 |---|---|
-| United Kingdom | 142 |
+| United Kingdom | 139 |
 | United States | 64 |
 | Nigeria | 17 |
 | France | 11 |
