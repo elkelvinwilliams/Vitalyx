@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+# Replace the placeholder domain before deployment
+Sitemap: https://www.vytalix.example/sitemap.xml

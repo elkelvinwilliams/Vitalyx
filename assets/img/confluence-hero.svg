@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" preserveAspectRatio="xMaxYMid slice" aria-hidden="true" focusable="false">
+  <!-- "Confluence": monoline paths converging on a single node. Coordination, signal and care without depicting bodies or devices. -->
+  <g fill="none" stroke="#7FE0C3" stroke-width="2" stroke-linecap="round">
+    <path d="M40 40 C 260 120, 420 200, 600 330" opacity="0.7"/>
+    <path d="M900 20 C 780 140, 700 240, 600 330" opacity="0.6"/>
+    <path d="M60 620 C 240 560, 420 460, 600 330" opacity="0.7"/>
+    <path d="M900 640 C 800 520, 720 430, 600 330" opacity="0.5"/>
+    <path d="M0 330 C 200 300, 400 340, 600 330" opacity="0.35"/>
+    <path d="M600 330 C 700 330, 800 330, 900 330" opacity="0.35"/>
+  </g>
+  <g fill="none" stroke="#F7F4EE" stroke-width="1.25" stroke-linecap="round" opacity="0.16">
+    <path d="M20 120 C 240 190, 420 250, 640 370"/>
+    <path d="M880 100 C 760 200, 700 280, 560 400"/>
+    <path d="M100 640 C 260 560, 460 470, 660 300"/>
+    <path d="M900 560 C 780 480, 720 420, 540 280"/>
+    <path d="M0 260 C 260 240, 380 300, 660 260"/>
+    <path d="M0 400 C 260 420, 380 360, 660 400"/>
+  </g>
+  <g fill="#7FE0C3" opacity="0.8">
+    <circle cx="180" cy="86" r="4"/>
+    <circle cx="820" cy="96" r="4"/>
+    <circle cx="200" cy="582" r="4"/>
+    <circle cx="790" cy="560" r="4"/>
+    <circle cx="300" cy="316" r="3"/>
+  </g>
+  <circle cx="600" cy="330" r="40" fill="none" stroke="#BF3E27" stroke-width="1.5" opacity="0.45"/>
+  <circle cx="600" cy="330" r="14" fill="#BF3E27"/>
+  <circle cx="600" cy="330" r="6" fill="#F7F4EE"/>
+</svg>

@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MaternaLink (in development) — non-diagnostic maternity care coordination | Vytalix</title>
+  <meta name="description" content="MaternaLink is a care-coordination and communication platform for maternity services, in development by Vytalix. Non-diagnostic, not a medical device, subject to validation. Problem, approach, features, roadmap, safety and data principles, pilot invitation.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#F7F4EE" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0A1A26" media="(prefers-color-scheme: dark)">
+  <link rel="canonical" href="https://elkelvinwilliams.github.io/Vitalyx/maternalink.html">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/mark.svg">
+
+  <!-- Open Graph / Twitter. og:url and og:image use the PLACEHOLDER domain; replace before launch (see README). -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Vytalix">
+  <meta property="og:title" content="MaternaLink (in development) — non-diagnostic maternity care coordination | Vytalix">
+  <meta property="og:description" content="MaternaLink is a care-coordination and communication platform for maternity services, in development by Vytalix. Non-diagnostic, not a medical device, subject to validation. Problem, approach, features, roadmap, safety and data principles, pilot invitation.">
+  <meta property="og:url" content="https://elkelvinwilliams.github.io/Vitalyx/maternalink.html">
+  <meta property="og:image" content="https://elkelvinwilliams.github.io/Vitalyx/assets/img/og-image.png">
+  <meta property="og:image:alt" content="Vytalix — Technology for Life">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Vytalix",
+  "alternateName": "Vytalix Group",
+  "slogan": "Technology for Life",
+  "description": "A UK health-technology group that advises, builds, delivers and teaches, so that technology earns its place in care. Pre-seed and founder-led. MaternaLink is in development.",
+  "url": "https://elkelvinwilliams.github.io/Vitalyx/",
+  "logo": "https://elkelvinwilliams.github.io/Vitalyx/assets/img/mark.svg",
+  "email": "hello@[domain — TO VALIDATE]",
+  "foundingLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "GB"
+    }
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "[Registered office address — add after incorporation]",
+    "addressLocality": "[Town/City — add after incorporation]",
+    "postalCode": "[Postcode — add after incorporation]",
+    "addressCountry": "GB"
+  },
+  "legalName": "[Legal entity name — TO VALIDATE]",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "Companies House number",
+    "value": "[Company number — add after incorporation]"
+  },
+  "sameAs": [
+    "[LinkedIn company page URL — add when created]"
+  ],
+  "knowsAbout": [
+    "Digital health strategy",
+    "Maternity care coordination",
+    "Health technology regulation (UK)",
+    "Health-tech market entry (UK and Nigeria)",
+    "Digital health education"
+  ]
+}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Vytalix — home">
+        <img class="brand-logo" src="assets/img/vytalix-logo.png" alt="Vytalix — Technology for Life" width="380" height="149">
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="bars" aria-hidden="true"></span>
+        <span class="nav-toggle-label">Menu</span>
+      </button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="advisory.html">Advisory</a></li>
+          <li><a href="consulting.html">Consulting</a></li>
+          <li><a href="health-solutions.html" aria-current="page">Health Solutions</a></li>
+          <li><a href="e-learning.html">E-Learning</a></li>
+          <li><a href="insights.html">Insights</a></li>
+          <li class="nav-cta"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-contour" aria-hidden="true" style="color:var(--border)">
+        <svg viewBox="0 0 900 600" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <g fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round">
+            <path d="M40 480 C 200 480, 240 200, 420 200 C 600 200, 640 420, 860 380"/>
+            <path d="M40 420 C 200 420, 240 140, 420 140 C 600 140, 640 360, 860 320" opacity="0.8"/>
+            <path d="M40 540 C 200 540, 240 260, 420 260 C 600 260, 640 480, 860 440" opacity="0.8"/>
+            <path d="M40 360 C 200 360, 240 80, 420 80 C 600 80, 640 300, 860 260" opacity="0.55"/>
+            <path d="M40 600 C 200 600, 240 320, 420 320 C 600 320, 640 540, 860 500" opacity="0.55"/>
+          </g>
+        </svg>
+      </div>
+      <div class="container">
+        <span class="eyebrow">Vytalix Health Solutions</span>
+        <h1 id="page-title">MaternaLink <span class="tag">In development</span></h1>
+        <p class="lede">A care-coordination and communication platform for maternity services, designed to help women stay connected to their care team and help care teams hand over safely — built for both NHS and low-connectivity settings.</p>
+        <div class="cta-row">
+          <a class="btn btn--accent" href="#pilot">Pilot and design-partner invitation</a>
+          <a class="btn btn--ghost" href="#is-isnt">What it is, and is not</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight" aria-labelledby="status-title">
+      <div class="container">
+        <h2 id="status-title" class="visually-hidden">Status statement</h2>
+        <div class="notice">
+          <p><strong>Read this first.</strong> MaternaLink is in development. An early prototype exists and is not in clinical use. It is non-diagnostic by design and is not a medical device. It has not been assessed, approved or endorsed by the MHRA, NHS England, any NHS trust, any government or any professional body. There are no pilot sites, no clinical partners and no published evidence. Everything below is a design intention, subject to validation, unless it says otherwise. We will update this statement as each gate on the roadmap is passed.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tint" aria-labelledby="problem-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">The problem</span>
+          <h2 id="problem-title">Outcomes are unequal, and the failures are often failures of listening and handover</h2>
+        </div>
+        <div class="grid grid--3">
+          <div>
+            <h3>United Kingdom</h3>
+            <p>MBRRACE-UK's <em>Saving Lives, Improving Mothers' Care</em> reports have found, year after year, that Black women are several times more likely to die during or after pregnancy than White women, and that women in the most deprived areas face roughly double the risk. [Cite the current MBRRACE-UK report and exact figures before publication.]</p>
+            <p>The Ockenden (2022) and Kirkup (2022) reviews describe the mechanism: women not listened to, escalation that did not happen, information lost between community and hospital, shift and shift, antenatal and postnatal.</p>
+          </div>
+          <div>
+            <h3>Nigeria</h3>
+            <p>Nigeria carries the largest single share of the world's maternal deaths. [Cite WHO/UNICEF/UNFPA/World Bank <em>Trends in maternal mortality</em> before publication.] The dominant failure modes are the "three delays": deciding to seek care, reaching a facility, and receiving adequate care once there.</p>
+            <p>Most women outside cities use feature phones. Antenatal contacts are missed and nobody can see, in near-real time, who has fallen out of contact. Education arrives inconsistently and often in the wrong language.</p>
+          </div>
+          <div>
+            <h3>What is common to both</h3>
+            <ul>
+              <li>A woman's own account of how she feels is the most under-used information in maternity care.</li>
+              <li>Handover between professionals is where information is lost.</li>
+              <li>Education is delivered in the wrong language or at the wrong literacy level.</li>
+              <li>Programmes cannot see who has missed a contact and who is chasing them.</li>
+            </ul>
+            <p>None of this is solved by software alone. But each of these is a coordination problem, and coordination is something software can help with safely.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="approach-title">
+      <div class="container split">
+        <div>
+          <span class="eyebrow">Our approach</span>
+          <h2 id="approach-title">We re-based the product from prediction to coordination. Here is why.</h2>
+          <p>MaternaLink began in 2025 as a concept for a multimodal AI "Maternal Instability Score" that would predict complications from clinical, voice and social data. That concept had no data, no model, no validation and no clinical partner behind it — and, as a prediction tool, it would almost certainly be a medical device requiring years of validation before any claim could be made.</p>
+          <p>So version 1 is deliberately narrower. It is intended to support communication, education, appointment adherence and information handover between women and their care teams, and to support programme administration. It is designed to support, not replace, clinical judgement.</p>
+          <p>The original AI concept is not discarded. It is held as a research track — version 3 and beyond — with explicit prerequisites: data partnerships, ethics approval, retrospective and prospective validation, fairness analysis by ethnicity and deprivation, and a UK MDR / MHRA software-as-a-medical-device pathway. It is presented to investors as an option with a cost and a timeline, not as a product on the roadmap.</p>
+        </div>
+        <div>
+          <blockquote>"MaternaLink (in development) is a software platform intended to support communication, education, appointment scheduling and information handover between women receiving maternity care and their care teams, and to support programme administration. It is not intended to diagnose, prevent, monitor, predict, prognose, treat or alleviate any disease, injury or physiological condition, nor to provide clinical decision support. Information recorded by users is displayed without automated interpretation for review by qualified professionals who remain responsible for all clinical decisions."</blockquote>
+          <p class="meta">Proposed intended-use statement, version 1. To be validated with regulatory counsel against MHRA guidance on software as a medical device before any deployment.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="is-isnt" class="section section--tint" aria-labelledby="isisnt-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Scope</span>
+          <h2 id="isisnt-title">What MaternaLink is, and what it is not</h2>
+        </div>
+        <div class="is-isnt">
+          <div>
+            <h3><span class="tag tag--teal">Is</span> designed to be</h3>
+            <ul>
+              <li>A care-coordination and communication platform for maternity services</li>
+              <li>Non-diagnostic: information is displayed, never interpreted by the system</li>
+              <li>A support for handover between community, hospital, shifts and stages of care</li>
+              <li>A channel for clinically signed-off education in the right language and literacy level</li>
+              <li>Offline-capable and usable over two-way SMS, for feature phones and poor connectivity</li>
+              <li>Built with a Clinical Safety Officer, a hazard log and a DPIA from the start</li>
+              <li>In development, subject to validation, with a published roadmap and gates</li>
+            </ul>
+          </div>
+          <div>
+            <h3><span class="tag">Is not</span> and will not be claimed to be</h3>
+            <ul>
+              <li>A medical device, or a diagnostic, triage, prediction or risk-scoring tool</li>
+              <li>NHS-approved, DTAC-assessed, MHRA-registered, UKCA- or CE-marked</li>
+              <li>Clinically validated, or shown to reduce maternal mortality or morbidity</li>
+              <li>An electronic patient record; the organisation's record system remains the record</li>
+              <li>An emergency service: every screen states where to go and whom to call in an emergency</li>
+              <li>A chatbot, symptom checker or source of generated advice</li>
+              <li>A partner of, or endorsed by, any NHS body, government or professional body</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="features-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Planned version-1 features</span>
+          <h2 id="features-title">What the first version is designed to do</h2>
+          <p>Every feature has a safety note because every feature has a hazard. "Woman", "care team" and "programme" show who uses it.</p>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <caption>Version-1 feature set (proposed; subject to the design-partner phase)</caption>
+            <thead>
+              <tr><th scope="col">Feature</th><th scope="col">Who uses it</th><th scope="col">Safety and design note</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Enrolment, consent, channel and language preferences</td><td>Woman, care team</td><td>Granular consent per channel and for research contact; under-18 and capacity rules apply</td></tr>
+              <tr><td>Pregnancy profile and "things I want my team to know"</td><td>Woman, care team</td><td>Clinical conditions entered by clinicians only; the woman's own words are kept as her own words</td></tr>
+              <tr><td>Contact schedule and reminders</td><td>All</td><td>Schedule templates configured per organisation and signed off clinically</td></tr>
+              <tr><td>Education library by gestation, language and literacy</td><td>All</td><td>Every item has a clinical author, a reviewer, a review date and cited sources (NICE, RCOG, WHO, FMOH)</td></tr>
+              <tr><td>Secure asynchronous messaging with ownership, response time and on-call escalation</td><td>All</td><td>Non-emergency only; a permanent emergency banner with local numbers</td></tr>
+              <tr><td>Self-recorded diary (how I feel, blood pressure if she has a cuff, fetal movements, symptoms)</td><td>Woman, care team</td><td>Displayed, not interpreted: no thresholds, alerts or scores in version 1</td></tr>
+              <tr><td>Care-team console: caseload, timeline, inbox, contact log, care notes</td><td>Care team</td><td>Communication notes, not the legal record</td></tr>
+              <tr><td>Structured handover summary (antenatal to intrapartum to postnatal; shift to shift)</td><td>Care team; woman can view</td><td>Printable and pasteable; FHIR export is a version-2 item</td></tr>
+              <tr><td>Escalation log, single entry, human to human</td><td>Care team, programme</td><td>Supports Ockenden-style escalation actions; audit-ready</td></tr>
+              <tr><td>Missed-contact tracing lists</td><td>Care team, programme</td><td>Operational; always assigned to a named person</td></tr>
+              <tr><td>Programme dashboard and exports (CSV; DHIS2-compatible aggregates later)</td><td>Programme</td><td>Operational analytics only; no clinical-outcome claims; small-number suppression</td></tr>
+              <tr><td>Administration, roles, rotas, consent texts, audit log</td><td>Programme</td><td>Role-based access; every access to personal data is audited</td></tr>
+              <tr><td>Channels: offline-capable web app, two-way SMS, voice reminders (optional)</td><td>Woman, programme</td><td>WhatsApp and USSD are roadmap items subject to provider and regulator rules</td></tr>
+              <tr><td>Safeguarding support: discreet mode, private messaging, prompts to record concerns</td><td>Woman, care team</td><td>Follows local safeguarding policy; the system never decides</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--panel" aria-labelledby="who-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Who it is for</span>
+          <h2 id="who-title">Designed around six kinds of user</h2>
+        </div>
+        <div class="grid grid--3">
+          <div class="card card--panel"><h3>Women, and with consent a birth companion</h3><p>Smartphone users in the UK; feature-phone users across much of Nigeria; English plus community languages, with Yoruba first on the roadmap. Companion access is a version-2 item with safeguarding controls.</p></div>
+          <div class="card card--panel"><h3>Community midwives and community health workers</h3><p>Registered midwives in the UK; midwives, community health extension workers and other cadres in Nigeria, with reduced permissions for non-registered staff.</p></div>
+          <div class="card card--panel"><h3>Hospital clinicians</h3><p>Obstetricians, maternity triage and anaesthetists who receive a handover summary rather than a phone call from memory.</p></div>
+          <div class="card card--panel"><h3>Service and programme managers</h3><p>Heads of midwifery, digital midwives and quality leads in the UK; state maternal-health desks and primary-care agencies in Nigeria.</p></div>
+          <div class="card card--panel"><h3>NGO and donor programme officers</h3><p>People who need to know who has missed a contact, who is chasing them, and an export they can trust for a logframe.</p></div>
+          <div class="card card--panel"><h3>Operators and administrators</h3><p>Trust IT and information governance; state IT; implementing partners. Vytalix support access is break-glass only and fully audited.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="roadmap-title">
+      <div class="container split">
+        <div>
+          <span class="eyebrow">Roadmap</span>
+          <h2 id="roadmap-title">Twenty-four months, with gates that can be checked</h2>
+          <p>Dates are proposed, not promised. Each gate is something an outsider could verify. We will mark each item as it is passed and say plainly if it slips.</p>
+          <ol class="roadmap">
+            <li class="roadmap--gate"><span class="when">Gate 1 · Q4 2026</span><strong>Ownership, audit, safety roles</strong><p>IP assigned to the company; prototype audited; Clinical Safety Officer appointed; hazard log opened; DPIA started; ICO registration. Discovery interviews: 20 women and 10 professionals per market.</p></li>
+            <li><span class="when">Q1 2027</span><strong>Minimum viable product complete</strong><p>Twelve to sixteen weeks of build; internal alpha; SMS channel; penetration test; clinical safety case version 1; DTAC readiness pack; Cyber Essentials.</p></li>
+            <li class="roadmap--gate"><span class="when">Gate 2 · Q2 2027</span><strong>UK service evaluation, unpaid</strong><p>One community midwifery team under the trust's own clinical governance (DCB0160), with an agreed protocol. Nigeria pilot designed with an NGO or state partner.</p></li>
+            <li><span class="when">Q3 2027</span><strong>Nigeria pilot</strong><p>One or two local government areas, 500–2,000 women, through an implementing partner, with ethics approval for the evaluation. USSD and DHIS2 export.</p></li>
+            <li class="roadmap--gate"><span class="when">Gate 3 · Q4 2027</span><strong>Evidence and the first device decision</strong><p>UK feasibility study begins. Rule-based flagging goes through a documented device qualification decision; if it is a device, the Class I route begins before release.</p></li>
+            <li><span class="when">2028</span><strong>Version 2 and the research option</strong><p>Integration, partner access, localised libraries. Formal UK evaluation. Only with data-sharing agreements and ethics approval: retrospective modelling for the version-3 research track.</p></li>
+          </ol>
+        </div>
+        <div>
+          <h3>What we will report</h3>
+          <p>Operational and safety measures, honestly, each period: messages acknowledged within the agreed time; unresolved escalations; content incidents; contacts completed against schedule; defaulters traced within seven days; uptime against a 99.5% design target; accessibility audit results.</p>
+          <p><strong>Never reported as product outcomes without a formal evaluation:</strong> maternal deaths, severe morbidity, or "lives saved".</p>
+          <h3>The research track, stated carefully</h3>
+          <p>The version-3 research track would require, in order: a data partnership with at least one NHS trust or academic maternity unit and, for Nigeria, a teaching hospital, under ethics approval; retrospective model development with a pre-registered protocol and fairness analysis; MHRA qualification and classification, probably Class IIa or higher; prospective validation in silent mode; and only then any clinical claim, proportionate to the evidence. Our estimate is 24–36 months and £1.5m–£4m. It is an option, not a commitment.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tint" aria-labelledby="safety-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Safety and data principles</span>
+          <h2 id="safety-title">Design targets we build to — not certifications we hold</h2>
+          <p>Each item below is how MaternaLink is being designed. None is a claim of current compliance. Where a standard or certificate is named, it is the target we will evidence before deployment.</p>
+        </div>
+        <div class="grid grid--2">
+          <ul class="feature-list">
+            <li><strong>Clinical safety</strong> A registered clinician as Clinical Safety Officer from the start; a hazard log and clinical safety case under DCB0129; deploying NHS organisations complete DCB0160. Hazards already listed include an unread urgent message, the wrong woman on a handover summary, a stale schedule after a due-date change, and a diary value mistaken for a clinical assessment.</li>
+            <li><strong>Content governance</strong> Two-person sign-off on every educational item (clinical author plus reviewer), sources cited, version and review date shown, a content-incident route.</li>
+            <li><strong>A human owns every escalation</strong> Every safety-relevant flag has a named owner and a response time; unresolved items climb the rota; the trail is audited.</li>
+            <li><strong>Safeguarding</strong> Discreet mode for shared phones and coercive situations, no partner access in version 1, a woman-initiated "I am not safe" route to a named human, under-18 and capacity workflows aligned to local policy. The system never assesses capacity or risk.</li>
+            <li><strong>Clinical advisory group</strong> Three to five members — obstetrician, senior midwife, GP or public-health physician, Nigerian obstetrician or midwife, lived-experience representative — to be appointed and named only with consent. None is appointed today.</li>
+          </ul>
+          <ul class="feature-list">
+            <li><strong>Data minimisation</strong> Each feature collects only what it needs; profile fields are per role; no free-text clinical history from women beyond "things I want my team to know".</li>
+            <li><strong>Roles and lawful basis</strong> In NHS deployments the trust is controller and Vytalix is processor under a data-processing agreement. A DPIA is completed before any live data. UK data is designed to stay in a UK region; a Nigerian deployment is designed as a separate cell with in-country or nearby hosting under NDPA 2023 safeguards.</li>
+            <li><strong>No training on patient data</strong> No patient data is used to train or fine-tune any model, ours or a vendor's, without ethics approval, a DPIA and, where applicable, explicit consent — enforced by policy, contract and architecture.</li>
+            <li><strong>Security</strong> Design targets: multi-factor authentication for staff, passcode and quick-hide for women, per-organisation isolation, encryption in transit and at rest, field-level encryption of identifiers, audit of every access, annual penetration testing, Cyber Essentials Plus, DSPT "Standards Met", and 72-hour breach-notification readiness.</li>
+            <li><strong>Rights and retention</strong> Subject access, rectification and deletion supported by tooling, subject to record-keeping duties. Retention set by the controller; the organisation's record system remains the record of care.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="pilot" class="section" aria-labelledby="pilot-title">
+      <div class="container split">
+        <div>
+          <span class="eyebrow">Pilot invitation</span>
+          <h2 id="pilot-title">We are looking for design partners, not customers</h2>
+          <p>The most valuable thing MaternaLink can have in its first year is one real service willing to co-design and evaluate it honestly. We are looking for three kinds of partner.</p>
+          <ul class="feature-list">
+            <li><strong>A UK maternity service</strong> — one trust, one community midwifery team, with a digital midwife and a Clinical Safety Officer willing to run a three-to-six-month service evaluation under DCB0160. No fee. We bring the safety case, the DPIA template, the assurance artefacts and the support.</li>
+            <li><strong>A Nigerian implementing partner</strong> — an established NGO or state primary-care programme with an existing antenatal cohort, willing to run scheduled two-way SMS and defaulter tracing with a defined group of women, under ethics approval for the evaluation. Where a state already has a programme, we aim to complement it, not compete.</li>
+            <li><strong>A clinical academic partner</strong> — a maternity research unit willing to design the service evaluation and, later, a feasibility study, and to publish whatever the results are.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>What we ask of a partner</h3>
+          <ul>
+            <li>A named clinical lead and an information-governance contact</li>
+            <li>A defined cohort and a written evaluation protocol agreed before go-live</li>
+            <li>Honest feedback, including "stop"</li>
+            <li>Publication rights for both sides, whatever the findings</li>
+          </ul>
+          <h3>What we promise</h3>
+          <ul>
+            <li>No clinical claims, in any material, during or after the pilot</li>
+            <li>No fee until there is evidence to price against</li>
+            <li>Termination for safety by either side at any time</li>
+            <li>Your name is used only with written consent</li>
+          </ul>
+          <div class="cta-row">
+            <a class="btn btn--accent" href="contact.html">Register interest in a pilot</a>
+            <a class="btn btn--ghost" href="partnerships.html">All partnership models</a>
+          </div>
+          <p class="meta mt-4">Choose "MaternaLink pilot or design partnership" as the topic on the contact form. We reply to every enquiry, usually within five working days.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <svg viewBox="-8 -8 658 116" role="img" aria-labelledby="ftr-title"><title id="ftr-title">Vytalix</title><g fill="none" stroke="currentColor" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"><polyline points="0,0 40,100 80,0"/><polyline points="108,0 148,50 188,0"/><line x1="148" y1="50" x2="148" y2="100"/><line x1="216" y1="0" x2="296" y2="0"/><line x1="256" y1="0" x2="256" y2="100"/><polyline points="324,100 364,0 404,100"/><line x1="341" y1="64" x2="387" y2="64"/><polyline points="432,0 432,100 502,100"/><line x1="532" y1="0" x2="532" y2="100"/><line x1="562" y1="0" x2="642" y2="100"/><line x1="642" y1="0" x2="562" y2="100"/></g><circle cx="148" cy="50" r="12" fill="#BF3E27"/></svg>
+          <p>A UK health-technology group that advises, builds, delivers and teaches, so that technology earns its place in care.</p>
+          <p>Pre-seed, founder-led. MaternaLink is in development.</p>
+        </div>
+        <nav aria-labelledby="footer-group">
+          <h2 id="footer-group">Group</h2>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="insights.html">Insights</a></li>
+            <li><a href="partnerships.html">Partnerships</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <nav aria-labelledby="footer-pillars">
+          <h2 id="footer-pillars">Pillars</h2>
+          <ul>
+            <li><a href="advisory.html">Vytalix Advisory</a></li>
+            <li><a href="consulting.html">Vytalix Consulting</a></li>
+            <li><a href="health-solutions.html">Vytalix Health Solutions</a></li>
+            <li><a href="maternalink.html">MaternaLink (in development)</a></li>
+            <li><a href="e-learning.html">Vytalix E-Learning</a></li>
+          </ul>
+        </nav>
+        <nav aria-labelledby="footer-legal">
+          <h2 id="footer-legal">Legal</h2>
+          <ul>
+            <li><a href="privacy.html">Privacy notice</a></li>
+            <li><a href="terms.html">Terms of use</a></li>
+            <li><a href="cookie-policy.html">Cookie policy</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-legal">
+        <p>&copy; <span id="year">2026</span> Vytalix. Vytalix is a trading name of [Legal entity name — TO VALIDATE], registered in England &amp; Wales, company no. [Company number — add after incorporation]. Registered office: [Registered office address — add after incorporation].</p>
+        <p>Nothing on this site is clinical advice. MaternaLink is in development, is non-diagnostic, and is not a medical device. It has not been assessed by the MHRA or any NHS body.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div id="cookie-banner" class="cookie-banner" role="region" aria-labelledby="cookie-heading" hidden>
+    <h2 id="cookie-heading">Cookies, honestly</h2>
+    <p>This site sets no tracking or analytics cookies today. Google Fonts are loaded from Google's servers, which sees your IP address. If we add analytics later, we will ask first. Your choice is stored in your browser only. <a href="cookie-policy.html">Cookie policy</a>.</p>
+    <div class="cta-row">
+      <button type="button" class="btn btn--primary btn--small" data-cookie-choice="accepted">OK, understood</button>
+      <button type="button" class="btn btn--ghost btn--small" data-cookie-choice="essential">Essential only</button>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-8 -8 658 116" width="658" height="116" role="img" aria-labelledby="t d">
+  <title id="t">Vytalix</title>
+  <desc id="d">The Vytalix monoline wordmark. The Y carries a small ember-coloured node where its three strokes meet.</desc>
+  <!-- Monoline wordmark: straight strokes, round caps, uniform 14-unit weight. Built without any font dependency. -->
+  <g fill="none" stroke="#0F2233" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <!-- V -->
+    <polyline points="0,0 40,100 80,0"/>
+    <!-- Y -->
+    <polyline points="108,0 148,50 188,0"/>
+    <line x1="148" y1="50" x2="148" y2="100"/>
+    <!-- T -->
+    <line x1="216" y1="0" x2="296" y2="0"/>
+    <line x1="256" y1="0" x2="256" y2="100"/>
+    <!-- A -->
+    <polyline points="324,100 364,0 404,100"/>
+    <line x1="341" y1="64" x2="387" y2="64"/>
+    <!-- L -->
+    <polyline points="432,0 432,100 502,100"/>
+    <!-- I -->
+    <line x1="532" y1="0" x2="532" y2="100"/>
+    <!-- X -->
+    <line x1="562" y1="0" x2="642" y2="100"/>
+    <line x1="642" y1="0" x2="562" y2="100"/>
+  </g>
+  <!-- The Y-node: the point where people, care and data converge. -->
+  <circle cx="148" cy="50" r="12" fill="#BF3E27"/>
+</svg>
