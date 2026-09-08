@@ -1,0 +1,612 @@
+<title>MaternaLink</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;500;600;700;800&display=swap">
+<style>
+/* MaternaLink by Vytalix — product site stylesheet. No build step. */
+:root{
+  --blue:#153892; --blue-dark:#0E2A70; --blue-deep:#0F2354; --blue-tint:#E9EDF8; --blue-soft:#C7D0E8;
+  --rose:#C93D63; --rose-tint:#FBE9EF; --rose-dark:#A02C4D;
+  --ink:#10192B; --slate:#4B5568; --line:#D9DEE9; --bg:#F6F8FC; --paper:#FFFFFF;
+  --ok:#1B7F4B; --ok-tint:#E3F5EA; --warn:#B76A00; --warn-tint:#FFF1DC; --high:#B3261E; --high-tint:#FDE7E5;
+  --night:#0A1428; --night-2:#132043; --night-text:#E8ECF6; --night-muted:#AAB4CF;
+  --font-display:"Fraunces","Iowan Old Style","Palatino Linotype",Georgia,serif;
+  --font-body:"Manrope","Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --radius:14px; --shadow:0 10px 30px rgba(16,25,43,.08);
+  --bgc:var(--bg); --surface:var(--paper); --text:var(--ink); --muted:var(--slate); --border:var(--line);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bgc:var(--night);--surface:var(--night-2);--text:var(--night-text);--muted:var(--night-muted);--border:#2A3A66;--blue-tint:#172B5C;--rose-tint:#3A1A2A;--ok-tint:#123A26;--warn-tint:#3A2A10;--high-tint:#3D1613}}
+:root[data-theme="dark"]{--bgc:var(--night);--surface:var(--night-2);--text:var(--night-text);--muted:var(--night-muted);--border:#2A3A66;--blue-tint:#172B5C;--rose-tint:#3A1A2A;--ok-tint:#123A26;--warn-tint:#3A2A10;--high-tint:#3D1613}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bgc);color:var(--text);font-family:var(--font-body);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;height:auto}a{color:var(--blue);text-decoration-thickness:1px;text-underline-offset:3px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) a{color:#9DB8FF}}
+h1,h2,h3,h4{font-family:var(--font-display);font-weight:500;line-height:1.15;margin:0 0 .5em;letter-spacing:-.01em}
+h1{font-size:clamp(2rem,4.2vw,3.4rem)}h2{font-size:clamp(1.5rem,2.6vw,2.2rem)}h3{font-size:1.2rem}h4{font-size:1rem;font-family:var(--font-body);font-weight:700}
+p{margin:0 0 1em}.lead{font-size:1.15rem;color:var(--muted);max-width:62ch}
+.container{width:min(1160px,92%);margin-inline:auto}
+.skip{position:absolute;left:-999px;top:0;background:var(--blue);color:#fff;padding:.6rem 1rem;z-index:100}.skip:focus{left:1rem;top:1rem}
+:focus-visible{outline:3px solid var(--rose);outline-offset:3px}
+/* header */
+.site-header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--surface) 92%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
+.header-inner{display:flex;align-items:center;gap:1.2rem;min-height:72px}
+.brand{display:flex;align-items:center;gap:.65rem;text-decoration:none;color:var(--text)}
+.brand img{height:40px;width:auto}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .brand img{filter:brightness(0) invert(1)}}
+:root[data-theme="dark"] .brand img{filter:brightness(0) invert(1)}
+.brand .name{font-family:var(--font-display);font-size:1.45rem;font-weight:600;letter-spacing:-.01em}
+.brand .name em{font-style:normal;color:var(--rose)}
+.brand .by{font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:block;line-height:1.2;white-space:nowrap}
+.nav{margin-left:auto;display:flex;align-items:center;gap:.25rem}
+.nav ul{list-style:none;margin:0;padding:0;display:flex;gap:.25rem;align-items:center}
+.nav a{display:inline-block;padding:.55rem .8rem;border-radius:10px;text-decoration:none;color:var(--text);font-weight:500;white-space:nowrap;font-size:.95rem}
+.nav a:hover,.nav a[aria-current="page"]{background:var(--blue-tint)}
+.nav .btn{margin-left:.4rem}
+.lang{display:inline-flex;border:1px solid var(--border);border-radius:999px;overflow:hidden;margin-left:.6rem}
+.lang button{border:0;background:transparent;color:var(--text);padding:.4rem .7rem;font:inherit;font-weight:600;cursor:pointer}
+.lang button[aria-pressed="true"]{background:var(--blue);color:#fff}
+.nav-toggle{display:none;margin-left:auto;background:none;border:1px solid var(--border);border-radius:10px;padding:.5rem .7rem;font:inherit;color:var(--text)}
+@media (max-width:1140px){.nav-toggle{display:inline-flex}.nav{display:none;position:absolute;left:0;right:0;top:72px;background:var(--surface);border-bottom:1px solid var(--border);padding:1rem 4%}.nav.open{display:block}.nav ul{flex-direction:column;align-items:stretch}.nav .btn{margin:.5rem 0 0}.lang{margin:.6rem 0 0}}
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:.5rem;padding:.75rem 1.2rem;border-radius:12px;font-weight:700;text-decoration:none;border:1px solid transparent;cursor:pointer;font:inherit;font-weight:700;line-height:1}
+.btn-primary{background:var(--blue);color:#fff}.btn-primary:hover{background:var(--blue-dark)}
+.btn-secondary{background:transparent;color:var(--blue);border-color:var(--blue)}.btn-secondary:hover{background:var(--blue-tint)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .btn-secondary{color:#9DB8FF;border-color:#9DB8FF}}
+.btn-rose{background:var(--rose);color:#fff}.btn-rose:hover{background:var(--rose-dark)}
+.btn-sm{padding:.5rem .85rem;font-size:.9rem;border-radius:10px;white-space:nowrap}
+/* hero */
+.hero{padding:4.5rem 0 3.5rem;background:linear-gradient(180deg,var(--blue-tint),var(--bgc) 70%)}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:3rem;align-items:center}
+@media (max-width:900px){.hero-grid{grid-template-columns:1fr}}
+.eyebrow{display:inline-flex;align-items:center;gap:.5rem;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);font-weight:700;margin-bottom:1rem}
+.eyebrow::before{content:"";width:22px;height:2px;background:var(--rose)}
+.hero-actions{display:flex;gap:.8rem;flex-wrap:wrap;margin-top:1.4rem}
+.status-pill{display:inline-flex;align-items:center;gap:.5rem;padding:.35rem .75rem;border-radius:999px;background:var(--rose-tint);color:var(--rose-dark);font-size:.8rem;font-weight:700}
+.status-pill::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--rose)}
+/* device preview card */
+.preview{background:var(--surface);border:1px solid var(--border);border-radius:20px;box-shadow:var(--shadow);padding:1.2rem}
+.preview-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:.8rem}
+.preview-head strong{font-size:.9rem}.preview-head span{font-size:.72rem;color:var(--muted);letter-spacing:.1em;text-transform:uppercase}
+.row{display:flex;align-items:center;gap:.8rem;padding:.7rem .6rem;border-radius:12px;border:1px solid var(--border);margin-bottom:.55rem;background:var(--bgc)}
+.avatar{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;font-weight:700;color:#fff;font-size:.85rem;flex:none}
+.row .who{flex:1;min-width:0}.row .who b{display:block;font-size:.95rem}.row .who span{font-size:.8rem;color:var(--muted)}
+.badge{display:inline-block;padding:.22rem .55rem;border-radius:6px;font-size:.72rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase}
+.badge-low{background:var(--ok-tint);color:var(--ok)}.badge-medium{background:var(--warn-tint);color:var(--warn)}.badge-high{background:var(--high-tint);color:var(--high)}
+.badge-flag{background:var(--blue-tint);color:var(--blue)}
+/* sections */
+section{padding:3.5rem 0}
+.section-head{max-width:70ch;margin-bottom:2rem}
+.grid{display:grid;gap:1.2rem}.grid-2{grid-template-columns:repeat(2,1fr)}.grid-3{grid-template-columns:repeat(3,1fr)}.grid-4{grid-template-columns:repeat(4,1fr)}
+@media (max-width:900px){.grid-3,.grid-4{grid-template-columns:repeat(2,1fr)}}@media (max-width:600px){.grid-2,.grid-3,.grid-4{grid-template-columns:1fr}}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.4rem}
+.card h3{margin-top:.3rem}.card .num{font-family:var(--font-display);font-size:1.6rem;color:var(--rose);line-height:1}
+.card.tint{background:var(--blue-tint);border-color:transparent}
+.steps{counter-reset:s}.step{position:relative;padding-left:3.2rem}.step::before{counter-increment:s;content:counter(s,decimal-leading-zero);position:absolute;left:0;top:0;font-family:var(--font-display);font-size:1.4rem;color:var(--blue)}
+.band{background:var(--blue-deep);color:var(--night-text);padding:3.5rem 0}.band h2{color:#fff}.band .lead{color:var(--night-muted)}
+.band .card{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.14);color:var(--night-text)}
+.band .step::before{color:#9DB8FF}
+.notice{border-left:4px solid var(--rose);background:var(--rose-tint);padding:1rem 1.2rem;border-radius:0 12px 12px 0;margin:1.5rem 0}
+.notice.blue{border-color:var(--blue);background:var(--blue-tint)}
+.notice strong{display:block;margin-bottom:.2rem}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:2rem}@media (max-width:800px){.two-col{grid-template-columns:1fr}}
+ul.ticks{list-style:none;padding:0;margin:0}ul.ticks li{position:relative;padding-left:1.6rem;margin:.45rem 0}ul.ticks li::before{content:"";position:absolute;left:0;top:.5em;width:.9rem;height:.9rem;border-radius:50%;background:var(--ok-tint);border:2px solid var(--ok)}
+ul.crosses li::before{background:var(--high-tint);border-color:var(--high)}
+table{width:100%;border-collapse:collapse;font-size:.95rem}th,td{text-align:left;padding:.7rem .6rem;border-bottom:1px solid var(--border);vertical-align:top}th{font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.table-wrap{overflow-x:auto;border:1px solid var(--border);border-radius:var(--radius);background:var(--surface)}
+.price{font-family:var(--font-display);font-size:2rem;color:var(--blue)}.price small{font-family:var(--font-body);font-size:.85rem;color:var(--muted)}
+.tag{display:inline-block;font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:.25rem .6rem;border-radius:999px;background:var(--blue-tint);color:var(--blue)}
+.tag.rose{background:var(--rose-tint);color:var(--rose-dark)}
+/* forms */
+form.card{display:grid;gap:1rem}label{font-weight:600;font-size:.92rem}
+input,select,textarea{width:100%;padding:.7rem .8rem;border:1px solid var(--border);border-radius:10px;background:var(--bgc);color:var(--text);font:inherit}
+textarea{min-height:120px}.field{display:grid;gap:.35rem}.field-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}@media (max-width:600px){.field-row{grid-template-columns:1fr}}
+.help{font-size:.82rem;color:var(--muted)}
+/* footer */
+.site-footer{border-top:1px solid var(--border);padding:2.5rem 0 3rem;color:var(--muted);font-size:.9rem}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:2rem}@media (max-width:800px){.footer-grid{grid-template-columns:1fr 1fr}}
+.site-footer h4{color:var(--text);margin-bottom:.6rem}.site-footer ul{list-style:none;padding:0;margin:0}.site-footer li{margin:.3rem 0}.site-footer a{color:inherit}
+.footer-note{margin-top:2rem;padding-top:1.2rem;border-top:1px solid var(--border);font-size:.82rem}
+/* cookie banner */
+.cookie{position:fixed;inset:auto 1rem 1rem 1rem;max-width:560px;margin-inline:auto;background:var(--surface);border:1px solid var(--border);border-radius:14px;box-shadow:var(--shadow);padding:1rem 1.2rem;z-index:60;display:none;gap:1rem;align-items:center}
+.cookie.show{display:flex}.cookie p{margin:0;font-size:.9rem}
+/* dashboard */
+.app{display:grid;grid-template-columns:240px 1fr 300px;gap:1.2rem;padding:1.2rem 0;min-height:calc(100vh - 72px)}
+@media (max-width:1100px){.app{grid-template-columns:1fr}.app aside{order:3}.app .side-nav{order:1}}
+.side-nav{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1rem;align-self:start;position:sticky;top:88px}
+.side-nav button{display:flex;width:100%;text-align:left;gap:.6rem;align-items:center;background:none;border:0;padding:.65rem .7rem;border-radius:10px;font:inherit;font-weight:600;color:var(--text);cursor:pointer}
+.side-nav button[aria-current="page"]{background:var(--blue);color:#fff}.side-nav button:hover:not([aria-current="page"]){background:var(--blue-tint)}
+.side-nav .who{font-size:.8rem;color:var(--muted);padding:.4rem .7rem 1rem;border-bottom:1px solid var(--border);margin-bottom:.6rem}
+.main-panel{min-width:0}.panel{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.2rem;margin-bottom:1.2rem}
+.panel-head{display:flex;flex-wrap:wrap;gap:.8rem;align-items:center;justify-content:space-between;margin-bottom:1rem}
+.toolbar{display:flex;flex-wrap:wrap;gap:.6rem;margin-bottom:1rem}.toolbar input,.toolbar select{width:auto;min-width:160px}
+.plist tr{cursor:pointer}.plist tr:hover td{background:var(--blue-tint)}.sub td:first-child{padding-left:2.2rem;color:var(--muted)}
+.demo-banner{background:var(--warn-tint);color:#5A3400;border:1px solid #F0D3A6;border-radius:12px;padding:.7rem 1rem;font-size:.9rem;margin-bottom:1.2rem}
+.tabs{display:flex;gap:.2rem;border-bottom:1px solid var(--border);margin-bottom:1rem;flex-wrap:wrap}
+.tabs button{background:none;border:0;border-bottom:3px solid transparent;padding:.6rem .9rem;font:inherit;font-weight:600;color:var(--muted);cursor:pointer}
+.tabs button[aria-selected="true"]{color:var(--blue);border-bottom-color:var(--rose)}
+.kv{display:grid;grid-template-columns:1fr 1fr;gap:.4rem 1rem;font-size:.95rem}.kv dt{color:var(--muted)}.kv dd{margin:0;font-weight:600}
+.timeline{list-style:none;padding:0;margin:0}.timeline li{display:grid;grid-template-columns:64px 1fr;gap:.8rem;padding:.8rem 0;border-bottom:1px solid var(--border)}
+.timeline time{color:var(--muted);font-size:.85rem}.timeline .t-head{display:flex;justify-content:space-between;gap:.6rem;align-items:center}
+.alert-card{border:1px solid var(--border);border-radius:12px;padding:.9rem 1rem;margin-bottom:.7rem;background:var(--bgc)}
+.alert-card .a-head{display:flex;gap:.6rem;align-items:center;flex-wrap:wrap}.alert-card .a-meta{font-size:.85rem;color:var(--muted);margin:.3rem 0 .6rem}
+.aside-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1rem;margin-bottom:1.2rem}
+.aside-card h4{margin-bottom:.6rem}.aside-card .item{padding:.5rem .6rem;border-radius:8px;background:var(--bgc);border:1px solid var(--border);margin:.4rem 0;font-size:.9rem;display:flex;justify-content:space-between;gap:.5rem;cursor:pointer}
+.stat{display:grid;gap:.2rem}.stat b{font-family:var(--font-display);font-size:1.9rem;color:var(--blue);line-height:1}.stat span{font-size:.82rem;color:var(--muted)}
+.chart{width:100%;height:auto;display:block}
+.login-wrap{min-height:calc(100vh - 72px);display:grid;place-items:center;padding:2rem 0}
+.login-card{width:min(460px,94%)}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{.site-header,.site-footer,.cookie,.side-nav{display:none}}
+
+/* nav buttons keep their own colours */
+.nav a.btn-primary{color:#fff}.nav a.btn-primary:hover{background:var(--blue-dark)}.nav a.btn-secondary{color:var(--blue)}
+
+
+section.page[hidden]{display:none}
+</style>
+<a class="skip" href="#main">Skip to content</a>
+
+<main id="main">
+<section class="page" data-page="dashboard" hidden>
+
+<div class="container">
+<div class="demo-banner"><strong>Demo dashboard.</strong> Synthetic data only; nothing here is a real patient. Flags are examples of programme-configured rules for human review; MaternaLink does not diagnose, predict or recommend treatment.</div>
+<div class="app">
+  <nav class="side-nav" aria-label="Dashboard">
+    <div class="who"><strong>Demo operator</strong><br>Community Maternity Programme · Site A</div>
+    <button data-view="patients" aria-current="page">Patients</button>
+    <button data-view="alerts">Escalation queue <span id="alert-count" class="badge badge-high" style="margin-left:auto">0</span></button>
+    <button data-view="analytics">Analytics</button>
+    <button data-view="admin">Admin</button>
+    <hr style="border:0;border-top:1px solid var(--border);margin:.8rem 0">
+    <a class="btn btn-secondary btn-sm" href="#login">Sign out</a>
+  </nav>
+  <div class="main-panel" id="view"></div>
+  <aside>
+    <div class="aside-card"><h4>Recently flagged</h4><div id="aside-flags"></div></div>
+    <div class="aside-card"><h4>Needs contact today</h4><div id="aside-contact"></div></div>
+    <div class="aside-card"><h4>Sync status</h4><p class="help" style="margin:0">Device: <strong>online</strong> · last sync 2 min ago · 0 records pending</p></div>
+  </aside>
+</div>
+</div>
+
+</section><section class="page" data-page="index">
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="status-pill" data-i18n="status">In development · pilot partners invited</span>
+      <h1 data-i18n="hero_h1" style="margin-top:1rem">Offline-first maternal and newborn care coordination for health systems</h1>
+      <p class="lead" data-i18n="hero_lead">MaternaLink helps maternity programmes enrol women, stay in contact between appointments, record what matters at the point of care without a connection, and route every reported concern to a responsible clinician.</p>
+      <div class="hero-actions"><a class="btn btn-primary" href="#pilot" data-i18n="hero_cta1">Request a pilot</a><a class="btn btn-secondary" href="#platform" data-i18n="hero_cta2">See how it works</a></div>
+    </div>
+    <div class="preview" aria-label="Programme overview, demo data">
+      <div class="preview-head"><strong data-i18n="preview_title">Programme overview</strong><span data-i18n="preview_sub">Demo data</span></div>
+      <div class="row"><span class="avatar" style="background:#153892">AA</span><div class="who"><b>Adaeze A.</b><span>34 weeks · Community midwife: T. Bello</span></div><span class="badge badge-flag">Flag: BP review</span></div>
+      <div class="row"><span class="avatar" style="background:#C93D63">RO</span><div class="who"><b>Rebecca O.</b><span>Newborn, day 6 · Postnatal visit due</span></div><span class="badge badge-medium">Follow-up</span></div>
+      <div class="row"><span class="avatar" style="background:#1B7F4B">FK</span><div class="who"><b>Funmi K.</b><span>22 weeks · Daily check-in complete</span></div><span class="badge badge-low">On track</span></div>
+      <div class="row"><span class="avatar" style="background:#4B5568">SM</span><div class="who"><b>Sarah M.</b><span>28 weeks · Glucose diary (clinician targets)</span></div><span class="badge badge-low">On track</span></div>
+      <p class="help" style="margin:.6rem 0 0">Flags are programme-configured rules for human review. Synthetic names; no real patient data.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head"><h2 data-i18n="ch_h2">System-level challenges in maternal and newborn care</h2><p class="lead" data-i18n="ch_lead">Public-sector maternity programmes often operate where clinical risk is real but timely detection and escalation are structurally constrained.</p></div>
+    <div class="grid grid-2">
+      <div class="card"><span class="num">01</span><h3 data-i18n="ch1_h">Late detection of complications</h3><p data-i18n="ch1_p">Vital signs and symptoms are recorded infrequently or reviewed too late, so warning signs surface after the window for early action.</p></div>
+      <div class="card"><span class="num">02</span><h3 data-i18n="ch2_h">Low-connectivity environments</h3><p data-i18n="ch2_p">Many community and primary-care settings lack reliable internet, which limits real-time digital systems.</p></div>
+      <div class="card"><span class="num">03</span><h3 data-i18n="ch3_h">Fragmented data between community and facility</h3><p data-i18n="ch3_p">Information is spread across paper records, devices and facilities, reducing continuity of care.</p></div>
+      <div class="card"><span class="num">04</span><h3 data-i18n="ch4_h">Delayed escalation and avoidable harm</h3><p data-i18n="ch4_p">Without clear escalation pathways, early warning signs may not trigger timely clinical action.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="how">
+  <div class="container">
+    <div class="section-head"><h2 data-i18n="how_h2">How the system works</h2><p class="lead" data-i18n="how_lead">Designed to function reliably in low-connectivity environments while giving programme leads oversight and structured escalation.</p></div>
+    <div class="grid grid-3 steps">
+      <div class="card step"><h3 data-i18n="how1_h">Offline data capture</h3><p data-i18n="how1_p">Symptoms and vitals are recorded at the point of care without an internet connection.</p></div>
+      <div class="card step"><h3 data-i18n="how2_h">Secure local storage</h3><p data-i18n="how2_p">Data is encrypted on the device until connectivity returns.</p></div>
+      <div class="card step"><h3 data-i18n="how3_h">Automatic synchronisation</h3><p data-i18n="how3_p">Once online, records sync to the central platform and conflicts are resolved with a full audit trail.</p></div>
+      <div class="card step"><h3 data-i18n="how4_h">Programme escalation rules</h3><p data-i18n="how4_p">Rules configured and owned by your clinical governance flag records for human review. MaternaLink does not diagnose or recommend treatment.</p></div>
+      <div class="card step"><h3 data-i18n="how5_h">Alerts to the responsible clinician</h3><p data-i18n="how5_p">Flags reach the named clinician or supervisor, with contact and outcome logged against the record.</p></div>
+      <div class="card step"><h3>Timeline and exports</h3><p>One shared timeline per woman and newborn; CSV and PDF exports for audit, handover and evaluation.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head"><h2 data-i18n="who_h2">Who the platform is designed for</h2><p class="lead" data-i18n="who_lead">Built for maternity services and programme operators responsible for maternal and newborn care at scale.</p></div>
+    <div class="grid grid-3">
+      <div class="card tint"><h3 data-i18n="who1_h">Government and state programmes</h3><p data-i18n="who1_p">Population-level enrolment, facility oversight and indicators aligned to your health-information system.</p><a href="#programmes">Programme deployment →</a></div>
+      <div class="card tint"><h3 data-i18n="who2_h">Hospitals and maternity units</h3><p data-i18n="who2_p">Continuity between appointments, structured intake, and a shared timeline for the care team.</p><a href="#programmes">Hospital deployment →</a></div>
+      <div class="card tint"><h3 data-i18n="who3_h">NGO and donor-supported initiatives</h3><p data-i18n="who3_p">Cohort management, community health-worker workflows and evaluation-ready data exports.</p><a href="#programmes">NGO deployment →</a></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container two-col">
+    <div><h2 data-i18n="honest_h">What MaternaLink is, and is not</h2><p class="lead">We would rather you hear this from us than find it in due diligence.</p></div>
+    <div>
+      <ul class="ticks"><li data-i18n="honest_is">A care-coordination and communication platform, in development, being designed with clinicians and subject to validation.</li><li>Offline-first, low-bandwidth, with SMS and WhatsApp channels on the roadmap for settings without smartphones.</li><li>Built with a clinical-safety approach: intended-use statement, hazard log, data-protection impact assessment.</li></ul>
+      <ul class="ticks crosses" style="margin-top:1rem"><li data-i18n="honest_not">Not a medical device, not a diagnostic or prediction tool, not an emergency service, and not yet approved, assessed or validated by any regulator or health system.</li><li>Not an electronic patient record: where your organisation has one, MaternaLink integrates and your record remains the record.</li></ul>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="container two-col" style="align-items:center">
+    <div><h2 data-i18n="cta_h2">Design the pilot with us</h2><p class="lead" data-i18n="cta_lead">We are inviting a small number of maternity services and programmes to co-design a 12-week evaluation.</p></div>
+    <div style="text-align:right"><a class="btn btn-rose" href="#pilot" data-i18n="cta_btn">Request a pilot</a></div>
+  </div>
+</section>
+
+</section><section class="page" data-page="login" hidden>
+
+<div class="login-wrap"><div class="container" style="display:grid;place-items:center">
+  <form class="card login-card" action="dashboard.html" method="get">
+    <span class="eyebrow">Operator access</span>
+    <h2>Sign in to MaternaLink</h2>
+    <p class="help">Demo environment. Any values open the demo dashboard with synthetic data. Production sign-in will use single sign-on or email with multi-factor authentication.</p>
+    <div class="field"><label for="u">Work email</label><input id="u" name="u" type="email" autocomplete="username" placeholder="name@organisation.org"></div>
+    <div class="field"><label for="p">Password</label><input id="p" name="p" type="password" autocomplete="current-password"></div>
+    <button class="btn btn-primary" type="submit">Sign in</button>
+    <p class="help">No account? <a href="#pilot">Request access</a> · In an emergency, contact local emergency services; this system is not monitored around the clock.</p>
+  </form>
+</div></div>
+
+</section><section class="page" data-page="pilot" hidden>
+
+<section class="hero"><div class="container"><span class="eyebrow">Request a pilot</span><h1>Tell us about your service or programme</h1><p class="lead">We reply within three working days. Pilots are co-designed with a named clinical lead and run for 12 weeks with an evaluation report at the end.</p></div></section>
+<section><div class="container two-col">
+  <form id="pilot-form" class="card" action="#" method="post" novalidate>
+    <p class="help">TODO before launch: point <code>action</code> at Formspree, Netlify Forms or your CRM endpoint (see README). Until then the form shows a confirmation without sending.</p>
+    <div class="field-row"><div class="field"><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required></div><div class="field"><label for="role">Role</label><input id="role" name="role" placeholder="e.g., Head of Midwifery, Programme Manager"></div></div>
+    <div class="field-row"><div class="field"><label for="org">Organisation</label><input id="org" name="organisation" autocomplete="organization" required></div><div class="field"><label for="country">Country</label><input id="country" name="country" autocomplete="country-name"></div></div>
+    <div class="field-row"><div class="field"><label for="email">Work email</label><input id="email" name="email" type="email" autocomplete="email" required></div><div class="field"><label for="type">Organisation type</label><select id="type" name="type"><option>NHS trust or maternity unit</option><option>Private maternity provider</option><option>Government or state programme</option><option>NGO or donor-supported programme</option><option>Insurer or HMO</option><option>Other</option></select></div></div>
+    <div class="field"><label for="births">Approximate births per year or cohort size</label><input id="births" name="cohort" inputmode="numeric"></div>
+    <div class="field"><label for="msg">What problem would the pilot address?</label><textarea id="msg" name="message" placeholder="For example: postnatal follow-up completion; hypertension monitoring between appointments; continuity for community-based women"></textarea></div>
+    <div class="field"><label><input type="checkbox" name="consent" required style="width:auto;margin-right:.5rem">I agree to be contacted about this request. No patient information should be entered in this form.</label></div>
+    <button class="btn btn-primary" type="submit">Send request</button>
+    <p id="form-ok" class="notice blue" hidden tabindex="-1"><strong>Thank you.</strong>Your request has been recorded locally in this demo. Once the form endpoint is connected, you will receive a confirmation email.</p>
+  </form>
+  <div>
+    <div class="card tint"><h3>What a pilot includes</h3><ul class="ticks"><li>Co-design workshops with your clinical lead and midwives</li><li>Configuration of enrolment, check-ins, content and escalation rules you own</li><li>Training for the team; train-the-trainer for community programmes</li><li>Clinical-safety artefacts and a data-protection impact assessment</li><li>Weekly service reviews and an evaluation report you can publish</li></ul></div>
+    <div class="card" style="margin-top:1.2rem"><h3>What a pilot does not include</h3><ul class="ticks crosses"><li>Any diagnostic, predictive or treatment-recommendation feature</li><li>Replacement of your legal patient record</li><li>Claims of clinical outcomes before they are measured</li></ul></div>
+  </div>
+</div></section>
+
+</section><section class="page" data-page="platform" hidden>
+
+<section class="hero"><div class="container"><span class="eyebrow">Platform</span><h1>One shared timeline from booking to postnatal discharge</h1><p class="lead">MaternaLink brings enrolment, contact, self-reported information, clinician notes and programme escalation rules into one place that works offline. Every capability below is described as designed, not as validated; see the roadmap.</p></div></section>
+<section><div class="container">
+  <h2>Core capabilities (v1)</h2>
+  <div class="grid grid-3">
+    <div class="card"><h3>Enrolment and discharge</h3><p>Consent-led enrolment at the booking or week-16 appointment; linked newborn records at birth; structured offboarding at postnatal discharge with retention rules applied automatically.</p></div>
+    <div class="card"><h3>Offline capture</h3><p>Symptoms, vitals and notes recorded on phones or tablets without connectivity; encrypted on device; synchronised with a full audit trail when online.</p></div>
+    <div class="card"><h3>Daily check-in</h3><p>A short, configurable daily questionnaire for the woman, with streaks and reminders. Concerning answers route to a named human within the programme's response time.</p></div>
+    <div class="card"><h3>Symptom log</h3><p>Plain-language prompts for symptoms such as itching of the hands and feet, persistent vomiting, headache, visual disturbance or reduced movements, with one-tap contact to the care team. The software records and routes; it does not interpret.</p></div>
+    <div class="card"><h3>Partner engagement</h3><p>With the woman's consent, a partner or birth companion receives education, appointment prompts and short quizzes. She controls access and can revoke it silently.</p></div>
+    <div class="card"><h3>Education library</h3><p>Content signed off by the programme's clinicians, delivered in-app and by message, with local-language versions on the roadmap.</p></div>
+    <div class="card"><h3>Escalation queue</h3><p>Flags raised by programme-configured rules appear in a queue with assignment, contact logging and outcome; nothing is closed without a human.</p></div>
+    <div class="card"><h3>Clinician notes and exports</h3><p>Structured notes on the timeline; CSV and PDF exports for handover, audit and evaluation.</p></div>
+    <div class="card"><h3>Voice diaries</h3><p>Women can leave voice notes attached to their timeline for the care team to hear; storage and playback only.</p></div>
+  </div>
+  <div class="notice blue"><strong>About flags and rules</strong>Programme escalation rules (for example, "blood pressure recorded above a threshold set by your clinical lead") are configured, owned and reviewed by the deploying organisation's clinical governance. MaternaLink supplies the rule editor and the queue, not clinical rules, and never generates a diagnosis or treatment recommendation.</div>
+</div></section>
+<section><div class="container">
+  <h2>Roadmap</h2>
+  <div class="table-wrap"><table><thead><tr><th>Version</th><th>Scope</th><th>Gate before release or claim</th></tr></thead><tbody>
+  <tr><td><span class="tag">v1</span></td><td>Core registry, offline capture, daily check-in, symptom log, partner engagement, education, escalation queue, notes, exports, voice diaries, EN/FR</td><td>Clinician sign-off of intended use and content; DPIA; hazard log; one service evaluation site</td></tr>
+  <tr><td><span class="tag">v2</span></td><td>Maternity triage intake module (rules owned by the site), diabetes glucose diary with clinician-set targets, integrations to maternity record systems and DHIS2, SMS/WhatsApp channels, local languages</td><td>Regulatory opinion on triage and glucose modules; interface agreements; safeguarding review</td></tr>
+  <tr><td><span class="tag rose">v3 · research</span></td><td>Certified wearable integration ("Maternity Watch"); analysis of voice or movement data; any risk-scoring model</td><td>Ethics approval, clinical partner, validation study and a medical-device pathway before any clinical claim</td></tr>
+  </tbody></table></div>
+</div></section>
+<section class="band"><div class="container two-col" style="align-items:center"><div><h2>See it working</h2><p class="lead">The demo dashboard uses synthetic data and mirrors the operator experience: patients, escalation queue, timeline, notes and analytics.</p></div><div style="text-align:right"><a class="btn btn-rose" href="#dashboard">Open the demo dashboard</a></div></div></section>
+
+</section><section class="page" data-page="pricing" hidden>
+
+<section class="hero"><div class="container"><span class="eyebrow">Pricing</span><h1>Priced per product and per year of service</h1><p class="lead">A platform licence plus optional modules, plus an annual service plan. Hardware is always a separate line. All figures are indicative and subject to validation with pilot partners; final pricing is agreed per contract.</p></div></section>
+<section><div class="container">
+  <h2>United Kingdom price book (indicative, per year)</h2>
+  <div class="grid grid-3">
+    <div class="card"><span class="tag">Core platform</span><p class="price">£18–£36 <small>per enrolled woman</small></p><p>Plus a site licence of £12k–£30k by annual births. Registry, offline capture, timeline, escalation queue, notes, exports, EN/FR.</p></div>
+    <div class="card"><span class="tag">Engagement module</span><p class="price">£8–£14 <small>per enrolled woman</small></p><p>Daily check-in, symptom log, partner engagement, education and reminders by app or message.</p></div>
+    <div class="card"><span class="tag">Maternity triage module</span><p class="price">£15k–£35k <small>per site</small></p><p>Structured intake and prioritisation rules owned by your clinical governance. Available after regulatory opinion.</p></div>
+    <div class="card"><span class="tag">Diabetes glucose diary</span><p class="price">£20–£30 <small>per woman with the condition</small></p><p>Clinician-set targets and trend view. Available after regulatory opinion.</p></div>
+    <div class="card"><span class="tag">Maternity Watch</span><p class="price">£4–£7 <small>per device per month</small></p><p>Lease of a certified third-party wearable, or purchase with a service plan. Never bundled into the software price.</p></div>
+    <div class="card"><span class="tag">Integration pack</span><p class="price">£15k–£40k <small>setup per interface</small></p><p>Plus £4k–£8k per year. Maternity record systems, single sign-on, DHIS2.</p></div>
+  </div>
+  <h3 style="margin-top:2rem">Annual service plans</h3>
+  <div class="table-wrap"><table><thead><tr><th>Plan</th><th>Price</th><th>Includes</th></tr></thead><tbody>
+  <tr><td><strong>Standard</strong></td><td>18–22% of annual licence (minimum £8,000)</td><td>Business-hours support, quarterly releases, security patching, hazard-log maintenance, 99.5% availability design target</td></tr>
+  <tr><td><strong>Enhanced</strong></td><td>25–28%</td><td>Standard plus extended hours, named account manager, two configuration changes per quarter, quarterly service review, DSPT evidence pack</td></tr>
+  <tr><td><strong>Premium</strong></td><td>30–35%</td><td>Enhanced plus 24/7 severity-1 response, clinical-safety officer on call, annual clinical-safety case refresh, dedicated environment option, 99.9% design target</td></tr>
+  </tbody></table></div>
+  <h3 style="margin-top:2rem">Worked example: 5,000-birth maternity service, Coordinate + Triage bundle</h3>
+  <div class="table-wrap"><table><tbody><tr><td>Core licence £20,000 + 5,000 × £22</td><td>£130,000</td></tr><tr><td>Engagement 5,000 × £10</td><td>£50,000</td></tr><tr><td>Triage module</td><td>£25,000</td></tr><tr><td>Analytics</td><td>£8,000</td></tr><tr><td>Enhanced service (26%)</td><td>£55,400</td></tr><tr><td>Implementation (year 1 only)</td><td>£45,000</td></tr><tr><td><strong>Year 1</strong></td><td><strong>£313,400</strong> · year-2 run-rate £268,400</td></tr></tbody></table></div>
+</div></section>
+<section class="band"><div class="container">
+  <h2>Programme price book (Africa and donor-funded programmes, indicative)</h2>
+  <div class="grid grid-4">
+    <div class="card"><h3>Core</h3><p>£10 per woman per year up to 5,000 · £7 to 25,000 · £5 to 100,000 · £4 beyond. Site licences waived for public programmes.</p></div>
+    <div class="card"><h3>Engagement (SMS/WhatsApp)</h3><p>£3–£5 per woman per year; message costs above 40 per pregnancy passed through at cost.</p></div>
+    <div class="card"><h3>Implementation</h3><p>£40k–£120k per state or programme: data-protection registration support, hosting decision, baseline evaluation design, training.</p></div>
+    <div class="card"><h3>Annual service</h3><p>20% Standard · 28% Enhanced · 35% Premium of software value; minimum £12,000. In-country support partner above 25,000 women.</p></div>
+  </div>
+  <p class="lead" style="margin-top:1.5rem">Worked example: a 15,000-woman state programme is approximately <strong>£373,000 in year 1 (about £25 per woman)</strong> and <strong>£275,000 a year thereafter (about £18 per woman)</strong>, including triage at 20 facilities, training and Enhanced service.</p>
+</div></section>
+<section><div class="container two-col">
+  <div><h2>Commercial rules</h2><ul class="ticks"><li>Pilot first: fixed price, evaluation report, 50% of pilot fees credited against year one</li><li>Minimum contract £40,000 (UK) or £25,000 (programme)</li><li>3-year terms: 5% discount; annual uplift capped at CPI + 2%</li><li>Volume discounts only through published tiers</li><li>Hardware always itemised separately</li></ul></div>
+  <div class="card tint"><h3>Pilot (12 weeks, one site, up to 300 women)</h3><p class="price">£40k–£90k <small>UK</small></p><p>Includes configuration, training, clinical-safety artefacts and an evaluation report. Programme pilots priced on scope.</p><a class="btn btn-primary" href="#pilot">Request a pilot</a></div>
+</div></section>
+
+</section><section class="page" data-page="programmes" hidden>
+
+<section class="hero"><div class="container"><span class="eyebrow">Programmes</span><h1>Deployed the way your system already works</h1><p class="lead">MaternaLink is designed for government programmes, hospitals and maternity units, and NGO or donor-supported initiatives. Two deployment modes: as the working programme record where none exists, or integrated with the record system you already run.</p></div></section>
+<section id="government"><div class="container two-col">
+  <div><h2>Government and state programmes</h2><p>Population-level enrolment across facilities and community health workers, supervisor oversight by facility and local government area, and indicators aligned to your health-information system (DHIS2 alignment on the roadmap).</p><ul class="ticks"><li>Works alongside existing programmes: we design for complementarity, not replacement, where a programme is already running</li><li>Data residency options and local data-protection registration support</li><li>Phased, evidence-generating rollout: pilot, evaluate, expand</li></ul></div>
+  <div class="card tint"><h3>Typical phase 1</h3><dl class="kv"><dt>Cohort</dt><dd>2,000–15,000 women</dd><dt>Facilities</dt><dd>10–20</dd><dt>Duration</dt><dd>6–12 months</dd><dt>Evaluation</dt><dd>Reach, engagement, contact completion, defaulter tracing time, cost per woman</dd><dt>Indicative year-1 cost</dt><dd>See <a href="#pricing">pricing</a> (worked example)</dd></dl></div>
+</div></section>
+<section id="hospitals"><div class="container two-col">
+  <div class="card tint"><h3>Replace or integrate?</h3><p><strong>Replace (working record):</strong> where the maternity service has no digital record, MaternaLink Core holds the programme's working record with a clinical-safety case for record-keeping. It is not a certified electronic patient record.</p><p><strong>Integrate:</strong> where a maternity record exists (for example, BadgerNet, K2 or Euroking in the UK), MaternaLink exchanges data through agreed interfaces and your record remains the legal record.</p></div>
+  <div><h2>Hospitals and maternity units</h2><p>Continuity between appointments, a structured intake for maternity assessment or triage areas (rules owned by your clinical governance), shorter and better-prepared appointments through pre-visit check-ins, and one timeline the whole team can see.</p><ul class="ticks"><li>Service-evaluation pilot on one pathway (for example, hypertension monitoring or postnatal follow-up)</li><li>Single sign-on and role-based access; audit logs for every view and change</li><li>Designed for NHS DTAC, DSPT and clinical-safety expectations (assessment pending; not yet assessed)</li></ul></div>
+</div></section>
+<section id="ngo"><div class="container two-col">
+  <div><h2>NGO and donor-supported initiatives</h2><p>Cohort management for community programmes, community health-worker workflows on low-cost devices, SMS and WhatsApp channels for women without smartphones (roadmap), and evaluation-ready exports for funders.</p><ul class="ticks"><li>Offline-first by design for rural and peri-urban settings</li><li>Consent, safeguarding and discreet-mode design for shared phones</li><li>Training and train-the-trainer packages</li></ul></div>
+  <div class="card tint"><h3>What we ask of a pilot partner</h3><ul class="ticks"><li>A named clinical lead who owns escalation rules and content sign-off</li><li>A data-sharing and evaluation agreement</li><li>Baseline data and a willingness to publish the results, whatever they show</li></ul><a class="btn btn-primary" href="#pilot" style="margin-top:.6rem">Request a pilot</a></div>
+</div></section>
+
+</section><section class="page" data-page="security" hidden>
+
+<section class="hero"><div class="container"><span class="eyebrow">Security &amp; data</span><h1>Privacy by design, safety by governance</h1><p class="lead">How MaternaLink is designed to handle health data, and the assurance work that is planned before any live deployment. Design targets are stated as targets, not as certifications.</p></div></section>
+<section><div class="container grid grid-2">
+  <div class="card"><h3>Consent-driven collection</h3><p>Data is collected within the programme's consent policy and local law. Women see what is recorded about them and who can see it. Partner access is granted and revoked by the woman.</p></div>
+  <div class="card"><h3>Encrypted on device and in transit</h3><p>Records are encrypted at rest on devices and servers and in transit between them. Device loss is mitigated by remote revocation and encrypted local storage.</p></div>
+  <div class="card"><h3>Data minimisation and retention</h3><p>Only the fields a programme needs are collected; retention periods are configured per programme and applied automatically at discharge.</p></div>
+  <div class="card"><h3>Audit and access control</h3><p>Role-based access (woman, partner, midwife or community health worker, clinician, supervisor, programme administrator, Vytalix support with break-glass logging). Every view and change is logged.</p></div>
+  <div class="card"><h3>Data residency</h3><p>UK hosting in a UK region for UK deployments; in-country or regional hosting options for programmes with residency requirements; documented international transfer arrangements where needed.</p></div>
+  <div class="card"><h3>No patient data to third-party AI</h3><p>Patient data is not sent to third-party AI services without a data-protection impact assessment, a contract and the programme's approval. There is no automated clinical decision-making.</p></div>
+</div></section>
+<section><div class="container">
+  <h2>Assurance roadmap</h2>
+  <div class="table-wrap"><table><thead><tr><th>Item</th><th>Status</th><th>Target</th></tr></thead><tbody>
+  <tr><td>Intended-use statement (non-diagnostic care coordination)</td><td><span class="tag">Drafted</span></td><td>Clinician and legal review before pilot</td></tr>
+  <tr><td>Data-protection impact assessment (UK GDPR)</td><td><span class="tag">Planned</span></td><td>Before any live data</td></tr>
+  <tr><td>Clinical-safety case and hazard log (DCB0129 approach)</td><td><span class="tag">Planned</span></td><td>Before pilot; maintained continuously</td></tr>
+  <tr><td>Cyber Essentials, then NHS DSPT</td><td><span class="tag">Planned</span></td><td>Cyber Essentials before pilot; DSPT before NHS deployment</td></tr>
+  <tr><td>NHS DTAC evidence pack</td><td><span class="tag">Planned</span></td><td>Before any NHS procurement</td></tr>
+  <tr><td>Nigeria data-protection registration and in-country hosting decision</td><td><span class="tag">Planned</span></td><td>Before any Nigerian programme deployment</td></tr>
+  <tr><td>Penetration test</td><td><span class="tag">Planned</span></td><td>Before pilot and annually</td></tr>
+  <tr><td>Medical-device classification opinion for triage and glucose modules</td><td><span class="tag rose">Required</span></td><td>Before those modules are configured or claimed</td></tr>
+  </tbody></table></div>
+  <div class="notice"><strong>Plain statement</strong>MaternaLink has not yet been assessed or certified under any of the schemes above. We publish this roadmap so partners can hold us to it.</div>
+</div></section>
+
+</section>
+</main>
+
+<div id="cookie-banner" class="cookie" role="region" aria-label="Cookie preference"><p>We use only essential storage for language and this preference. No tracking cookies are set.</p><button class="btn btn-primary btn-sm" data-cookie="essential">OK</button></div>
+<script>
+/* English/French strings for the landing page. Keys match data-i18n attributes. French reviewed for meaning, not yet by a professional translator (TO VALIDATE). */
+window.ML_I18N={
+ en:{
+  nav_platform:"Platform",nav_programmes:"Programmes",nav_security:"Security & data",nav_pricing:"Pricing",nav_pilot:"Request a pilot",nav_login:"Operator access",
+  status:"In development · pilot partners invited",
+  hero_h1:"Offline-first maternal and newborn care coordination for health systems",
+  hero_lead:"MaternaLink helps maternity programmes enrol women, stay in contact between appointments, record what matters at the point of care without a connection, and route every reported concern to a responsible clinician.",
+  hero_cta1:"Request a pilot",hero_cta2:"See how it works",
+  preview_title:"Programme overview",preview_sub:"Demo data",
+  ch_h2:"System-level challenges in maternal and newborn care",
+  ch_lead:"Public-sector maternity programmes often operate where clinical risk is real but timely detection and escalation are structurally constrained.",
+  ch1_h:"Late detection of complications",ch1_p:"Vital signs and symptoms are recorded infrequently or reviewed too late, so warning signs surface after the window for early action.",
+  ch2_h:"Low-connectivity environments",ch2_p:"Many community and primary-care settings lack reliable internet, which limits real-time digital systems.",
+  ch3_h:"Fragmented data between community and facility",ch3_p:"Information is spread across paper records, devices and facilities, reducing continuity of care.",
+  ch4_h:"Delayed escalation and avoidable harm",ch4_p:"Without clear escalation pathways, early warning signs may not trigger timely clinical action.",
+  how_h2:"How the system works",how_lead:"Designed to function reliably in low-connectivity environments while giving programme leads oversight and structured escalation.",
+  how1_h:"Offline data capture",how1_p:"Symptoms and vitals are recorded at the point of care without an internet connection.",
+  how2_h:"Secure local storage",how2_p:"Data is encrypted on the device until connectivity returns.",
+  how3_h:"Automatic synchronisation",how3_p:"Once online, records sync to the central platform and conflicts are resolved with a full audit trail.",
+  how4_h:"Programme escalation rules",how4_p:"Rules configured and owned by your clinical governance flag records for human review. MaternaLink does not diagnose or recommend treatment.",
+  how5_h:"Alerts to the responsible clinician",how5_p:"Flags reach the named clinician or supervisor, with contact and outcome logged against the record.",
+  who_h2:"Who the platform is designed for",who_lead:"Built for maternity services and programme operators responsible for maternal and newborn care at scale.",
+  who1_h:"Government and state programmes",who1_p:"Population-level enrolment, facility oversight and indicators aligned to your health-information system.",
+  who2_h:"Hospitals and maternity units",who2_p:"Continuity between appointments, structured intake, and a shared timeline for the care team.",
+  who3_h:"NGO and donor-supported initiatives",who3_p:"Cohort management, community health-worker workflows and evaluation-ready data exports.",
+  honest_h:"What MaternaLink is, and is not",
+  honest_is:"A care-coordination and communication platform, in development, being designed with clinicians and subject to validation.",
+  honest_not:"Not a medical device, not a diagnostic or prediction tool, not an emergency service, and not yet approved, assessed or validated by any regulator or health system.",
+  cta_h2:"Design the pilot with us",cta_lead:"We are inviting a small number of maternity services and programmes to co-design a 12-week evaluation.",cta_btn:"Request a pilot"
+ },
+ fr:{
+  nav_platform:"Plateforme",nav_programmes:"Programmes",nav_security:"Sécurité et données",nav_pricing:"Tarifs",nav_pilot:"Demander un pilote",nav_login:"Accès opérateur",
+  status:"En développement · partenaires pilotes recherchés",
+  hero_h1:"Coordination des soins maternels et néonatals, conçue hors ligne d'abord, pour les systèmes de santé",
+  hero_lead:"MaternaLink aide les programmes de maternité à inscrire les femmes, à garder le contact entre les rendez-vous, à enregistrer l'essentiel au point de soins sans connexion et à orienter chaque préoccupation signalée vers un clinicien responsable.",
+  hero_cta1:"Demander un pilote",hero_cta2:"Voir comment ça marche",
+  preview_title:"Vue d'ensemble du programme",preview_sub:"Données de démonstration",
+  ch_h2:"Défis systémiques dans les soins maternels et néonatals",
+  ch_lead:"Les programmes maternels du secteur public opèrent souvent là où le risque clinique existe, mais où la détection et l'escalade en temps opportun sont structurellement limitées.",
+  ch1_h:"Détection tardive des complications",ch1_p:"Les signes vitaux et les symptômes sont relevés peu fréquemment ou examinés trop tard, après la fenêtre d'action précoce.",
+  ch2_h:"Environnements à faible connectivité",ch2_p:"De nombreux contextes communautaires et de soins primaires ne disposent pas d'un accès Internet fiable.",
+  ch3_h:"Données fragmentées entre la communauté et les établissements",ch3_p:"Les informations sont dispersées entre dossiers papier, appareils et établissements, ce qui réduit la continuité des soins.",
+  ch4_h:"Escalade tardive et préjudices évitables",ch4_p:"Sans parcours d'escalade clairs, les signes d'alerte précoces ne déclenchent pas toujours une action clinique en temps utile.",
+  how_h2:"Comment fonctionne le système",how_lead:"Conçu pour fonctionner de manière fiable en faible connectivité, tout en offrant une supervision et une escalade structurée.",
+  how1_h:"Saisie hors ligne",how1_p:"Symptômes et signes vitaux sont enregistrés au point de soins sans connexion Internet.",
+  how2_h:"Stockage local sécurisé",how2_p:"Les données sont chiffrées sur l'appareil jusqu'au retour de la connectivité.",
+  how3_h:"Synchronisation automatique",how3_p:"Une fois en ligne, les dossiers se synchronisent avec la plateforme centrale, avec une piste d'audit complète.",
+  how4_h:"Règles d'escalade du programme",how4_p:"Des règles configurées et détenues par votre gouvernance clinique signalent les dossiers pour examen humain. MaternaLink ne diagnostique pas et ne recommande aucun traitement.",
+  how5_h:"Alertes au clinicien responsable",how5_p:"Les signalements parviennent au clinicien ou superviseur désigné, avec contact et résultat consignés dans le dossier.",
+  who_h2:"À qui s'adresse la plateforme",who_lead:"Conçue pour les services de maternité et les opérateurs de programmes responsables des soins maternels et néonatals à grande échelle.",
+  who1_h:"Programmes gouvernementaux et étatiques",who1_p:"Inscription à l'échelle de la population, supervision des établissements et indicateurs alignés sur votre système d'information sanitaire.",
+  who2_h:"Hôpitaux et maternités",who2_p:"Continuité entre les rendez-vous, accueil structuré et chronologie partagée pour l'équipe de soins.",
+  who3_h:"ONG et initiatives financées par des bailleurs",who3_p:"Gestion de cohortes, flux de travail des agents de santé communautaires et exports prêts pour l'évaluation.",
+  honest_h:"Ce que MaternaLink est, et n'est pas",
+  honest_is:"Une plateforme de coordination et de communication des soins, en développement, conçue avec des cliniciens et soumise à validation.",
+  honest_not:"Ni un dispositif médical, ni un outil de diagnostic ou de prédiction, ni un service d'urgence, et pas encore approuvée, évaluée ou validée par un régulateur ou un système de santé.",
+  cta_h2:"Concevez le pilote avec nous",cta_lead:"Nous invitons un petit nombre de services de maternité et de programmes à co-concevoir une évaluation de 12 semaines.",cta_btn:"Demander un pilote"
+ }
+};
+
+/* MaternaLink site — navigation, language switch, cookie preference. No dependencies. */
+(function(){
+  'use strict';
+  // Mobile nav
+  var toggle=document.querySelector('.nav-toggle'), nav=document.getElementById('site-nav');
+  if(toggle&&nav){toggle.addEventListener('click',function(){var open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',open?'true':'false');});}
+  // Cookie preference (localStorage only; no tracking cookies are set)
+  var banner=document.getElementById('cookie-banner');
+  function pref(){try{return localStorage.getItem('ml-cookie-pref');}catch(e){return null;}}
+  if(banner&&!pref()){banner.classList.add('show');}
+  banner&&banner.querySelectorAll('[data-cookie]').forEach(function(b){b.addEventListener('click',function(){try{localStorage.setItem('ml-cookie-pref',b.getAttribute('data-cookie'));}catch(e){}banner.classList.remove('show');});});
+  // Language switch (EN/FR) — applies to any element with data-i18n; dictionary in i18n.js
+  var dict=window.ML_I18N||{};
+  function apply(lang){
+    document.documentElement.setAttribute('lang',lang==='fr'?'fr':'en-GB');
+    document.querySelectorAll('[data-i18n]').forEach(function(el){
+      var k=el.getAttribute('data-i18n'); var v=dict[lang]&&dict[lang][k];
+      if(v==null) return;
+      if(el.hasAttribute('data-i18n-attr')){el.setAttribute(el.getAttribute('data-i18n-attr'),v);} else {el.innerHTML=v;}
+    });
+    document.querySelectorAll('.lang button').forEach(function(b){b.setAttribute('aria-pressed',b.getAttribute('data-lang')===lang?'true':'false');});
+    try{localStorage.setItem('ml-lang',lang);}catch(e){}
+  }
+  document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener('click',function(){apply(b.getAttribute('data-lang'));});});
+  var saved=null; try{saved=localStorage.getItem('ml-lang');}catch(e){}
+  if(saved==='fr'&&dict.fr) apply('fr');
+  // Contact/pilot form: placeholder handler until an endpoint is wired (see README)
+  var form=document.getElementById('pilot-form');
+  if(form){form.addEventListener('submit',function(e){if(form.getAttribute('action')==='#'){e.preventDefault();var ok=document.getElementById('form-ok');if(ok){ok.hidden=false;ok.focus();}}});}
+})();
+
+/* MaternaLink demo dashboard — synthetic data, in-memory only. No network calls. */
+(function(){
+'use strict';
+var T=function(d){return new Date(d);};
+var DATA={
+ patients:[
+  {id:'W-1042',name:'Adaeze A.',age:29,gravida:2,parity:1,edd:'2026-10-21',weeks:34,phone:'+234 8•• ••• 4471',site:'Site A',midwife:'T. Bello',risk:'flag',flag:'BP review',
+   newborns:[],vitals:[{t:'2026-09-02T09:10',bp:'118/76',pulse:82,temp:36.7},{t:'2026-09-05T08:40',bp:'132/86',pulse:88,temp:36.8},{t:'2026-09-08T08:55',bp:'142/92',pulse:91,temp:36.6}],
+   timeline:[
+    {t:'2026-09-08T08:55',type:'Vitals',body:'BP 142/92 · pulse 91 · temperature 36.6 °C (recorded offline by T. Bello; synced 08:58)'},
+    {t:'2026-09-08T08:56',type:'Programme rule',badge:'flag',body:'Rule "Antenatal BP above programme threshold (140/90)" matched. Routed to responsible clinician for review. No clinical interpretation is generated by the software.'},
+    {t:'2026-09-07T20:12',type:'Daily check-in',body:'Headache: mild · Swelling: none · Movements: normal · Itching hands/feet: no'},
+    {t:'2026-09-05T08:40',type:'Vitals',body:'BP 132/86 · pulse 88 · temperature 36.8 °C'},
+    {t:'2026-09-04T19:30',type:'Voice diary',body:'0:42 recording attached (playback only; not analysed)'},
+    {t:'2026-09-02T09:10',type:'Vitals',body:'BP 118/76 · pulse 82 · temperature 36.7 °C'},
+    {t:'2026-08-30T10:00',type:'Education',body:'Sent: "Warning signs in late pregnancy" (Yoruba version pending translation review)'}
+   ],notes:[{t:'2026-09-05T09:05',who:'Dr K. Musa',body:'Reviewed BP trend. Repeat at next visit; woman advised to report headache or visual changes immediately.'}]},
+  {id:'W-0977',name:'Rebecca O.',age:24,gravida:1,parity:1,edd:'2026-09-02',weeks:'Postnatal day 6',phone:'+44 7••• •••812',site:'Site A',midwife:'H. Ahmed',risk:'medium',flag:'Follow-up due',
+   newborns:[{name:'Baby O.',sex:'Female',dob:'2026-09-02',weight:'3.1 kg',feeding:'Breastfeeding; poor feeding reported day 4, resolved day 5'}],
+   vitals:[{t:'2026-09-03T11:00',bp:'112/70',pulse:76,temp:36.9}],
+   timeline:[
+    {t:'2026-09-08T07:30',type:'Programme rule',badge:'medium',body:'Rule "Postnatal visit overdue by 48 hours" matched. Contact requested from community midwife.'},
+    {t:'2026-09-06T18:10',type:'Daily check-in',body:'Bleeding: normal · Mood: low for two days · Feeding: improving'},
+    {t:'2026-09-06T18:11',type:'Programme rule',badge:'flag',body:'Rule "Low mood reported on two consecutive check-ins" matched. Routed to midwife for a conversation; signposting content sent.'},
+    {t:'2026-09-04T09:00',type:'Newborn',body:'Poor feeding reported; midwife telephone contact logged, home visit day 5'},
+    {t:'2026-09-02T14:20',type:'Birth',body:'Live birth, female, 3.1 kg; newborn record created and linked'}
+   ],notes:[{t:'2026-09-05T12:00',who:'H. Ahmed',body:'Home visit completed. Feeding improved. Discussed mood; will call again Monday.'}]},
+  {id:'W-1108',name:'Funmi K.',age:31,gravida:3,parity:2,edd:'2027-01-14',weeks:22,phone:'+234 7•• ••• 0904',site:'Site B',midwife:'T. Bello',risk:'low',flag:'',newborns:[],
+   vitals:[{t:'2026-09-01T10:20',bp:'110/70',pulse:78,temp:36.5}],
+   timeline:[{t:'2026-09-08T21:05',type:'Daily check-in',body:'All answers within normal; streak 14 days'},{t:'2026-09-01T10:20',type:'Vitals',body:'BP 110/70 · pulse 78'},{t:'2026-08-28T09:00',type:'Partner',body:'Partner completed quiz "Appointment companion basics" (score 5/5)'}],notes:[]},
+  {id:'W-1063',name:'Sarah M.',age:35,gravida:2,parity:1,edd:'2026-12-02',weeks:28,phone:'+44 7••• •••305',site:'Site A',midwife:'H. Ahmed',risk:'low',flag:'',newborns:[],
+   vitals:[{t:'2026-09-06T08:00',bp:'120/78',pulse:80,temp:36.6}],
+   timeline:[{t:'2026-09-08T07:45',type:'Glucose diary',body:'Fasting 5.1 mmol/L (clinician target below 5.3). Diary entry only; targets set by Dr K. Musa.'},{t:'2026-09-07T19:40',type:'Glucose diary',body:'1-hour post-meal 7.4 mmol/L (target below 7.8)'},{t:'2026-09-06T08:00',type:'Vitals',body:'BP 120/78 · pulse 80'}],notes:[{t:'2026-09-01T15:00',who:'Dr K. Musa',body:'GDM diet-controlled. Glucose targets set in diary. Review in 2 weeks.'}]}
+ ],
+ alerts:[
+  {id:'A-311',p:'W-1042',sev:'flag',title:'Antenatal BP above programme threshold',t:'2026-09-08T08:56',assigned:'',status:'new'},
+  {id:'A-309',p:'W-0977',sev:'medium',title:'Postnatal visit overdue by 48 hours',t:'2026-09-08T07:30',assigned:'',status:'new'},
+  {id:'A-305',p:'W-0977',sev:'flag',title:'Low mood reported on two consecutive check-ins',t:'2026-09-06T18:11',assigned:'H. Ahmed',status:'contacted'},
+  {id:'A-298',p:'W-1042',sev:'medium',title:'Daily check-in missed 2 days',t:'2026-09-03T09:00',assigned:'T. Bello',status:'resolved'}
+ ]
+};
+var view=document.getElementById('view'), navBtns=document.querySelectorAll('.side-nav button');
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+function fmt(t){var d=T(t);return d.toLocaleDateString('en-GB',{day:'2-digit',month:'short'})+' '+d.toTimeString().slice(0,5);}
+function badge(r){var m={flag:['badge-flag','Flag'],high:['badge-high','High'],medium:['badge-medium','Follow-up'],low:['badge-low','On track']}[r]||['badge-low',r];return '<span class="badge '+m[0]+'">'+m[1]+'</span>';}
+function byId(id){return DATA.patients.filter(function(p){return p.id===id;})[0];}
+function counts(){return DATA.alerts.filter(function(a){return a.status!=='resolved';}).length;}
+function aside(){
+  document.getElementById('alert-count').textContent=counts();
+  document.getElementById('aside-flags').innerHTML=DATA.alerts.filter(function(a){return a.status!=='resolved';}).slice(0,4).map(function(a){var p=byId(a.p);return '<div class="item" data-open="'+p.id+'"><span>'+esc(a.title)+'<br><small>'+esc(p.name)+'</small></span>'+badge(a.sev)+'</div>';}).join('')||'<p class="help">No open flags.</p>';
+  document.getElementById('aside-contact').innerHTML=DATA.patients.filter(function(p){return p.risk!=='low';}).map(function(p){return '<div class="item" data-open="'+p.id+'"><span>'+esc(p.name)+'<br><small>'+esc(p.flag)+'</small></span>'+badge(p.risk)+'</div>';}).join('');
+}
+function patients(){
+  view.innerHTML='<div class="panel"><div class="panel-head"><h2 style="margin:0">Patients</h2><button class="btn btn-primary btn-sm" id="newp">+ New enrolment</button></div>'+
+  '<div class="toolbar"><input id="q" placeholder="Search name or ID" aria-label="Search"><select id="f" aria-label="Filter"><option value="">All</option><option value="flag">Flagged</option><option value="medium">Follow-up</option><option value="low">On track</option></select><select aria-label="Site"><option>All sites</option><option>Site A</option><option>Site B</option></select></div>'+
+  '<div class="table-wrap"><table class="plist" id="ptable"><thead><tr><th>Name</th><th>ID</th><th>Stage</th><th>Midwife</th><th>Status</th></tr></thead><tbody></tbody></table></div><p class="help" style="margin-top:.8rem">Phone numbers are masked in the demo. Newborn records are nested under the mother.</p></div>';
+  function render(){var q=(document.getElementById('q').value||'').toLowerCase(),f=document.getElementById('f').value;var tb=view.querySelector('tbody');tb.innerHTML='';
+    DATA.patients.filter(function(p){return (!q||p.name.toLowerCase().indexOf(q)>-1||p.id.toLowerCase().indexOf(q)>-1)&&(!f||p.risk===f);}).forEach(function(p){
+      tb.insertAdjacentHTML('beforeend','<tr data-open="'+p.id+'"><td><strong>'+esc(p.name)+'</strong></td><td>'+p.id+'</td><td>'+(typeof p.weeks==='number'?p.weeks+' weeks':esc(p.weeks))+'</td><td>'+esc(p.midwife)+'</td><td>'+badge(p.risk)+(p.flag?' <small>'+esc(p.flag)+'</small>':'')+'</td></tr>');
+      p.newborns.forEach(function(n){tb.insertAdjacentHTML('beforeend','<tr class="sub" data-open="'+p.id+'"><td>↳ '+esc(n.name)+'</td><td>—</td><td>Newborn · '+esc(n.dob)+'</td><td>'+esc(p.midwife)+'</td><td>'+badge(p.risk)+'</td></tr>');});
+    });}
+  render(); view.querySelector('#q').addEventListener('input',render); view.querySelector('#f').addEventListener('change',render);
+  view.querySelector('#newp').addEventListener('click',function(){alert('Demo: enrolment form opens here (consent, identifiers, booking details, preferred language, partner invitation).');});
+}
+function alerts(){
+  view.innerHTML='<div class="panel"><div class="panel-head"><h2 style="margin:0">Escalation queue</h2><span class="help">Rules are configured by the programme\'s clinical lead. Every item needs a human decision.</span></div><div id="alist"></div></div>';
+  var list=view.querySelector('#alist');
+  list.innerHTML=DATA.alerts.map(function(a){var p=byId(a.p);return '<div class="alert-card" id="'+a.id+'"><div class="a-head">'+badge(a.sev)+'<strong>'+esc(a.title)+'</strong><span class="help">'+esc(p.name)+' · '+p.id+'</span></div><div class="a-meta">Raised '+fmt(a.t)+' · Assigned: '+(a.assigned||'Unassigned')+' · Status: '+a.status+'</div><div style="display:flex;gap:.5rem;flex-wrap:wrap"><button class="btn btn-secondary btn-sm" data-act="assign" data-id="'+a.id+'">Assign to me</button><button class="btn btn-secondary btn-sm" data-act="contact" data-id="'+a.id+'">Log contact</button><button class="btn btn-primary btn-sm" data-act="resolve" data-id="'+a.id+'">Record outcome</button><button class="btn btn-secondary btn-sm" data-open="'+p.id+'">View record</button></div></div>';}).join('');
+  list.addEventListener('click',function(e){var b=e.target.closest('[data-act]');if(!b)return;var a=DATA.alerts.filter(function(x){return x.id===b.getAttribute('data-id');})[0];
+    if(b.getAttribute('data-act')==='assign'){a.assigned='Demo operator';}
+    if(b.getAttribute('data-act')==='contact'){a.status='contacted';var p=byId(a.p);p.timeline.unshift({t:new Date().toISOString().slice(0,16),type:'Contact',body:'Telephone contact logged by Demo operator for "'+a.title+'"'});}
+    if(b.getAttribute('data-act')==='resolve'){var o=prompt('Outcome (free text, recorded on the timeline):','Reviewed by clinician; plan agreed');if(o===null)return;a.status='resolved';byId(a.p).timeline.unshift({t:new Date().toISOString().slice(0,16),type:'Outcome',body:esc(o)});}
+    alerts();aside();});
+}
+function chart(v){if(v.length<2)return '<p class="help">Not enough readings for a trend.</p>';var W=560,H=180,pad=36;var sys=v.map(function(x){return +x.bp.split('/')[0];}),dia=v.map(function(x){return +x.bp.split('/')[1];});var mn=60,mx=170;function y(val){return H-pad-(val-mn)/(mx-mn)*(H-2*pad);}function x(i){return pad+i*(W-2*pad)/(v.length-1);}
+  function path(arr,c){return '<polyline fill="none" stroke="'+c+'" stroke-width="2.5" points="'+arr.map(function(val,i){return x(i)+','+y(val);}).join(' ')+'"/>'+arr.map(function(val,i){return '<circle cx="'+x(i)+'" cy="'+y(val)+'" r="3.5" fill="'+c+'"/>';}).join('');}
+  var grid=[80,100,120,140,160].map(function(g){return '<line x1="'+pad+'" x2="'+(W-pad)+'" y1="'+y(g)+'" y2="'+y(g)+'" stroke="currentColor" stroke-opacity=".12"/><text x="4" y="'+(y(g)+4)+'" font-size="10" fill="currentColor" opacity=".6">'+g+'</text>';}).join('');
+  var thr='<line x1="'+pad+'" x2="'+(W-pad)+'" y1="'+y(140)+'" y2="'+y(140)+'" stroke="#C93D63" stroke-dasharray="4 4"/><text x="'+(W-pad)+'" y="'+(y(140)-4)+'" font-size="10" text-anchor="end" fill="#C93D63">programme threshold 140 (configured)</text>';
+  var lab=v.map(function(r,i){return '<text x="'+x(i)+'" y="'+(H-8)+'" font-size="10" text-anchor="middle" fill="currentColor" opacity=".7">'+r.t.slice(5,10)+'</text>';}).join('');
+  return '<svg class="chart" viewBox="0 0 '+W+' '+H+'" role="img" aria-label="Blood pressure trend">'+grid+thr+path(sys,'#153892')+path(dia,'#4B5568')+lab+'</svg><p class="help">Blue: systolic · grey: diastolic · dashed: threshold set by the programme\'s clinical lead.</p>';}
+function record(id,tab){
+  var p=byId(id); tab=tab||'overview';
+  var tabs=['overview','timeline','notes','voice'].map(function(t){return '<button role="tab" aria-selected="'+(t===tab)+'" data-tab="'+t+'">'+t.charAt(0).toUpperCase()+t.slice(1)+'</button>';}).join('');
+  var body='';
+  if(tab==='overview'){body='<div class="grid grid-2"><div class="card"><h3>Maternal summary</h3><dl class="kv"><dt>Age</dt><dd>'+p.age+'</dd><dt>Gravida / parity</dt><dd>'+p.gravida+' / '+p.parity+'</dd><dt>EDD</dt><dd>'+p.edd+'</dd><dt>Stage</dt><dd>'+(typeof p.weeks==='number'?p.weeks+' weeks':esc(p.weeks))+'</dd><dt>Community midwife</dt><dd>'+esc(p.midwife)+'</dd><dt>Site</dt><dd>'+p.site+'</dd><dt>Phone</dt><dd>'+p.phone+'</dd><dt>Enrolled</dt><dd>Week 16 · consent v2 · partner access: '+(p.id==='W-1108'?'granted':'not requested')+'</dd></dl></div>'+
+    '<div class="card"><h3>Latest readings</h3>'+(p.vitals.length?'<dl class="kv"><dt>BP</dt><dd>'+p.vitals[p.vitals.length-1].bp+'</dd><dt>Pulse</dt><dd>'+p.vitals[p.vitals.length-1].pulse+' bpm</dd><dt>Temperature</dt><dd>'+p.vitals[p.vitals.length-1].temp+' °C</dd><dt>Recorded</dt><dd>'+fmt(p.vitals[p.vitals.length-1].t)+'</dd></dl>':'<p class="help">None</p>')+'<p class="help">Readings are displayed as recorded. The software does not interpret them.</p></div>'+
+    (p.newborns.length?'<div class="card"><h3>Newborn</h3>'+p.newborns.map(function(n){return '<dl class="kv"><dt>Name</dt><dd>'+esc(n.name)+'</dd><dt>Sex</dt><dd>'+n.sex+'</dd><dt>Date of birth</dt><dd>'+n.dob+'</dd><dt>Birth weight</dt><dd>'+n.weight+'</dd><dt>Feeding</dt><dd>'+esc(n.feeding)+'</dd></dl>';}).join('')+'</div>':'')+
+    '<div class="card" style="grid-column:1/-1"><h3>Blood pressure trend</h3>'+chart(p.vitals)+'</div></div>';}
+  if(tab==='timeline'){body='<div class="toolbar"><button class="btn btn-secondary btn-sm" data-add="vitals">+ Add vitals</button><button class="btn btn-secondary btn-sm" data-add="symptoms">+ Add symptoms</button><label class="help" style="align-self:center"><input type="checkbox" id="flagonly" style="width:auto;margin-right:.4rem">Flags only</label><span style="flex:1"></span><button class="btn btn-secondary btn-sm" onclick="alert(\'Demo: CSV export\')">Export CSV</button><button class="btn btn-secondary btn-sm" onclick="alert(\'Demo: PDF export\')">Export PDF</button></div><ul class="timeline" id="tl"></ul>';}
+  if(tab==='notes'){body='<div class="card"><h3>Clinician notes</h3><div class="field"><label for="note">New note</label><textarea id="note" placeholder="Write a note. Notes are attributed and cannot be deleted, only amended with a trail."></textarea></div><button class="btn btn-primary btn-sm" id="addnote" style="margin-top:.6rem">Add note</button></div><div id="notes"></div>';}
+  if(tab==='voice'){body='<div class="card"><h3>Voice diaries</h3><p class="help">Recordings left by the woman for the care team. Playback only; the software does not analyse audio.</p><ul class="timeline">'+p.timeline.filter(function(e){return e.type==='Voice diary';}).map(function(e){return '<li><time>'+fmt(e.t)+'</time><div>'+esc(e.body)+' <button class="btn btn-secondary btn-sm" onclick="alert(\'Demo: audio player\')">Play</button></div></li>';}).join('')+'</ul>'+(p.timeline.some(function(e){return e.type==='Voice diary';})?'':'<p class="help">No voice diaries yet.</p>')+'</div>';}
+  view.innerHTML='<div class="panel"><div class="panel-head"><div><a href="#" data-view="patients">← Patients</a><h2 style="margin:.2rem 0 0">'+esc(p.name)+' <span class="help">'+p.id+'</span></h2></div>'+badge(p.risk)+'</div><div class="tabs" role="tablist">'+tabs+'</div>'+body+'</div>';
+  view.querySelectorAll('[data-tab]').forEach(function(b){b.addEventListener('click',function(){record(id,b.getAttribute('data-tab'));});});
+  if(tab==='timeline'){var tl=view.querySelector('#tl');function rt(){var fo=view.querySelector('#flagonly').checked;tl.innerHTML=p.timeline.filter(function(e){return !fo||e.badge;}).map(function(e){return '<li><time>'+fmt(e.t)+'</time><div><div class="t-head"><strong>'+esc(e.type)+'</strong>'+(e.badge?badge(e.badge):'')+'</div><div>'+e.body+'</div></div></li>';}).join('');}
+    rt();view.querySelector('#flagonly').addEventListener('change',rt);
+    view.querySelectorAll('[data-add]').forEach(function(b){b.addEventListener('click',function(){var k=b.getAttribute('data-add');var v=prompt(k==='vitals'?'Enter BP as systolic/diastolic, pulse (e.g., 128/84, 86):':'Enter symptoms (comma separated):');if(!v)return;
+      if(k==='vitals'){var m=v.match(/(\d{2,3})\/(\d{2,3}),?\s*(\d{2,3})?/);if(!m){alert('Format: 128/84, 86');return;}p.vitals.push({t:new Date().toISOString().slice(0,16),bp:m[1]+'/'+m[2],pulse:+(m[3]||0),temp:'—'});p.timeline.unshift({t:new Date().toISOString().slice(0,16),type:'Vitals',body:'BP '+m[1]+'/'+m[2]+' · pulse '+(m[3]||'—')});
+        if(+m[1]>=140||+m[2]>=90){p.timeline.unshift({t:new Date().toISOString().slice(0,16),type:'Programme rule',badge:'flag',body:'Rule "Antenatal BP above programme threshold (140/90)" matched. Routed to responsible clinician for review.'});DATA.alerts.unshift({id:'A-'+(400+DATA.alerts.length),p:p.id,sev:'flag',title:'Antenatal BP above programme threshold',t:new Date().toISOString().slice(0,16),assigned:'',status:'new'});p.risk='flag';p.flag='BP review';}}
+      else{p.timeline.unshift({t:new Date().toISOString().slice(0,16),type:'Symptoms',body:esc(v)+' (self-reported; routed to midwife)'});}
+      record(id,'timeline');aside();});});}
+  if(tab==='notes'){function rn(){view.querySelector('#notes').innerHTML=p.notes.map(function(n){return '<div class="card" style="margin-top:.8rem"><div class="help">'+fmt(n.t)+' · '+esc(n.who)+'</div><p style="margin:.3rem 0 0">'+esc(n.body)+'</p></div>';}).join('')||'<p class="help" style="margin-top:.8rem">No notes yet.</p>';}
+    rn();view.querySelector('#addnote').addEventListener('click',function(){var t=view.querySelector('#note').value.trim();if(!t)return;p.notes.unshift({t:new Date().toISOString().slice(0,16),who:'Demo operator',body:t});view.querySelector('#note').value='';rn();});}
+}
+function analytics(){
+  var n=DATA.patients.length,open=counts(),ci=86,pn=71;
+  view.innerHTML='<div class="panel"><h2>Programme analytics</h2><p class="help">Operational indicators only. No outcome claims are made from demo data.</p><div class="grid grid-4"><div class="card stat"><b>'+n+'</b><span>Women enrolled (demo)</span></div><div class="card stat"><b>'+open+'</b><span>Open flags</span></div><div class="card stat"><b>'+ci+'%</b><span>Daily check-in completion (7 days)</span></div><div class="card stat"><b>'+pn+'%</b><span>Postnatal visits on time</span></div></div>'+
+  '<div class="grid grid-2" style="margin-top:1.2rem"><div class="card"><h3>Flags by rule (30 days)</h3><div class="table-wrap"><table><tbody><tr><td>BP above threshold</td><td>12</td></tr><tr><td>Postnatal visit overdue</td><td>9</td></tr><tr><td>Missed check-ins (2 days)</td><td>17</td></tr><tr><td>Low mood on two check-ins</td><td>4</td></tr><tr><td>Reduced movements reported</td><td>3</td></tr></tbody></table></div></div><div class="card"><h3>Time to first contact after a flag</h3><div class="table-wrap"><table><tbody><tr><td>Median</td><td>1 h 40 min</td></tr><tr><td>Within programme SLA (4 h)</td><td>89%</td></tr><tr><td>Longest open</td><td>19 h (weekend)</td></tr></tbody></table></div><p class="help">Indicators like these are what a pilot evaluation measures.</p></div></div></div>';
+}
+function admin(){view.innerHTML='<div class="panel"><h2>Admin</h2><div class="grid grid-2"><div class="card"><h3>Escalation rules (owned by your clinical lead)</h3><div class="table-wrap"><table><thead><tr><th>Rule</th><th>Owner</th><th>Status</th></tr></thead><tbody><tr><td>Antenatal BP above 140/90</td><td>Dr K. Musa</td><td>Active · reviewed 01 Sep</td></tr><tr><td>Postnatal visit overdue 48 h</td><td>Dr K. Musa</td><td>Active</td></tr><tr><td>Missed check-ins 2 days</td><td>Programme lead</td><td>Active</td></tr><tr><td>Low mood on 2 check-ins</td><td>Dr K. Musa</td><td>Active</td></tr></tbody></table></div><p class="help">MaternaLink ships no default clinical rules. Each rule records an owner, a rationale and a review date.</p></div><div class="card"><h3>Users and roles</h3><div class="table-wrap"><table><tbody><tr><td>Dr K. Musa</td><td>Clinician</td></tr><tr><td>T. Bello</td><td>Community midwife · Site A/B</td></tr><tr><td>H. Ahmed</td><td>Community midwife · Site A</td></tr><tr><td>Demo operator</td><td>Programme administrator</td></tr><tr><td>Vytalix support</td><td>Break-glass only (logged)</td></tr></tbody></table></div></div><div class="card"><h3>Content library</h3><p>14 items · 11 signed off · 3 awaiting translation review (Yoruba, Hausa)</p></div><div class="card"><h3>Data &amp; retention</h3><p>Retention: 8 years after discharge (configurable) · Export: CSV/PDF · Residency: UK region (demo)</p></div></div></div>';}
+function go(v,id){navBtns.forEach(function(b){b.setAttribute('aria-current',b.getAttribute('data-view')===v?'page':'false');});({patients:patients,alerts:alerts,analytics:analytics,admin:admin})[v]();window.scrollTo({top:0});}
+navBtns.forEach(function(b){b.addEventListener('click',function(){go(b.getAttribute('data-view'));});});
+document.addEventListener('click',function(e){var o=e.target.closest('[data-open]');if(o){e.preventDefault();record(o.getAttribute('data-open'));return;}var v=e.target.closest('a[data-view]');if(v){e.preventDefault();go(v.getAttribute('data-view'));}});
+aside();go('patients');
+})();
+
+
+
+(function(){
+  var pages=document.querySelectorAll('section.page');var titles={"dashboard": "Demo dashboard \u2014 MaternaLink by Vytalix", "index": "MaternaLink by Vytalix \u2014 maternal and newborn care coordination, offline-first", "login": "Operator access \u2014 MaternaLink by Vytalix", "pilot": "Request a pilot \u2014 MaternaLink by Vytalix", "platform": "Platform \u2014 MaternaLink by Vytalix", "pricing": "Pricing \u2014 MaternaLink by Vytalix", "programmes": "Programmes \u2014 MaternaLink by Vytalix", "security": "Security and data \u2014 MaternaLink by Vytalix"};
+  function show(){var n=(location.hash||'#index').slice(1).split('?')[0];if(!document.querySelector('section.page[data-page="'+n+'"]'))n='index';
+    pages.forEach(function(s){s.hidden=s.getAttribute('data-page')!==n;});
+    document.querySelectorAll('a[href^="#"]').forEach(function(a){var h=a.getAttribute('href').slice(1);if(titles[h]!==undefined){if(h===n)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');}});
+    document.title=titles[n]||document.title;var nav=document.getElementById('site-nav')||document.getElementById('primary-nav');if(nav)nav.classList.remove('open');window.scrollTo(0,0);}
+  window.addEventListener('hashchange',show);show();
+})();
+
+</script>
