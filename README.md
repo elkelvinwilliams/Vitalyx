@@ -1,67 +1,68 @@
-# VYTALIX — Technology for Life
+# Vytalix — Technology for Life
 
-**Company build repository.** Vytalix is a pre-seed UK health-technology group with four pillars: Advisory, Consulting, Health Solutions (first product **MaternaLink**, in development) and E-Learning. This repository is the operating system for building the company: audit, strategy, product, finance, brand, website, investor CRM and execution plans.
+A UK health technology company being built from scratch. Four parts: advice, consulting, health products (MaternaLink, in development) and training.
 
-> Truth standard: nothing here is a record of achievement unless labelled VERIFIED or KNOWN. Everything else is ASSUMPTION, ESTIMATE, PROPOSED or TO VALIDATE. Start with `FACTS_BASE.md`.
+**Start with [`docs/00_START_HERE.md`](docs/00_START_HERE.md). It is one page and it tells you what to do this week.**
 
-## Start here
-| Order | File | What it is |
+Everything here is written in plain English. Nothing claims a customer, partner, approval or pound of revenue that does not exist.
+
+## The two websites are live
+
+- Vytalix: https://elkelvinwilliams.github.io/Vitalyx/
+- MaternaLink, with a demonstration dashboard: https://elkelvinwilliams.github.io/Vitalyx/maternalink/
+
+## The fourteen documents
+
+| # | Document | What it answers |
 |---|---|---|
-| 0 | `FACTS_BASE.md` | Single source of truth: what was verified, what is unknown, working assumptions, language rules |
-| 1 | `docs/00_MASTER_AUDIT.md` | Master audit, area scores /10, business score /100, SWOT, top 10 problems, top 10 opportunities |
-| 2 | `docs/19_FIRST_30_DAYS.md` | Day-by-day plan from Monday 14 September 2026 |
-| 3 | `docs/18_90_DAY_EXECUTION_PLAN.md` | 90-day plan with owners, deadlines, KPIs, decision gates |
+| 00 | [Start here](docs/00_START_HERE.md) | What to do first |
+| 01 | [Where you stand](docs/01_WHERE_YOU_STAND.md) | What exists today, honestly. Score: 11 out of 100 |
+| 02 | [What we are building](docs/02_WHAT_WE_ARE_BUILDING.md) | MaternaLink, and why the AI idea is parked |
+| 03 | [Who buys it](docs/03_WHO_BUYS_IT.md) | Buyers, budgets, and who else is out there |
+| 04 | [How we make money](docs/04_HOW_WE_MAKE_MONEY.md) | Every price, and the first £1,000,000 |
+| 05 | [The money](docs/05_THE_MONEY.md) | Three-year numbers, how much to raise, and when |
+| 06 | [The plan](docs/06_THE_PLAN.md) | The first 90 days, and how to decide anything |
+| 07 | [Getting customers](docs/07_GETTING_CUSTOMERS.md) | Where clients come from, and what to say |
+| 08 | [Running the company](docs/08_RUNNING_THE_COMPANY.md) | Your week, your numbers, who to hire when |
+| 09 | [Legal, data and safety](docs/09_LEGAL_AND_SAFETY.md) | What you must do, and where software becomes a medical device |
+| 10 | [Partners](docs/10_PARTNERS.md) | The seven kinds, and the first four to get |
+| 11 | [Brand and websites](docs/11_BRAND_AND_WEBSITES.md) | The name, the look, the two sites |
+| 12 | [Structure and markets](docs/12_STRUCTURE_AND_MARKETS.md) | How to set the company up, and which countries |
+| 13 | [The investor list](docs/13_THE_INVESTOR_LIST.md) | How to use the 316 names |
 
-## Strategy
-- `docs/01_BUSINESS_MODEL.md` — revenue streams, pricing, service catalogue, unit economics
-- `docs/02_GROUP_STRUCTURE.md` — legal structure, IP options for MaternaLink, governance, vision and missions
-- `docs/05_MARKET_STRATEGY.md` — UK, Africa, Europe, Middle East, North America, emerging markets scored
-- `docs/06_CUSTOMER_SEGMENTS.md` — B2B and B2C segments, ICP, first target archetypes
-- `docs/11_COMPETITIVE_INTELLIGENCE.md` — direct, indirect, adjacent competitors; buildable advantages
-- `docs/12_PARTNERSHIP_STRATEGY.md` — ecosystem map, scoring, 12-month plan
-- `docs/20_DECISION_FRAMEWORK.md` — BUILD / TEST / DEFER / KILL scoring applied to live ideas
-- `docs/24_MATERNALINK_REINVENTION.md` — brutal audit of the 2025 AI concept, the reinvented product, category, business model, partner ecosystem, data and AI moats, regulatory pathway, validation study, MVP, pitches, brand, global scale, £1bn test, 90-day plan and war room
-- `investors/partners/` — 74-organisation partner target list, CRM template and Excel war room
-- `docs/23_INVESTOR_READINESS_AND_WINNING_CONCEPT.md` — readiness scorecard, data-room index, the Maternal Continuity Layer concept, government-contract playbook
-- `exports/` — Word and PowerPoint versions of every document and deck, plus `START_HERE.md` and the zip pack (`python3 exports/build_exports.py` regenerates)
-- `docs/22_UPDATE_LOG_2026-09-08.md` — what changed after the logo, prototype recording and expanded scope were received
+Plus [the facts](FACTS_BASE.md), which says what is proven and what is a guess. If any document disagrees with it, that file wins.
 
-## Product and technology
-- `docs/04_MATERNALINK_PRODUCT_STRATEGY.md` — vision, personas, journeys, MVP→v3, regulatory, data, safety
-- `product/MATERNALINK_PRD.md`, `product/MATERNALINK_MVP_SPEC.md`, `product/MATERNALINK_ROADMAP.md`
-- `docs/07_TECHNOLOGY_ARCHITECTURE.md` — group stack, costs, lean year-1 stack
-- `product/MATERNALINK_FEATURE_ADDENDUM.md` — founder's feature list mapped to version and regulatory posture (8 Sept 2026)
-- `docs/21_MATERNALINK_PRICING.md` — MaternaLink pricing per product and annual service
-- `maternalink-site/` — rebuilt MaternaLink product site (EN/FR landing, platform, programmes, security, pricing, pilot request, operator login, demo dashboard)
+## Everything else
 
-## Finance and funding
-- `finance/Vytalix_Financial_Model_3yr.xlsx` (built by `finance/build_model.py`) — Conservative / Base / High-growth
-- `docs/08_FINANCIAL_MODEL.md`, `docs/09_FUNDING_STRATEGY.md`, `docs/10_INVESTOR_PROPOSITION.md`
-- `assets/INVESTOR_ONE_PAGER.md`, `assets/INVESTOR_PITCH_DECK.md`
+| Folder | What is in it |
+|---|---|
+| `product/` | Four documents to hand to a software developer |
+| `assets/` | What you send out: company profile, service list, proposal template, one-pager, four slide decks |
+| `finance/` | The three-year financial model |
+| `investors/` | 316 investors, top 25, call lists, scripts, and 74 partner organisations |
+| `operations/` | Weekly numbers and pipeline trackers |
+| `diagrams/` | The 18 charts used in the documents |
+| `website/`, `maternalink-site/` | The two websites |
+| `exports/` | Everything as PDF, Word, Excel and PowerPoint, plus two zip files |
 
-## Investors (300-investor CRM, investor-only, phone-first)
-- `investors/VYTALIX_INVESTOR_CRM.xlsx` and `.csv` — master CRM with fit /100, contactability /10, tiers
-- `investors/TOP_25_INVESTORS.md`, `investors/CALL_LISTS.md`, `investors/OUTREACH_TOP25.md`
-- `investors/OUTREACH_ENGINE.md`, `investors/CRM_PIPELINE.md`, `investors/INVESTOR_DASHBOARD.md`
-- `investors/NON_DILUTIVE_FUNDING_ROUTES.md` — grant programmes kept outside the investor-only CRM
-- Rebuild after edits: `python3 investors/build_crm.py` (raw research in `investors/raw/`)
+## Ready-made files
 
-## Brand, website, go-to-market
-- `docs/03_BRAND_SYSTEM.md` — positioning, voice, palette, typography, logo direction, design systems
-- `website/` — 14-page static site (open `website/index.html`; deploy notes in `website/README.md`)
-- `docs/13_SALES_ENGINE.md`, `docs/14_MARKETING_AND_CONTENT_ENGINE.md`
-- `assets/` — company profile, service catalogue, decks, proposal template, pricing, business plan, content calendar, launch campaign
+- **`exports/pdf/Vytalix_Executive_Pack.pdf`** — the six documents to read first, in one branded PDF
+- `exports/pdf/` — every document as a PDF with a title page and page numbers
+- `exports/pdf/decks/` — the four slide decks
+- `exports/xlsx/` — investor list, financial model, partner tracker, pricing calculator, readiness scorecard
+- `exports/Vytalix_Pack_1_Documents.zip` and `exports/Vytalix_Pack_2_Sites_Data_Source.zip`
 
-## Operations, legal, people
-- `docs/15_LEGAL_AND_REGULATORY.md`, `docs/16_ORGANISATION_AND_SOPS.md`, `docs/17_FOUNDER_OPERATING_SYSTEM.md`
-- `operations/KPI_DASHBOARD.csv`, `operations/PIPELINE_TRACKERS.csv`
+## Rebuilding after you edit something
 
-## Live websites
-- Vytalix: https://claude.ai/code/artifact/cc65bf98-acb9-451e-a9d4-eed9553ac632
-- MaternaLink (with demo dashboard): https://claude.ai/code/artifact/39a7187c-c6d5-4eaf-9c6b-38dab166ce40
+Edit the Markdown files, then run one command:
 
-## Exports
-`exports/pdf` (branded PDFs and `Vytalix_Executive_Pack.pdf`), `exports/pdf/decks`, `exports/xlsx` (branded workbooks, pricing calculator, readiness scorecard), `exports/pptx`, `exports/docx`, `exports/live`. Rebuild with `python3 exports/build_pdfs.py`, `build_deck_pdfs.py`, `build_xlsx.py`, `build_exports.py`.
+```
+bash exports/rebuild_all.sh
+```
 
-## Naming
-The repository is named "Vitalyx"; the brand in the founder's brief is "Vytalix". Treat the repository name as a typo pending name and trademark clearance (see the audit).
+That rebuilds the diagrams, PDFs, decks, spreadsheets, Word files and both zips.
+
+## House style
+
+Every document follows [`docs/_STYLE.md`](docs/_STYLE.md): short sentences, no consultancy jargon, jargon explained in brackets, a one-minute summary at the top, and a maximum of about 200 lines. Keep it that way when you edit.

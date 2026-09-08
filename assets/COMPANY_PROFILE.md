@@ -1,97 +1,76 @@
-# VYTALIX — Company Profile
+# Vytalix — Company profile
 
-**Technology for Life** · Two-page profile · Version 1.0 · 8 September 2026 · Status: PROPOSED (external-ready once the bracketed placeholders are filled and the name is cleared)
-Governed by `/FACTS_BASE.md`. Tone per `/docs/03_BRAND_SYSTEM.md`. Nothing below is a claim of achievement; every forward statement is labelled.
+*For anyone who wants to know who we are before they talk to us. Send it with a first email, or attach it to a proposal.*
 
-## Executive view
+Everything here is true today. Where something is a plan or a best guess, we say so and mark it ESTIMATE (our best guess, not a fact) or PROPOSED (decided by us, not yet done).
 
-1. Vytalix is a pre-seed, founder-led UK health-technology group with four connected pillars — Advisory, Consulting, Health Solutions and E-Learning — designed so that advice informs delivery, delivery informs product, and product informs learning.
-2. What we can do for a client today is founder-led advisory and fixed-scope consulting on digital health strategy, NHS readiness, UK–Africa market entry, funding readiness and digital maternity; E-Learning follows once the first courses are built (ESTIMATE: month 9).
-3. Our first product, MaternaLink (in development), is a non-diagnostic maternal care-coordination, communication, education and monitoring-support platform for NHS and low-connectivity settings; it is not validated, not approved and not yet deployed anywhere.
-4. We are honest about stage: no clients, partners, approvals or team beyond the founder are claimed; credibility comes from rigour, safety-first scoping and published thinking (see `/docs/14_MARKETING_AND_CONTENT_ENGINE.md`).
-5. Use this profile as the "About Vytalix" appendix in proposals, decks and the website; update the placeholders after incorporation and name clearance (`/docs/02_GROUP_STRUCTURE.md` §7).
+## Who we are
 
----
+Vytalix is a British health-technology company. We advise, we deliver projects, we teach, and we are building our first product.
 
-## 1. Who we are
+We are founder-led and early. We have no outside money yet. We say exactly what we can do today and nothing more.
 
-Vytalix is a UK health-technology group that advises, builds, delivers and teaches, so that technology earns its place in care.
+Our subject is maternity care. In the UK, public inquiries keep finding the same failures: nobody listened, nobody escalated, the handover was lost. In Nigeria, more women die in childbirth than anywhere else in the world. Both problems are partly about coordination, not only about medicine.
 
-We are founder-led and pre-seed. We are building the company in the open and we say exactly what we can do today. Our first product focus is maternal health, where outcomes are unequal and coordination fails too often — in the UK, where public inquiries keep finding the same failures to listen, escalate and hand over, and in Nigeria, which carries the largest absolute maternal-death burden in the world (sources to be cited to the current MBRRACE-UK and WHO reports before external use; see `/docs/04_MATERNALINK_PRODUCT_STRATEGY.md` §2).
+**What we stand for:** technology for life. Care that knows a person, hears them and acts in time, wherever they live.
 
-**Vision (PROPOSED):** Technology for Life. A world in which every person — beginning with every mother — is connected to care that knows them, hears them and acts in time, wherever they live.
+**Where we are right now:** the company is being set up. The name is being cleared. We have no revenue and no product in use. We tell every reader this before they ask.
 
-**Mission (25 words, PROPOSED):** Vytalix is a UK health-technology group that helps health organisations, founders and governments make technology work in real care — beginning with maternal care coordination.
+## What we do — the four parts
 
-**Stage, plainly (KNOWN):** pre-formation; legal entity, name clearance and registrations in progress; no revenue; no product in production. Everything we publish is labelled KNOWN, ESTIMATE, PROPOSED or TO VALIDATE.
-
-## 2. What we do — four pillars
-
-| Pillar | What it is | Who it is for | What is true today |
+| Part | What it is | Who it is for | What is true today |
 |---|---|---|---|
-| **Vytalix Advisory** | Independent, senior advice on health-technology strategy, market entry (UK↔Africa), regulation and funding readiness: advisory days, monthly retainers, fractional Chief Digital/Strategy Officer | Health-tech founders (pre-seed to Series A), SME providers, NGOs, ministries via donors, investors and accelerators | Founder-led; independent (no vendor commissions); available now |
-| **Vytalix Consulting** | Fixed-scope, fixed-price delivery: discovery sprints, business cases, digital maternity readiness, DTAC and evidence readiness, market-entry playbooks, health-inequalities reviews, programme evaluation | NHS trusts and ICBs (via frameworks or sub-contract), private providers, health-tech vendors, NGOs and foundations | Ten packaged offers with defined deliverables (`/assets/SERVICE_CATALOGUE.md`); documented methods |
-| **Vytalix Health Solutions** | Products designed for real care settings, starting with MaternaLink (in development) | NHS trusts and LMNS, private maternity, employers; African state programmes, NGOs, insurers | An early prototype exists; a safety-first, non-diagnostic v1 scope; a roadmap with explicit validation gates |
-| **Vytalix E-Learning** | Practical learning on digital health, care coordination and safe AI for health teams and founders: self-paced courses, subscription library, corporate and university licences | Midwives, nurses, health-tech professionals, students (UK and Africa); employers; universities | Curriculum themes and formats defined; first two courses planned for month 9 (ESTIMATE); no accreditation held or claimed |
+| **Advisory** | Senior advice by the day or by the month. Strategy, entering a new market, rules and regulation, getting ready for funding. | Health-tech founders, small care providers, charities, investors | Available now, delivered by the founder |
+| **Consulting** | Fixed-price projects with a fixed end date. Reviews, business cases, readiness checks, market plans. | NHS trusts, private providers, health-tech companies, charities and foundations | Ten packaged projects with written prices |
+| **Health Solutions** | Products for real care settings. The first is MaternaLink. | Maternity services in the UK; state and charity programmes in Africa | An early prototype only. Nothing in use with patients |
+| **E-Learning** | Short practical courses for health teams and founders. | Midwives, nurses, health-tech staff, students, employers | Planned. First courses about nine months after we start |
 
-The pillars are one company, not four. A readiness review, a business case, a pilot and a training programme are designed to fit together.
+These are four parts of one company, not four businesses. A readiness review, a business case, a pilot and a training course are designed to fit together.
 
-## 3. How we work
+Advisory and Consulting pay the bills. MaternaLink is the long game.
 
-- **Fixed scope, fixed price, written change control.** Every consulting engagement has a defined deliverable, an acceptance criterion and a start and end date.
-- **Evidence before claims.** We cite sources or we do not use the number. We tell you if your idea should not be built.
-- **Safety before speed.** For anything that touches patients we start from the intended-use statement, the clinical-safety approach (DCB0129/DCB0160) and the data-protection impact assessment, not from features.
-- **Build with, not for.** Discovery interviews with the people who will use the thing come before design. We only say "built with clinicians" once clinicians have actually co-designed it.
-- **Both markets, one standard.** UK home market; active interest in maternal health in Nigeria and one further African market. The same safety, data and honesty rules apply in both.
-- **Stage-honest.** We are pre-seed and founder-led. Associates are engaged only on signed work and named only with their consent.
+## How we work
 
-Values in one line each (PROPOSED): Truth before traction · Safety before speed · Build with, not for · Both markets, one standard · Evidence is the product.
+- **Fixed scope, fixed price, and changes in writing.** Every project has a written result, a way of judging it and a finish date.
+- **Sources or silence.** If we cannot cite a number, we do not use it. If we think your idea should not be built, we say so.
+- **Safety before speed.** For anything that touches patients we start with what the product is for, who is accountable for safety, and how personal data is protected. Features come after.
+- **Built with people, not at them.** We interview the people who will use a thing before we design it. We only say "built with midwives" once midwives have actually helped build it.
+- **One standard in both markets.** The same safety, data and honesty rules apply in the UK and in Africa.
+- **Honest about our size.** We are one founder plus associates who are hired only when work is signed. We name nobody without their permission.
 
-## 4. MaternaLink (in development)
+## MaternaLink (in development)
 
-**What it is intended to be:** a care-coordination and communication platform for maternity services, designed to help women stay connected to their care team and help care teams hand over safely — built for both NHS and low-connectivity settings (web app plus SMS and voice channels).
+MaternaLink is a maternity coordination platform. It is designed to keep a pregnant woman, her midwife and her hospital connected from the first booking appointment to a year after birth.
 
-**v1 scope (PROPOSED):** enrolment and consent; personalised contact schedules and reminders; clinically signed-off education in the woman's language; secure two-way messaging with a named human owner and acknowledgement time; a self-recorded diary that is displayed, not interpreted; a care-team console; a structured handover summary; an escalation log; missed-contact lists; a programme dashboard.
+The first version is deliberately narrow. It helps with appointments, two-way messaging that escalates to a real person, education a clinician has approved, and simple monitoring that a midwife acts on. It does not diagnose. It does not decide anything for a clinician.
 
-**What it is not:** it does not diagnose, predict, triage or score. It is designed to support — not replace — clinical judgement. The multimodal AI risk-scoring concept from 2025 is held as a research track (v3+) that advances only with data partnerships, ethics approval, clinical validation and a UK MDR / MHRA software-as-a-medical-device pathway.
+An earlier idea, an artificial-intelligence score that predicts complications, is now a research project for later. It needs data partners, ethics approval and a formal regulator's route before anyone can sell it.
 
-**Status (KNOWN):** early prototype of unknown maturity; intellectual-property ownership being documented; no data, model, validation, clinical partner, ethics approval or deployment. Four gates must close before anything is sold: IP documented, prototype audited, Clinical Safety Officer appointed and hazard log opened, DPIA completed (`/docs/04_MATERNALINK_PRODUCT_STRATEGY.md`, Executive view).
+What is honest today:
 
-**What we are looking for:** one UK maternity service willing to act as an unpaid design partner for a service evaluation; one Nigerian implementing partner with an existing cohort; clinical advisers (obstetrics, midwifery, clinical safety). Partnership conversations are described in `/assets/PARTNERSHIP_DECK.md`.
+- A prototype exists and is being reviewed.
+- No hospital, clinic or government uses it.
+- It is not approved by the NHS, not cleared by the MHRA (the UK medicines and medical devices regulator), and carries no CE or UKCA mark.
+- No clinical trial has been run and no outcome has been proven.
 
-## 5. Principles we will not trade
+We would rather say that in the first meeting than be found out in the fifth.
 
-1. We never describe MaternaLink as proven, NHS-approved, clinically validated, CE/UKCA-marked, MHRA-registered or as reducing maternal mortality.
-2. We never name a client, partner, adviser or team member without written consent and a real relationship.
-3. Advisory and consulting work is designed to process no patient data.
-4. Every number in our material is sourced or labelled ESTIMATE.
-5. Conflicts of interest are declared in writing (the founder's separate venture, Kemek Enterprise Ltd, is a declared interest).
+## What we believe
 
-## 6. Contact
+1. Truth before traction. A small honest business beats a big story that falls apart.
+2. Safety before speed. In health, moving fast and breaking things breaks people.
+3. Build with, not for. The midwife knows things the slide deck does not.
+4. Evidence is the product. Without proof, a health product is just an opinion with a login screen.
+5. Both markets, one standard. What we would not ship in Manchester we do not ship in Lagos.
 
-- Founder: [Founder name — confirm display name] · [Role title]
-- Email: [hello@domain — TO VALIDATE after domain purchase]
-- LinkedIn: [Founder profile URL] · [Vytalix company page URL — created after name clearance]
-- Website: [URL — live after incorporation; source in `/website`]
-- Registered office: [Registered office address — add after incorporation]
-- Legal entity: Vytalix is a trading name of [Legal entity name — TO VALIDATE; recommended "Vytalix Group Ltd"], registered in England & Wales, company no. [●]. VAT status: [TO VALIDATE].
-- Phone: [Not published until a business line exists]
+## How to reach us
 
----
+- Founder: [Founder name] · [Role]
+- Email: [hello@yourdomain]
+- Phone: [Business number, once a line exists]
+- Website: [URL]
+- LinkedIn: [Founder profile] · [Company page]
+- Registered office: [Address, after the company is registered]
+- Legal name: Vytalix is a trading name of [Legal company name], registered in England and Wales, company number [●]. VAT: [status].
 
-## Priorities / Risks / Next actions
-
-**Priorities**
-1. Clear the name and incorporate (`/docs/02_GROUP_STRUCTURE.md` §7), then fill every placeholder above and re-label this profile from PROPOSED to ADOPTED.
-2. Use the profile unchanged as the appendix to every proposal and deck so that the stage disclosure travels with every claim.
-3. Recruit the first clinical adviser so that "built with clinicians" can become true, with consent to be named.
-
-**Risks**
-- A rename after clearance would require a find-and-replace across all assets; the brand system is designed for this, so no printed assets are commissioned before clearance.
-- Any drift toward "proven platform" language in derivative copy; mitigation: FACTS_BASE checklist before publishing.
-- Contact placeholders left in an external document; mitigation: a pre-send check in `/docs/13_SALES_ENGINE.md` §10.
-
-**Next actions**
-- Founder, by Day 10: name clearance result; incorporation; domain; email.
-- Founder, by Day 14: placeholders filled; profile exported to PDF on the letterhead specified in `/docs/03_BRAND_SYSTEM.md` §14.
-- Founder, by Day 60: first adviser named (with consent) in §4.
+Ask us for a 20-minute call. If we are not the right people, we will say so and point you somewhere better.

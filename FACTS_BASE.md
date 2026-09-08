@@ -1,63 +1,99 @@
-# VYTALIX — FACTS BASE (single source of truth for all workstreams)
+# The facts: what is true, what is a guess
 
-Audit date: 7 September 2026. Every document in this repository must be consistent with this file.
-Label every non-verified statement as ASSUMPTION, ESTIMATE, PROPOSED or TO VALIDATE. Never present a proposal as a fact.
+**The rule book for everything else. If a document says something this file does not support, this file wins.**
 
-## 1. What is VERIFIED (seen directly during the audit)
+## In one minute
 
-### Company / repository
-- GitHub repository `elkelvinwilliams/Vitalyx` contained ONE file before this build: `README.md` with the single line "# Vitalyx". No code, no documents, no website, no brand assets. (VERIFIED)
-- The founder's brief uses the spelling **VYTALIX**; the repository uses **Vitalyx**. Two spellings are in circulation. (VERIFIED)
-- No Companies House registration for "Vytalix" or "Vitalyx" was found via public search. Similar names that DO exist and create naming/trademark risk: VITALIX LTD (two UK companies, nos. 16813455 and 15155964), VITALX LTD, VYTAL(UK) LIMITED, plus **Vytalyx Inc.** (Austin, Texas, AI/blockchain health-tech, vytalyx.io) and **Vytalize Health** (New Jersey, value-based care). (VERIFIED via search results; Companies House pages could not be opened directly from this environment, so registration status of Vytalix itself is TO VALIDATE)
-- Founder email: elkelvinwilliams@gmail.com (the user). Founder name as it appears in the repo: Kelvin Williams (ASSUMPTION on the display name; confirm).
-- The founder also runs a separate venture, **Kemek Enterprise Ltd** (Company no. 16766198, property bridging / "Project Harwood Manor"), with an investor CRM of 128 property-finance targets built August 2026. This is NOT Vytalix material and must not be mixed into the Vytalix investor CRM. (VERIFIED from Drive)
+- This file separates what has been checked from what is a guess. Every other document must agree with it.
+- Six things are proven to exist. Everything else is a plan.
+- Twelve important things are unknown. They are listed so nobody pretends otherwise.
+- Twelve decisions have been taken to move forward. Each can be changed if you disagree.
+- Five sentences must never appear in anything you send out. They are at the bottom.
 
-### MaternaLink — what actually exists
-1. **"Black Maternal health" deck** (Google Slides + PPTX, Oct/Nov 2025, 13 slides), titled "MATERNA-LINK: Multimodal AI for Predicting and Preventing Maternal Complications". Concept: combine clinical data (BP, HR, urine protein, labs), voice/emotional biomarkers (diaries, consultations) and social/demographic data to produce a "Maternal Instability Score (MIS)" that "predicts pre-eclampsia, sepsis, haemorrhage, thromboembolism" and alerts a clinician dashboard. Proposed stack: Python, XGBoost, Librosa/OpenSMILE, TensorFlow/PyTorch, Hugging Face BERT, Streamlit/Dash, Fairlearn. States "Expand to multiple NHS trusts" as a future goal. Cites "Black women are 3x more likely to die during childbirth in the UK" (this is broadly consistent with MBRRACE-UK reporting but must be cited to the current MBRRACE-UK report before external use). **No data, no model, no validation, no clinical partner, no ethics approval is evidenced.** (VERIFIED as a concept deck only)
-2. **Ekiti State (Nigeria) Ministry of Health proposal**, sent by **David Agunede, signing as "Founder & Chief Executive Officer, Maternal Link"** (davidagunede1@hotmail.co.uk) on 18 March 2026 following a meeting the previous Thursday; re-forwarded to the founder on 6 Sept 2026. Attachments: "Maternal Link Ekiti state.pptx", "Maternal_Link_Nigeria_Government_Proposal.pptx", "Charge sheet.docx", "MATERNAL LINK Nego sheet.odt", a "Lang Switcher" demo video. Proposed commercial structure: Phase 1 pilot 15,000 women (£4,500,000); Phase 2 30,000 women (£9,000,000); full state 120,000 women (£36,000,000); i.e. **£300 per woman per year** ("roughly $1 per day per mother"). Claims made in the email: target uptime 99.5–99.9%, offline-first architecture, cloud backups. Outcome of the proposal: **unknown / no evidence of acceptance, contract or payment.** (VERIFIED as a proposal only)
-3. **Live prototype dashboard** at https://maternal-health-psi.vercel.app/ ("Maternal-link-dashboard"), with an "operator access" registration flow; shared with the founder on 6 Sept 2026. Could not be opened from this environment; treat as an early prototype of unknown maturity, hosting, security and data handling. (VERIFIED that it exists; contents TO VALIDATE)
-4. An "Investors PPT" (Oct 2025) exists from David Agunede — content not reviewed here beyond the "Black Maternal health" deck it forwarded.
+## What to do
 
-### Ownership and structure — CRITICAL GAP
-- David Agunede presents himself as Founder & CEO of "Maternal Link". Vytalix's brief describes MaternaLink as Vytalix's first product. **The legal relationship between Vytalix, the founder, David Agunede and the MaternaLink IP (code, brand, proposals, prototype) is undocumented.** No shareholders' agreement, IP assignment, licence, JV or partnership agreement was found. Until resolved, Vytalix cannot truthfully tell investors it owns MaternaLink. (VERIFIED gap)
-- No evidence found of: a registered company for Vytalix, a website/domain, a trademark, a bank account, employees, contracts, revenue, customers, grants, NHS or government partnerships, clinical partners, ethics approvals, regulatory classification, data-protection registration (ICO), or insurance. Everything is pre-formation. (VERIFIED absence in the materials reviewed; the founder may hold items not shared)
+| Action | Who | By when |
+|---|---|---|
+| Read the "not known" list and answer what you can | You | This week |
+| Correct anything in the "proven" list that is wrong | You | This week |
+| Update this file whenever something moves from guess to fact | You | Ongoing |
 
-### Competitive fact that changes the Ekiti/Nigeria strategy
-- Ekiti State already runs a maternal digital-health programme: **mDoc's "Digital Mom Project"** (CompleteHealth™ platform + NaviHealth AI), funded by **MSD for Mothers**, launched in Lagos on 10 Nov 2023 and extended to Ekiti; ~24,000 women onboarded and 500+ providers trained in Ekiti as of January 2026. mDoc also works with the Lagos State Ministry of Health. Source: Nigeria Health Watch (2026), Vanguard (Nov 2023), mDoc blog. **MaternaLink's Ekiti proposal is therefore entering a state with an incumbent, funded programme.** (VERIFIED via public reporting)
+Checked on 7 and 8 September 2026.
 
+## What is proven
 
-### Additions 8 September 2026 (VERIFIED from founder-supplied files)
-- **Logo exists**: heart-and-circuit mark, "Vytalix" wordmark, "Technology for Life" strapline, deep blue #153892. Files in `website/assets/img/`.
-- **Prototype contents** (from a 101-second screen recording of https://maternal-health-psi.vercel.app): landing page in English and French ("Offline-first maternal and newborn monitoring for public health systems"; "Request a pilot"); operator login; dashboard with Patients (mothers with nested newborns, LOW/HIGH badges), Alert queue (HIGH/MEDIUM, assign, mark contacted), patient record with Overview (maternal summary, newborns, vitals, blood-pressure chart, risk events), Timeline (rule-based risk evaluations with reasons such as BP_HIGH and **suggested clinical actions**), Notes, Voice diaries (upload), CSV/PDF export; an Admin tab in one version. Test records include photographs of identifiable people. The product is branded "MaternalLink" / "Maternal Link" in the prototype.
-- **Innovation Provisional Proposal** (founder document): umbrella innovation group; mission "to enhance health and social care outcomes by leveraging technology and AI"; objectives: innovation development, AI integration, knowledge bridging, capacity building, policy and standards support.
-- **Expanded scope proposed by the founder**: an operating system, an overseas doctor-placement agency, sponsorship for African hospitals, hospital property and build. Scored in `docs/22_UPDATE_LOG_2026-09-08.md`; not adopted as divisions.
-- **MaternaLink feature ideas from the founder**: Maternity Watch issued at week 16 and returned after postnatal discharge; e-care patient database; maternity triage / maternity A&E; shorter appointments; voice tracing of baby movements; daily questionnaire; partner quizzes; symptom logging (itching hands and feet, vomiting); blood-glucose input for diabetes; hospitals replacing or integrating existing systems. Mapped in `product/MATERNALINK_FEATURE_ADDENDUM.md`.
+| # | What | How we know |
+|---|---|---|
+| 1 | The code repository was empty. One file, one line of text | Seen directly |
+| 2 | A logo exists: a heart with a circuit line, the word Vytalix, the line "Technology for Life", in blue #153892 | You supplied the file |
+| 3 | A slide deck from October 2025 proposes AI that predicts pre-eclampsia, sepsis, bleeding and blood clots. There is no data, no model, no clinician and no permission behind it | The deck itself |
+| 4 | A proposal went to Ekiti State, Nigeria in March 2026, signed by David Agunede as "Founder and CEO, Maternal Link". £4.5m for 15,000 women, £300 per woman per year. No reply is recorded | The emails |
+| 5 | A prototype website exists at maternal-health-psi.vercel.app. It has patients, alerts, timelines, notes, voice diaries and a risk engine that suggests clinical actions. Test records use photographs of real-looking people | A screen recording you sent |
+| 6 | Ekiti State already has a maternal digital health programme called Digital Mom, run by mDoc and paid for by MSD for Mothers. About 24,000 women were signed up by January 2026 | Nigeria Health Watch and other public reporting |
 
-## 2. What is NOT known (must be asked or validated)
-- Whether Vytalix is incorporated, where, and who the shareholders are.
-- The founder's exact role, time commitment, capital available, and personal domain expertise (clinical? commercial? technical?).
-- The agreement (if any) between the founder and David Agunede.
-- Who wrote the code for the Vercel dashboard and who owns it; what data (if any) it holds; whether real patient data has ever been entered.
-- Whether the Ekiti proposal is live, dead or in negotiation; whether any other government has been approached.
-- Any letters of intent, pilots, advisors, clinicians or institutions attached to MaternaLink.
+Also checked: no company called Vytalix or Vitalyx was found on the public record. Similar names do exist, including two UK companies called VITALIX LTD, a US health-tech company called Vytalyx Inc, and Vytalize Health in New Jersey.
 
-## 3. Working decisions taken in this build (ASSUMPTIONS, stated so they can be overturned)
-- A1. Trading name: **Vytalix** (per the founder's brief). Legal entity name TO VALIDATE; recommendation is "Vytalix Group Ltd" (or "Vytalix Health Technologies Ltd") registered in England & Wales, subject to name/trademark clearance. The repository name "Vitalyx" should be treated as a typo to fix.
-- A2. Home market: United Kingdom. Second market: Nigeria (via existing government conversations) and one further African market to be scored. Vytalix is UK-domiciled and GBP-reporting.
-- A3. Stage: **pre-seed / pre-formation**. No revenue. No product in production. Everything in this repository is a build plan and asset set, not a record of achievement.
-- A4. MaternaLink product positioning is **re-based** for credibility and regulatory safety: v1 is a maternal care-coordination, communication, education and monitoring-support platform (non-diagnostic; no automated clinical risk prediction). The multimodal AI "Maternal Instability Score" from the 2025 deck is retained as a **research and development track (v3+)** that requires data partnerships, ethics approval, clinical validation and a UK MDR / MHRA software-as-a-medical-device (SaMD) pathway before any clinical claim. This re-basing is a recommendation, not a fact about the current prototype.
-- A5. Pricing in the Ekiti proposal (£300/woman/year) is treated as an UNVALIDATED ESTIMATE from a proposal, not a market price. Comparable programmes (e.g. donor-funded mDoc) suggest government willingness to pay at that level is TO VALIDATE.
-- A6. First revenue is most likely to come from **Advisory/Consulting** (founder-led services) rather than from MaternaLink. MaternaLink is the venture/equity story; services are the cash story.
-- A7. Funding path: bootstrapped services + grants (Innovate UK, NIHR i4i where eligible, SBRI Healthcare, Wellcome, Grand Challenges) → angels/SEIS-EIS pre-seed → impact/health-tech seed. SEIS/EIS advance assurance is a priority action once incorporated (TO VALIDATE eligibility).
-- A8. No numbers in this repository are actuals. All financials are scenarios built from stated assumptions.
-- A9. Product name is **MaternaLink** (one "l") everywhere; the prototype's "MaternalLink" spelling is treated as legacy. Trademark search covers both.
-- A10. The prototype's risk engine and suggested clinical actions are treated as **programme-configured rules under the provider's clinical governance** pending a regulatory opinion; Vytalix does not ship pre-configured clinical rules or claim decision support until a pathway is documented.
-- A11. The Maternity Watch is pursued only as an **integration of a certified third-party wearable**, never as a Vytalix-manufactured device, and only after v1 software is live.
-- A12. Doctor placement, hospital sponsorship and hospital property are **out of scope for the Vytalix health-tech entity**; sponsorship and partnership strategy may be sold as an Advisory service; property belongs with the founder's separate property venture if ever pursued.
+## What is not known
 
-## 4. Language rules for every document
-- Say "MaternaLink (in development)" — never "MaternaLink, our proven platform".
-- Never say NHS-approved, clinically validated, CE/UKCA-marked, MHRA-registered, government partner, or "reduces maternal mortality" as a claim about MaternaLink.
-- Allowed: "designed to support", "intended to", "we aim to", "subject to validation", "proposed".
-- Investor CRM: only real, publicly identifiable investors; phone numbers only when found in a public source during research, with the source URL and date; otherwise "PHONE NOT PUBLICLY AVAILABLE". Never invent emails: use only addresses found in public sources, otherwise "NOT PUBLICLY AVAILABLE".
-- Distinguish KNOWN / ASSUMPTION / ESTIMATE / TO VALIDATE / PROPOSED / VERIFIED / NOT PUBLICLY AVAILABLE throughout.
+Nobody has answered these. Where a document has to assume something, it says so.
+
+| # | Question |
+|---|---|
+| 1 | Is any company registered, where, and who owns the shares? |
+| 2 | What, if anything, has been agreed with David Agunede? |
+| 3 | Who wrote the prototype code and who owns it? |
+| 4 | Has any real patient information ever been entered into the prototype? |
+| 5 | Is the Ekiti proposal alive, dead or being negotiated? |
+| 6 | Has any other government been approached? |
+| 7 | Are there any letters of intent, advisers, clinicians or institutions attached to MaternaLink? |
+| 8 | How much money can you put in, and how much time each week? |
+| 9 | What is your own professional background, in one paragraph an investor would accept? |
+| 10 | Does anyone hold a domain name, trademark or social media handle for Vytalix? |
+| 11 | Is there any insurance, accountant or bank account? |
+| 12 | Has anyone been paid anything, by anyone, for any of this? |
+
+## The decisions taken
+
+These are choices, not facts. Say so if you disagree.
+
+| # | Decision | Why |
+|---|---|---|
+| 1 | The company is called Vytalix. The repository name "Vitalyx" is treated as a typing mistake | Your brief uses Vytalix |
+| 2 | The product is MaternaLink, one word, no hyphen | The prototype uses three different spellings. Pick one |
+| 3 | Home market is the United Kingdom. Second market is Nigeria | Where the conversations already are |
+| 4 | The company is pre-seed with no revenue. Nothing here records an achievement | True today |
+| 5 | MaternaLink version one keeps a woman connected to a midwife. It does not diagnose, predict or recommend treatment | Keeps it out of medical device rules while evidence is built |
+| 6 | The AI risk score becomes a research project, not a product feature | No data, no evidence, no permission |
+| 7 | The £300 per woman per year price is withdrawn | Far above anything comparable |
+| 8 | Money comes from advice and consulting first. MaternaLink is the long-term value | Services pay within weeks. The product does not |
+| 9 | Funding order: grants, then angel investors with tax relief, then a seed round | Cheapest money first |
+| 10 | Any rule that flags a patient is owned by the hospital's own clinicians, not by Vytalix | This is what keeps the software out of medical device rules |
+| 11 | If a wearable is ever used, it is a certified one rented from someone else. Vytalix never manufactures a device | Two years and over £1m otherwise |
+| 12 | Doctor placement, hospital sponsorship and hospital property are not part of this company | They are different businesses and would confuse investors |
+
+## How to label things
+
+| Label | Means |
+|---|---|
+| VERIFIED | Somebody checked it and has the source |
+| KNOWN | Established fact, not in dispute |
+| ASSUMPTION | We chose to believe this to move forward |
+| ESTIMATE | Our best guess at a number |
+| TO VALIDATE | Must be checked before you rely on it |
+| PROPOSED | An idea we are putting forward, not a decision |
+| NOT PUBLICLY AVAILABLE | We looked and could not find it. We did not guess |
+
+## Five things never to say
+
+1. "NHS approved" or "approved by the NHS."
+2. "Clinically validated" or "clinically proven."
+3. "CE marked", "UKCA marked" or "registered with the MHRA."
+4. "Our government partner" or the name of any ministry as a partner.
+5. "Reduces maternal deaths" or any claim about medical outcomes.
+
+Instead say: designed to support, intended to, we aim to, subject to testing, proposed, in development.
+
+## Two rules for the investor and partner lists
+
+- A phone number appears only if it was found in a public source, with that source recorded. Otherwise the entry says "not publicly available". No number is ever guessed.
+- An email address appears only if it is published on the organisation's own website. Nobody's address is constructed from a name.
