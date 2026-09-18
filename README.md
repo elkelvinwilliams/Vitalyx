@@ -11,7 +11,7 @@ Everything here is written in plain English. Nothing claims a customer, partner,
 - Vytalix: https://elkelvinwilliams.github.io/Vitalyx/
 - MaternaLink, with a demonstration dashboard: https://elkelvinwilliams.github.io/Vitalyx/maternalink/
 
-## The fourteen documents
+## The seventeen documents
 
 | # | Document | What it answers |
 |---|---|---|
@@ -29,6 +29,9 @@ Everything here is written in plain English. Nothing claims a customer, partner,
 | 11 | [Brand and websites](docs/11_BRAND_AND_WEBSITES.md) | The name, the look, the two sites |
 | 12 | [Structure and markets](docs/12_STRUCTURE_AND_MARKETS.md) | How to set the company up, and which countries |
 | 13 | [The investor list](docs/13_THE_INVESTOR_LIST.md) | How to use the 316 names |
+| 14 | [Pricing the full product](docs/14_PRICING_THE_FULL_PRODUCT.md) | What to charge for all nine modules, in three tiers |
+| 15 | [How big this can get](docs/15_HOW_BIG_THIS_CAN_GET.md) | The size of the market, and what caps it |
+| 16 | [What you can protect](docs/16_WHAT_YOU_CAN_PROTECT.md) | What can be patented, what cannot, and what to spend on instead |
 
 Plus [the facts](FACTS_BASE.md), which says what is proven and what is a guess. If any document disagrees with it, that file wins.
 
@@ -41,7 +44,7 @@ Plus [the facts](FACTS_BASE.md), which says what is proven and what is a guess. 
 | `finance/` | The three-year financial model |
 | `investors/` | 316 investors, top 25, call lists, scripts, and 74 partner organisations |
 | `operations/` | Weekly numbers and pipeline trackers |
-| `diagrams/` | The 18 charts used in the documents |
+| `diagrams/` | The 22 charts used in the documents |
 | `website/`, `maternalink-site/` | The two websites |
 | `exports/` | Everything as PDF, Word, Excel and PowerPoint, plus two zip files |
 

@@ -60,66 +60,159 @@ cover(wb,'Pipeline Trackers','Investor, partnership, product, revenue and strate
 wb,ws=from_csv(os.path.join(ROOT,'assets','CONTENT_CALENDAR.csv'),'Content Calendar','Twelve weeks of dated content across LinkedIn, website, email, video and events.','Calendar')
 cover(wb,'Content Calendar','Twelve weeks from Monday 14 September 2026 across LinkedIn, website, email, video and events; consistent with the marketing engine.',[('Calendar','Dated items with pillar, format, CTA, owner and status')]); wb.save(os.path.join(OUT,'Content_Calendar.xlsx'))
 
-# 3) MaternaLink pricing calculator (formulas)
-wb=Workbook(); ws=wb.active; ws.title='UK Calculator'
-rows=[['MATERNALINK PRICING CALCULATOR — UK (all inputs are ESTIMATES to validate)',''],[],
-['Inputs','Value','Notes'],
-['Annual births at the service',5000,'Drives site-licence band'],
-['Women enrolled per year',5000,'Usually equals births for Core'],
-['Core price per woman (£)',22,'Range 18–36'],
-['Site licence (£)',20000,'12k–30k by births band'],
-['Engagement module: enrolled women',5000,''],['Engagement price per woman (£)',10,'Range 8–14'],
-['Triage module sites',1,''],['Triage price per site (£)',25000,'15k–35k'],
-['Glucose module: women with condition',350,'Typically 5–10% of cohort'],['Glucose price per woman (£)',25,'20–30'],
-['Watch devices leased',0,''],['Watch lease per device per month (£)',5.5,'4–7'],
-['Analytics (£ per site)',8000,'6k–12k'],
-['Integration interfaces (count)',1,''],['Integration setup per interface (£)',25000,'15k–40k'],['Integration annual per interface (£)',6000,'4k–8k'],
-['Implementation one-off (£)',45000,'25k–75k'],
-['Service plan % (Standard 0.20 / Enhanced 0.26 / Premium 0.32)',0.26,''],
-[],['Outputs','£',''],
-['Core software','=B4*0+B5*B6+B7',''],['Engagement','=B8*B9',''],['Triage','=B10*B11',''],['Glucose','=B12*B13',''],['Analytics','=B16',''],
-['Software subtotal (annual)','=SUM(B24:B28)',''],
-['Annual service plan','=B29*B21',''],
-['Watch lease (annual)','=B14*B15*12',''],
-['Integration annual','=B17*B19',''],
-['Recurring annual total','=B29+B30+B31+B32',''],
-['One-off: integration setup + implementation','=B17*B18+B20',''],
-['YEAR 1 TOTAL','=B33+B34',''],['YEAR 2+ RUN-RATE','=B33',''],['Recurring cost per enrolled woman (£)','=IF(B5>0,B33/B5,0)','']]
-for r in rows: ws.append(r)
-ws['A1'].font=Font(bold=True,size=13,color=BLUE); header(ws,3); header(ws,23)
-for r in range(4,22): ws[f'B{r}'].fill=INPUT
-for r in (35,36,37): ws[f'A{r}'].font=Font(bold=True,color=BLUE); ws[f'B{r}'].font=Font(bold=True)
-for r in range(24,38): ws[f'B{r}'].number_format='£#,##0'
-ws['B37'].number_format='£#,##0.00'; ws['B21'].number_format='0%'
-ws.column_dimensions['A'].width=52; ws.column_dimensions['B'].width=16; ws.column_dimensions['C'].width=40
-ws2=wb.create_sheet('Programme Calculator')
-rows2=[['MATERNALINK PRICING CALCULATOR — PROGRAMME (Africa / donor-funded)',''],[],['Inputs','Value','Notes'],
-['Women enrolled',15000,''],['Core price per woman (£) — tiered: 10 / 7 / 5 / 4','=IF(B4<=5000,10,IF(B4<=25000,7,IF(B4<=100000,5,4)))','Formula applies the published tiers'],
-['Engagement price per woman (£)',4,'3–5'],['Facilities with triage',20,''],['Triage per facility (£)',2500,'1.5k–4k'],
-['Training cohorts',10,''],['Training per cohort (£)',1800,'1.2k–2.5k'],['Implementation one-off (£)',80000,'40k–120k'],
-['Service plan % (0.20 / 0.28 / 0.35)',0.28,''],
-[],['Outputs','£',''],['Core','=B4*B5',''],['Engagement','=B4*B6',''],['Triage','=B7*B8',''],['Software subtotal','=SUM(B15:B17)',''],
-['Service plan','=MAX(B18*B12,12000)','Minimum £12,000'],['Training','=B9*B10',''],['YEAR 1 TOTAL','=B18+B19+B20+B11',''],['YEAR 2+ RUN-RATE','=B18+B19',''],
-['Year-1 cost per woman (£)','=IF(B4>0,B21/B4,0)',''],['Run-rate cost per woman (£)','=IF(B4>0,B22/B4,0)','']]
-for r in rows2: ws2.append(r)
-ws2['A1'].font=Font(bold=True,size=13,color=BLUE); header(ws2,3); header(ws2,14)
-for r in range(4,13): ws2[f'B{r}'].fill=INPUT
-ws2['B5'].fill=PatternFill('solid',fgColor=TINT)
-for r in range(15,25): ws2[f'B{r}'].number_format='£#,##0'
-ws2['B23'].number_format='£#,##0.00'; ws2['B24'].number_format='£#,##0.00'; ws2['B12'].number_format='0%'
-for r in (21,22): ws2[f'A{r}'].font=Font(bold=True,color=BLUE); ws2[f'B{r}'].font=Font(bold=True)
-ws2.column_dimensions['A'].width=52; ws2.column_dimensions['B'].width=16; ws2.column_dimensions['C'].width=40
+# 3) MaternaLink pricing calculator — three tiers, nine modules
+# Rows are tracked by label so formulas can never drift when lines are added.
+class Sheet:
+    def __init__(self, ws): self.ws=ws; self.r=0; self.rows={}
+    def add(self, label=None, value=None, note=None, key=None, fmt=None, inp=False, hdr=False, bold=False):
+        self.r+=1
+        if label is not None: self.ws[f'A{self.r}']=label
+        if value is not None: self.ws[f'B{self.r}']=value
+        if note is not None: self.ws[f'C{self.r}']=note
+        if key: self.rows[key]=self.r
+        if hdr:
+            for c in ('A','B','C'):
+                self.ws[f'{c}{self.r}'].font=HF; self.ws[f'{c}{self.r}'].fill=HFILL
+        if inp: self.ws[f'B{self.r}'].fill=INPUT
+        if fmt: self.ws[f'B{self.r}'].number_format=fmt
+        if bold:
+            self.ws[f'A{self.r}'].font=Font(bold=True,color=BLUE); self.ws[f'B{self.r}'].font=Font(bold=True)
+        return self.r
+    def b(self,key): return f'B{self.rows[key]}'
+
+wb=Workbook(); S=Sheet(wb.active); wb.active.title='UK Calculator'
+S.add('MATERNALINK PRICING CALCULATOR — UK HOSPITAL (change the yellow cells)')
+S.ws['A1'].font=Font(bold=True,size=13,color=BLUE)
+S.add()
+S.add('TIER 1 — every pregnant woman','Value','Notes',hdr=True)
+S.add('Births / women enrolled per year',5000,'Drives the site-licence band',key='births',inp=True)
+S.add('Tier 1 price per woman per year (£)',22,'Range 16-30',key='t1price',inp=True)
+S.add('Site licence (£)',20000,'12k-30k by births',key='site',inp=True)
+S.add()
+S.add('TIER 2 — women watched on a device','Value','Notes',hdr=True)
+S.add('Monitored women per year',800,'Typically 15-25% of births',key='mon',inp=True)
+S.add('Price per monitored woman per MONTH (£)',28,'Range 22-38',key='t2price',inp=True)
+S.add('Average months monitored',4.2,'16-22 weeks',key='months',inp=True)
+S.add('Devices in rotation',300,'Fewer than monitored women; they rotate',key='devices',inp=True)
+S.add('Device lease charged per month (£)',6,'Range 4.50-7.00',key='devprice',inp=True)
+S.add()
+S.add('TIER 3 — the institution','Value','Notes',hdr=True)
+S.add('Hospital dashboard (£/year)',28000,'18k-40k by births',key='hosp',inp=True)
+S.add('Integration interfaces',1,'',key='intcount',inp=True)
+S.add('Integration setup each (£)',25000,'15k-40k, one-off',key='intsetup',inp=True)
+S.add('Integration annual each (£)',6000,'4k-8k',key='intann',inp=True)
+S.add()
+S.add('ADD-ON MODULES','Value','Notes',hdr=True)
+S.add('Newborn module per birth (£)',10,'8-14. Excludes jaundice imaging',key='newborn',inp=True)
+S.add('Voice diary per woman per year (£)',0,'3-5 once built',key='voice',inp=True)
+S.add('Glucose: women with the condition',0,'About 5-10% of the cohort',key='glucount',inp=True)
+S.add('Glucose price each per year (£)',25,'20-30, after a regulatory opinion',key='gluprice',inp=True)
+S.add('AI engine uplift on Tier 2',0,'0.25-0.35 ONLY after certification',key='ai',inp=True,fmt='0%')
+S.add()
+S.add('SERVICE AND SETUP','Value','Notes',hdr=True)
+S.add('Service plan (0.20 Std / 0.26 Enh / 0.32 Prem)',0.26,'',key='svc',inp=True,fmt='0%')
+S.add('Implementation one-off (£)',45000,'25k-75k',key='impl',inp=True)
+S.add('Cost to serve one monitored woman per month (£)',6.5,'ESTIMATE — your developer must confirm',key='cost',inp=True)
+S.add()
+S.add('OUTPUTS','£','',hdr=True)
+S.add('Tier 1 revenue',f'={S.b("births")}*{S.b("t1price")}+{S.b("site")}',key='o_t1',fmt='£#,##0')
+S.add('Tier 2 revenue',f'={S.b("mon")}*{S.b("t2price")}*{S.b("months")}',key='o_t2',fmt='£#,##0')
+S.add('AI engine uplift',f'={S.b("o_t2")}*{S.b("ai")}',key='o_ai',fmt='£#,##0')
+S.add('Newborn module',f'={S.b("births")}*{S.b("newborn")}',key='o_nb',fmt='£#,##0')
+S.add('Voice diary',f'={S.b("births")}*{S.b("voice")}',key='o_v',fmt='£#,##0')
+S.add('Glucose module',f'={S.b("glucount")}*{S.b("gluprice")}',key='o_g',fmt='£#,##0')
+S.add('Hospital dashboard',f'={S.b("hosp")}',key='o_h',fmt='£#,##0')
+S.add('Integration, annual',f'={S.b("intcount")}*{S.b("intann")}',key='o_i',fmt='£#,##0')
+S.add('SOFTWARE SUBTOTAL',f'=SUM({S.b("o_t1")}:{S.b("o_i")})',key='o_sub',fmt='£#,##0',bold=True)
+S.add('Service plan',f'={S.b("o_sub")}*{S.b("svc")}',key='o_svc',fmt='£#,##0')
+S.add('Device leases (annual)',f'={S.b("devices")}*{S.b("devprice")}*12',key='o_dev',fmt='£#,##0')
+S.add('RECURRING ANNUAL TOTAL',f'={S.b("o_sub")}+{S.b("o_svc")}+{S.b("o_dev")}',key='o_rec',fmt='£#,##0',bold=True)
+S.add('One-off: implementation + integration build',f'={S.b("impl")}+{S.b("intcount")}*{S.b("intsetup")}',key='o_one',fmt='£#,##0')
+S.add('YEAR 1 TOTAL',f'={S.b("o_rec")}+{S.b("o_one")}',key='o_y1',fmt='£#,##0',bold=True)
+S.add('YEAR 2+ RUN RATE',f'={S.b("o_rec")}',key='o_rr',fmt='£#,##0',bold=True)
+S.add('Year 1 revenue per birth (£)',f'=IF({S.b("births")}>0,{S.b("o_y1")}/{S.b("births")},0)',fmt='£#,##0.00')
+S.add('Run-rate revenue per birth (£)',f'=IF({S.b("births")}>0,{S.b("o_rec")}/{S.b("births")},0)',fmt='£#,##0.00')
+S.add('Your cost to serve the monitored women',f'={S.b("mon")}*{S.b("months")}*{S.b("cost")}',key='o_cost',fmt='£#,##0')
+S.add('Gross margin on Tier 2',f'=IF({S.b("o_t2")}>0,({S.b("o_t2")}-{S.b("o_cost")})/{S.b("o_t2")},0)',fmt='0%')
+for col,wd in (('A',52),('B',16),('C',44)): S.ws.column_dimensions[col].width=wd
+
+P=Sheet(wb.create_sheet('Programme Calculator'))
+P.add('MATERNALINK PRICING CALCULATOR — AFRICAN PROGRAMME')
+P.ws['A1'].font=Font(bold=True,size=13,color=BLUE)
+P.add()
+P.add('TIER 1 — every woman','Value','Notes',hdr=True)
+P.add('Women enrolled per year',100000,'',key='women',inp=True)
+P.add('Tier 1 price per woman (£)',None,'Formula applies the published volume tiers',key='t1')
+P.ws[P.b('t1')]=f'=IF({P.b("women")}<=5000,9,IF({P.b("women")}<=25000,7,IF({P.b("women")}<=100000,5,4)))'
+P.ws[P.b('t1')].fill=PatternFill('solid',fgColor=TINT)
+P.add()
+P.add('TIER 2 — monitored women','Value','Notes',hdr=True)
+P.add('Monitored women',15000,'About 15% of the cohort',key='mon',inp=True)
+P.add('Price per monitored woman per month (£)',4,'Range 3-6',key='t2',inp=True)
+P.add('Average months monitored',4,'',key='months',inp=True)
+P.add()
+P.add('MODULES AND INSTITUTION','Value','Notes',hdr=True)
+P.add('Newborn module per birth (£)',2,'1.50-3.00',key='nb',inp=True)
+P.add('Government / regional dashboard (£)',120000,'60k-250k by population',key='gov',inp=True)
+P.add('Facilities with triage',0,'',key='fac',inp=True)
+P.add('Triage per facility (£)',2500,'',key='facprice',inp=True)
+P.add()
+P.add('SERVICE AND SETUP','Value','Notes',hdr=True)
+P.add('Service plan (0.20 / 0.28 / 0.35)',0.28,'',key='svc',inp=True,fmt='0%')
+P.add('Training cohorts',30,'',key='coh',inp=True)
+P.add('Training per cohort (£)',1800,'',key='cohprice',inp=True)
+P.add('Implementation one-off (£)',150000,'40k-200k by size',key='impl',inp=True)
+P.add()
+P.add('OUTPUTS','£','',hdr=True)
+P.add('Tier 1 revenue',f'={P.b("women")}*{P.b("t1")}',key='o1',fmt='£#,##0')
+P.add('Tier 2 revenue',f'={P.b("mon")}*{P.b("t2")}*{P.b("months")}',key='o2',fmt='£#,##0')
+P.add('Newborn module',f'={P.b("women")}*{P.b("nb")}',key='o3',fmt='£#,##0')
+P.add('Government dashboard',f'={P.b("gov")}',key='o4',fmt='£#,##0')
+P.add('Triage',f'={P.b("fac")}*{P.b("facprice")}',key='o5',fmt='£#,##0')
+P.add('SOFTWARE SUBTOTAL',f'=SUM({P.b("o1")}:{P.b("o5")})',key='osub',fmt='£#,##0',bold=True)
+P.add('Service plan',f'=MAX({P.b("osub")}*{P.b("svc")},12000)','Minimum £12,000',key='osvc',fmt='£#,##0')
+P.add('Training',f'={P.b("coh")}*{P.b("cohprice")}','Recurs: new staff every year',key='otr',fmt='£#,##0')
+P.add('RECURRING ANNUAL TOTAL',f'={P.b("osub")}+{P.b("osvc")}+{P.b("otr")}',key='orec',fmt='£#,##0',bold=True)
+P.add('YEAR 1 TOTAL',f'={P.b("orec")}+{P.b("impl")}',key='oy1',fmt='£#,##0',bold=True)
+P.add('YEAR 2+ RUN RATE',f'={P.b("orec")}',key='orr',fmt='£#,##0',bold=True)
+P.add('Year 1 cost per woman (£)',f'=IF({P.b("women")}>0,{P.b("oy1")}/{P.b("women")},0)',fmt='£#,##0.00')
+P.add('Run-rate cost per woman (£)',f'=IF({P.b("women")}>0,{P.b("orr")}/{P.b("women")},0)',fmt='£#,##0.00')
+for col,wd in (('A',52),('B',16),('C',44)): P.ws.column_dimensions[col].width=wd
+
 ws3=wb.create_sheet('Price Book')
-for r in [['Product','UK model','UK indicative','Programme model','Programme indicative'],
-['Core platform','Site licence + per woman/yr','£12k–£30k + £18–£36','Per woman/yr tiered','£10 / £7 / £5 / £4'],
-['Engagement module','Per woman/yr','£8–£14','Per woman/yr','£3–£5'],['Maternity triage','Per site/yr','£15k–£35k','Per facility/yr','£1.5k–£4k'],
-['Diabetes glucose diary','Per woman with condition/yr','£20–£30','Per woman','£6–£10'],['Voice diaries','Per woman/yr','£3–£5','Per woman','£1–£2'],
-['Maternity Watch (certified third-party device)','Lease per device/month','£4–£7 (or £120–£220 + £30/yr)','Lease per device/month','£2–£4 (or £90–£160 + £15/yr)'],
-['Integration pack','Setup + annual per interface','£15k–£40k + £4k–£8k','Setup + annual','£8k–£25k + £3k'],['Analytics','Per site/yr','£6k–£12k','Included in programme','—'],
-['Training','Per cohort of 25','£2.5k–£4.5k','Per cohort of 30','£1.2k–£2.5k'],['Implementation','One-off per site','£25k–£75k','One-off per programme','£40k–£120k'],
-['Pilot (12 weeks)','Fixed','£40k–£90k','Scoped','On scope'],['Service plans','% of licence','Std 18–22% · Enh 25–28% · Prem 30–35% (min £8k)','% of software','20% · 28% · 35% (min £12k)']]: ws3.append(r)
-header(ws3); widths(ws3,maxw=44)
-cover(wb,'MaternaLink Pricing Calculator','Working calculators for UK services and programme deployments, plus the published price book. Yellow cells are inputs. Every price is an ESTIMATE until validated with three buyers per segment.',[('UK Calculator','Trust or hospital pricing by module and service plan'),('Programme Calculator','Per-woman tiered pricing for state and NGO programmes'),('Price Book','Published ranges per product')])
+for r in [['Tier / module','What it covers','UK price','Programme price','Sell it yet?'],
+['TIER 1 — everyone','App, appointments, education, symptoms, mood, fetal movement log','£16-30 per woman per year + £12k-30k site licence','£4-9 per woman per year','Yes'],
+['TIER 2 — watched closely','Connected BP monitor, active surveillance, escalation','£22-38 per woman per MONTH','£3-6 per woman per month','Yes'],
+['TIER 3 — hospital dashboard','Population view, response times, analytics','£18k-40k per site per year','Included in programme','Yes'],
+['TIER 3 — government dashboard','Regional and national intelligence, de-identified data','n/a','£60k-250k per year','Yes'],
+['Clinician dashboard','Patient list, red/amber/green, graphs, timeline, escalation','Included in Tiers 1 and 2','Included','Yes, if the rules belong to the hospital'],
+['Newborn module','Feeding, temperature, breathing, observations','£8-14 per birth','£1.50-3 per birth','Yes, without jaundice imaging'],
+['Voice diary','Storage and playback only, no analysis','£3-5 per woman per year','£1-2','Yes'],
+['Glucose diary','Self-reported readings against clinician targets','£20-30 per woman with the condition','£6-10','After a regulatory opinion'],
+['Integration','EPR/FHIR, secure API, access control, audit trail','£15k-40k setup + £4k-8k a year','£8k-25k + £3k','Yes'],
+['AI ENGINE','Maternal Instability Score, risk stratification, deterioration detection','Add 25-35% to Tier 2','Add 20%','NO — needs a medical device licence'],
+['Jaundice photo screening','Image-assisted newborn screening','Not priced','Not priced','NO — a device, and heavily patented already'],
+['Devices','Validated BP monitor, thermometer','Lease £4.50-7 per month, or cost + 15%','Lease £2-4 per month','Yes, resell certified kit'],
+['Implementation','Setup, configuration, training, safety paperwork','£25k-75k per site','£40k-200k per programme','Yes'],
+['Service plan','Support, releases, patching, safety maintenance','20% / 26% / 32% of licence','20% / 28% / 35%','Yes'],
+['Pilot','12 weeks, one site, evaluation report','£40k-90k','On scope','Yes']]: ws3.append(r)
+header(ws3); widths(ws3,maxw=46)
+
+ws4=wb.create_sheet('Packages')
+for r in [['Package','What is in it','5,000-birth hospital, year 1','Run rate'],
+['Essential','Tier 1 for all, Tier 2 for 500 women, clinician dashboard, service plan','About £250,000','About £205,000'],
+['Complete','Essential plus hospital dashboard, newborn module, one integration','About £390,000','About £320,000'],
+['Full ecosystem','Complete plus 1,000 monitored, voice diary, glucose, premium support','About £490,000','About £410,000'],
+[],
+['Rule','Detail'],
+['Pilot first','12 weeks fixed price, half the fee credited against year one'],
+['Minimum contract','£40,000 in the UK, £25,000 for a programme'],
+['No discounting below the floor','Remove modules instead of cutting the price'],
+['Devices always separate','Never inside the software price'],
+['Nothing unlicensed on a price list','The AI engine and jaundice imaging stay off until certified']]: ws4.append(r)
+header(ws4); widths(ws4,maxw=60)
+
+cover(wb,'MaternaLink Pricing Calculator','Three tiers across nine modules. Yellow cells are inputs you can change. Two modules are marked as not sellable until they hold a medical device licence. Every price is an ESTIMATE until tested with three buyers per segment.',[('UK Calculator','A UK hospital, tier by tier, with cost to serve and margin'),('Programme Calculator','An African state or NGO programme, tiered by volume'),('Price Book','Every module, both markets, and whether you can sell it yet'),('Packages','The three packages to offer, and the rules you do not break')])
 wb.save(os.path.join(OUT,'MaternaLink_Pricing_Calculator.xlsx')); print('pricing calculator ok')
 
 # 4) Investor readiness scorecard

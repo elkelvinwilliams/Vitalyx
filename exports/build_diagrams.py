@@ -365,11 +365,11 @@ def device():
 
 # 18 — document map
 def docmap():
-    w,h=760,330; b=head(w,'What to read, and when','Fourteen documents. You do not need to read them all at once.')
+    w,h=760,368; b=head(w,'What to read, and when','Seventeen documents. You do not need to read them all at once.')
     groups=[('Read this week',['00 Start here','01 Where you stand','02 What we are building','06 The plan'],ROSE),
-            ('Read before selling',['03 Who buys it','04 How we make money','07 Getting customers'],BLUE),
-            ('Read before investors',['05 The money','10 Partners','13 The investor list'],GREEN),
-            ('Look up when needed',['08 Running the company','09 Legal and safety','11 Brand','12 Structure and markets'],SLATE)]
+            ('Read before selling',['03 Who buys it','04 How we make money','07 Getting customers','14 Pricing'],BLUE),
+            ('Read before investors',['05 The money','10 Partners','13 The investor list','15 How big this gets'],GREEN),
+            ('Look up when needed',['08 Running the company','09 Legal and safety','11 Brand','12 Structure and markets','16 What you protect'],SLATE)]
     x0=30
     for i,(t,items,c) in enumerate(groups):
         x=x0+i*180
@@ -378,9 +378,105 @@ def docmap():
         for j,it in enumerate(items):
             b+=f'<rect x="{x}" y="{112+j*38}" width="168" height="32" rx="5" fill="{MIST}" stroke="{LINE}"/>'
             b+=T(x+12,{0:132}.get(0,132)+j*38,it,10.5,INK)
-    b+=T(x0,300,'Everything else is reference: the spreadsheets, the developer documents and the investor and partner lists.',11.5,SLATE)
+    b+=T(x0,340,'Everything else is reference: the spreadsheets, the developer documents and the investor and partner lists.',11.5,SLATE)
     write('doc-map.svg',svg(w,h,b,'Document map'))
 
-for f in (business_score,pillars,revenue,mix,cash,plan90,journey,how,pricing,funding,investors,partners,markets,readiness,traction,firstmillion,device,docmap):
+
+# 19 — the nine modules and what blocks each
+def modules():
+    w,h=760,400; b=head(w,'The nine modules, and what each needs before you can sell it','Green can be sold once built. Amber needs a clinician or a partner. Red needs a medical-device licence.')
+    rows=[('1 Mother app','BP, pulse, temperature, symptoms, mood, voice diary, appointments, medication','Sell now',GREEN),
+          ('2 Connected devices','OMRON BP monitor, thermometer, future wearable','Sell now (resell certified kit)',GREEN),
+          ('3 AI engine','Maternal Instability Score, risk stratification, deterioration detection','Medical device licence',RED),
+          ('4 Clinician dashboard','Patient list, red/amber/green, graphs, timeline, escalation','Sell now if rules are the hospital\'s',AMBER),
+          ('5 Hospital dashboard','Population view, response times, performance analytics','Sell now',GREEN),
+          ('6 Government dashboard','Regional and national intelligence, de-identified data','Sell now',GREEN),
+          ('7 Baby/newborn module','Feeding, temperature, breathing, jaundice photo screening','Jaundice imaging is a device',RED),
+          ('8 Africa infrastructure','Offline, SMS, USSD, low data, multilingual','Sell now',GREEN),
+          ('9 Clinical integration','EPR/FHIR, secure API, access control, audit trail','Sell now',GREEN)]
+    y0=76
+    for i,(t,d,s,c) in enumerate(rows):
+        yy=y0+i*35
+        b+=f'<rect x="24" y="{yy}" width="712" height="30" rx="5" fill="{MIST}" stroke="{LINE}"/>'
+        b+=f'<rect x="24" y="{yy}" width="4" height="30" rx="2" fill="{c}"/>'
+        b+=T(38,yy+19,t,11.5,INK,weight='700')
+        b+=T(185,yy+19,d,10,SLATE)
+        b+=f'<rect x="558" y="{yy+6}" width="170" height="18" rx="9" fill="{c}" opacity="0.14"/>'
+        b+=T(643,yy+19,s,9.5,c,'middle',weight='700')
+    b+=T(24,y0+9*35+22,'Six of the nine can be sold as soon as they are built. Two need a licence that takes two to three years. Build those last.',11,SLATE)
+    write('product-modules.svg',svg(w,h,b,'Nine modules and what blocks each'))
+
+# 20 — pricing tiers
+def pricingtiers():
+    w,h=760,380; b=head(w,'How to charge: three tiers, not one price','Everyone in the service pays a little. Women being actively watched pay a lot more. Dashboards are sold separately.')
+    tiers=[('Tier 1 — Everyone','Every pregnant woman in the service. App, appointments, education, symptom log.','UK £16–£30 per woman per year','Programme £4–£9 per woman per year',BLUE),
+           ('Tier 2 — Watched closely','High-risk women with a blood-pressure monitor at home, actively checked.','UK £22–£38 per woman per MONTH','Programme £3–£6 per woman per month',ROSE),
+           ('Tier 3 — The institution','Hospital and government dashboards, analytics, integration.','Hospital £18k–£40k per site per year','Region £60k–£250k per year',GREEN)]
+    y0=74
+    for i,(t,d,p1,p2,c) in enumerate(tiers):
+        yy=y0+i*92
+        b+=f'<rect x="24" y="{yy}" width="712" height="80" rx="9" fill="{MIST}" stroke="{LINE}"/>'
+        b+=f'<rect x="24" y="{yy}" width="5" height="80" rx="2" fill="{c}"/>'
+        b+=T(42,yy+24,t,13.5,c,weight='700')
+        b+=T(42,yy+44,d,11,SLATE)
+        b+=f'<rect x="42" y="{yy+54}" width="250" height="18" rx="4" fill="{c}" opacity="0.12"/>'
+        b+=T(52,yy+67,p1,10.5,c,weight='700')
+        b+=f'<rect x="302" y="{yy+54}" width="250" height="18" rx="4" fill="{SLATE}" opacity="0.10"/>'
+        b+=T(312,yy+67,p2,10.5,SLATE,weight='600')
+    b+=f'<rect x="24" y="{y0+3*92}" width="712" height="34" rx="6" fill="#FBF0F3"/>'
+    b+=T(38,y0+3*92+21,'Devices are always a separate line. Never hide the cost of a blood-pressure monitor inside the software price.',11,'#8A2B47',weight='600')
+    write('pricing-tiers.svg',svg(w,h,b,'Three pricing tiers'))
+
+# 21 — scale ladder
+def scaleladder():
+    w,h=760,400; b=head(w,'How big this can get','Each step needs a different company. The numbers are what the market allows, not a forecast.')
+    steps=[('£1m a year','2 UK hospitals, 1 African programme, plus advisory work','6–8 people',GREEN),
+           ('£10m a year','25 UK maternity services, 3 country programmes, newborn module selling','35 people',BLUE),
+           ('£50m a year','Half the UK market, 5 countries, government dashboards, AI engine licensed','150 people',BLUE),
+           ('£100m+ a year','Several continents, research and data income, the standard others plug into','300+ people',SLATE)]
+    b+=T(24,62,'The whole UK maternity market is worth roughly £55m a year at full price and full coverage. So the UK alone',11,INK,weight='600')
+    b+=T(24,78,'cannot build a £1bn company. Africa and a licensed AI engine are what change the ceiling.',11,SLATE)
+    x0,y0=60,296; sw=165; sh=48
+    for i,(amt,what,team,c) in enumerate(steps):
+        x=x0+i*sw; y=y0-i*sh; bh=max(sh*(i+1),90)
+        b+=f'<rect x="{x}" y="{y}" width="{sw-10}" height="{bh}" rx="6" fill="{c}" opacity="{0.10+0.05*i}"/>'
+        b+=f'<rect x="{x}" y="{y}" width="{sw-10}" height="4" rx="2" fill="{c}"/>'
+        b+=T(x+12,y+24,amt,13,c,weight='700')
+        ws=what.split(); ln=[]; cur=''
+        for wd in ws:
+            if len(cur+' '+wd)>24: ln.append(cur); cur=wd
+            else: cur=(cur+' '+wd).strip()
+        ln.append(cur)
+        for j,l in enumerate(ln[:4]): b+=T(x+12,y+42+j*13,l,9.5,SLATE)
+        b+=T(x+12,y+42+len(ln[:4])*13+6,team,10,INK,weight='600')
+    write('scale-ladder.svg',svg(w,h,b,'Scale ladder'))
+
+# 22 — what protects you
+def ipmoat():
+    w,h=760,340; b=head(w,'What actually protects this business','Patents are the weakest item on this list, not the strongest.')
+    rows=[('Contracts and exclusivity','Strong','Free','What you write into every hospital and programme agreement',GREEN),
+          ('The data you collect','Strong','Free','UK database right lasts 15 years and costs nothing to obtain',GREEN),
+          ('Regulatory clearance','Strong','£40k–£150k','Once you hold it, a competitor needs 2–3 years to match you',GREEN),
+          ('Integrations already built','Strong','Your build cost','Every hospital connection makes you harder to remove',GREEN),
+          ('Trade secrets','Medium','Free','Rule libraries, calibration, your cost model. Keep them unpublished',AMBER),
+          ('Trade marks','Medium','About £200 per class','Cheap, fast, and stops someone else using the name',AMBER),
+          ('Copyright in code','Medium','Free','Automatic, but worthless unless developers sign it over to you',AMBER),
+          ('Patents','Weak here','£30k–£60k each','3–5 years, and most of your ideas already have prior art',RED)]
+    y0=72
+    b+=f'<rect x="24" y="{y0-22}" width="712" height="18" rx="4" fill="{MIST}"/>'
+    for hx,ht in [(38,'PROTECTION'),(230,'STRENGTH'),(330,'COST'),(450,'WHY')]:
+        b+=T(hx,y0-9,ht,9,SLATE,weight='700')
+    for i,(t,st,cost,why,c) in enumerate(rows):
+        yy=y0+i*30
+        b+=f'<rect x="24" y="{yy}" width="712" height="26" rx="4" fill="{"#FBFCFE" if i%2 else PAPER}" stroke="{LINE}"/>'
+        b+=T(38,yy+17,t,11,INK,weight='600')
+        b+=f'<rect x="230" y="{yy+5}" width="72" height="16" rx="8" fill="{c}" opacity="0.15"/>'
+        b+=T(266,yy+17,st,9.5,c,'middle',weight='700')
+        b+=T(330,yy+17,cost,10,SLATE)
+        b+=T(450,yy+17,why,9.5,SLATE)
+    b+=T(24,y0+8*30+22,'Spend the patent budget on a novelty search first. File only if an attorney says the technical method is genuinely new.',11,SLATE)
+    write('ip-protection.svg',svg(w,h,b,'What protects the business'))
+
+for f in (modules,pricingtiers,scaleladder,ipmoat,business_score,pillars,revenue,mix,cash,plan90,journey,how,pricing,funding,investors,partners,markets,readiness,traction,firstmillion,device,docmap):
     f()
 print('all diagrams written to diagrams/')

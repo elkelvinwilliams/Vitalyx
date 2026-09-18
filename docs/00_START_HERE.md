@@ -35,7 +35,7 @@ None of these is unusual at this stage. All five are fixable in about four weeks
 
 ## What you should read, and when
 
-![A map of the fourteen documents, grouped by when to read them](../diagrams/doc-map.svg)
+![A map of the seventeen documents, grouped by when to read them](../diagrams/doc-map.svg)
 *You do not need to read everything at once. Four documents this week is enough.*
 
 | Read this week | Why |
@@ -50,7 +50,8 @@ None of these is unusual at this stage. All five are fixable in about four weeks
 | 03 Who buys it | 05 The money and the raise | 08 Running the company |
 | 04 How we make money | 10 Partners | 09 Legal, data and safety |
 | 07 Getting customers | 13 How to use the investor list | 11 Brand and websites |
-| | | 12 Structure and which countries |
+| 14 Pricing the full product | 15 How big this can get | 12 Structure and which countries |
+| | 16 What you can protect | |
 
 Everything else is reference material: spreadsheets, the documents for your developer, and the investor and partner lists.
 
@@ -58,7 +59,7 @@ Everything else is reference material: spreadsheets, the documents for your deve
 
 | Folder | What is in it |
 |---|---|
-| `docs/` | The fourteen documents above |
+| `docs/` | The seventeen documents above |
 | `product/` | Four documents to hand to a software developer |
 | `assets/` | Things you send to other people: company profile, service list, proposal template, one-pager, four slide decks |
 | `finance/` | The three-year financial model |
