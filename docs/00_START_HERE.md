@@ -35,7 +35,7 @@ None of these is unusual at this stage. All five are fixable in about four weeks
 
 ## What you should read, and when
 
-![A map of the seventeen documents, grouped by when to read them](../diagrams/doc-map.svg)
+![A map of the eighteen documents, grouped by when to read them](../diagrams/doc-map.svg)
 *You do not need to read everything at once. Four documents this week is enough.*
 
 | Read this week | Why |
@@ -51,6 +51,7 @@ None of these is unusual at this stage. All five are fixable in about four weeks
 | 04 How we make money | 10 Partners | 09 Legal, data and safety |
 | 07 Getting customers | 13 How to use the investor list | 11 Brand and websites |
 | 14 Pricing the full product | 15 How big this can get | 12 Structure and which countries |
+| 17 What to charge for a pilot | | |
 | | 16 What you can protect | |
 
 Everything else is reference material: spreadsheets, the documents for your developer, and the investor and partner lists.
@@ -59,9 +60,9 @@ Everything else is reference material: spreadsheets, the documents for your deve
 
 | Folder | What is in it |
 |---|---|
-| `docs/` | The seventeen documents above |
+| `docs/` | The eighteen documents above |
 | `product/` | Four documents to hand to a software developer |
-| `assets/` | Things you send to other people: company profile, service list, proposal template, one-pager, four slide decks |
+| `assets/` | Things you send to other people: company profile, service list, proposal template, pilot proposal template, one-pager, four slide decks |
 | `finance/` | The three-year financial model |
 | `investors/` | 316 investors, the top 25, call lists, scripts, and 74 partner organisations |
 | `operations/` | Weekly numbers to track and pipeline trackers |

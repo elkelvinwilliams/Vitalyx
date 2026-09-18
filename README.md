@@ -11,7 +11,7 @@ Everything here is written in plain English. Nothing claims a customer, partner,
 - Vytalix: https://elkelvinwilliams.github.io/Vitalyx/
 - MaternaLink, with a demonstration dashboard: https://elkelvinwilliams.github.io/Vitalyx/maternalink/
 
-## The seventeen documents
+## The eighteen documents
 
 | # | Document | What it answers |
 |---|---|---|
@@ -32,6 +32,7 @@ Everything here is written in plain English. Nothing claims a customer, partner,
 | 14 | [Pricing the full product](docs/14_PRICING_THE_FULL_PRODUCT.md) | What to charge for all nine modules, in three tiers |
 | 15 | [How big this can get](docs/15_HOW_BIG_THIS_CAN_GET.md) | The size of the market, and what caps it |
 | 16 | [What you can protect](docs/16_WHAT_YOU_CAN_PROTECT.md) | What can be patented, what cannot, and what to spend on instead |
+| 17 | [What to charge for a pilot](docs/17_WHAT_TO_CHARGE_FOR_A_PILOT.md) | What you can sell this quarter, and at what price |
 
 Plus [the facts](FACTS_BASE.md), which says what is proven and what is a guess. If any document disagrees with it, that file wins.
 
@@ -40,11 +41,11 @@ Plus [the facts](FACTS_BASE.md), which says what is proven and what is a guess. 
 | Folder | What is in it |
 |---|---|
 | `product/` | Four documents to hand to a software developer |
-| `assets/` | What you send out: company profile, service list, proposal template, one-pager, four slide decks |
+| `assets/` | What you send out: company profile, service list, proposal template, pilot proposal template, one-pager, four slide decks |
 | `finance/` | The three-year financial model |
 | `investors/` | 316 investors, top 25, call lists, scripts, and 74 partner organisations |
 | `operations/` | Weekly numbers and pipeline trackers |
-| `diagrams/` | The 22 charts used in the documents |
+| `diagrams/` | The 23 charts used in the documents |
 | `website/`, `maternalink-site/` | The two websites |
 | `exports/` | Everything as PDF, Word, Excel and PowerPoint, plus two zip files |
 

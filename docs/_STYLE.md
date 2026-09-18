@@ -60,6 +60,7 @@ Available diagrams:
 | File | Shows |
 |---|---|
 | business-score.svg | Where the business stands: 11 out of 100, with the December target |
+| pilot-ladder.svg | The three pilot stages, prices for each, and which are blocked today |
 | traction.svg | What you have, what you are building, what comes next |
 | four-pillars.svg | The four parts of Vytalix and which ones earn money now |
 | maternity-journey.svg | Booking to one year after birth, and the gap nobody fills |

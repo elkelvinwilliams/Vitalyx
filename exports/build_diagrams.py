@@ -364,10 +364,33 @@ def device():
     write('cuff-vs-watch.svg',svg(w,h,b,'Cuff versus watch'))
 
 # 18 — document map
+def pilotladder():
+    w,h=780,430; b=head(w,'What you can sell today, and what you cannot','Three stages. Only the first two are available now.')
+    rows=[('Stage A  Discovery','No patient data. Workshops, pathway map,\nspecification, business case.','Sell today',GREEN,
+           'Private  £8k-15k','NHS  £5k-9k'),
+          ('Stage B  Staff-only trial','Midwives use it with made-up data.\nUsability and workflow evidence.','Sell today',GREEN,
+           'Private  £15k-25k','NHS  £10k-18k'),
+          ('Stage C  Real women','Real patients, real data, real escalation.\nThe pilot buyers mean.','Blocked',RED,
+           'Private  £25k-40k','NHS  £18k-30k')]
+    y=76
+    for t,d,tag,c,pp,np_ in rows:
+        b+=f'<rect x="28" y="{y}" width="{w-56}" height="98" rx="8" fill="{MIST}" stroke="{c}" stroke-width="1.4"/>'
+        b+=f'<rect x="28" y="{y}" width="6" height="98" rx="3" fill="{c}"/>'
+        b+=T(48,y+26,t,13,INK,weight='700')
+        for k,ln in enumerate(d.split('\n')):
+            b+=T(48,y+48+k*17,ln,11,SLATE)
+        b+=f'<rect x="{w-150}" y="{y+12}" width="112" height="22" rx="11" fill="{c}"/>'
+        b+=T(w-94,y+27,tag,11,'#FFFFFF',anchor='middle',weight='700')
+        b+=T(w-150,y+60,pp,11.5,INK,weight='700')
+        b+=T(w-150,y+78,np_,11.5,INK,weight='700')
+        y+=110
+    b+=T(28,y+18,'Stage C needs the data toolkit, DTAC, Cyber Essentials, a clinical safety officer and a company. About 4 to 9 months.',11.5,SLATE)
+    write('pilot-ladder.svg',svg(w,h,b,'Pilot ladder'))
+
 def docmap():
-    w,h=760,368; b=head(w,'What to read, and when','Seventeen documents. You do not need to read them all at once.')
+    w,h=760,368; b=head(w,'What to read, and when','Eighteen documents. You do not need to read them all at once.')
     groups=[('Read this week',['00 Start here','01 Where you stand','02 What we are building','06 The plan'],ROSE),
-            ('Read before selling',['03 Who buys it','04 How we make money','07 Getting customers','14 Pricing'],BLUE),
+            ('Read before selling',['03 Who buys it','04 How we make money','07 Getting customers','14 Pricing','17 Pilot pricing'],BLUE),
             ('Read before investors',['05 The money','10 Partners','13 The investor list','15 How big this gets'],GREEN),
             ('Look up when needed',['08 Running the company','09 Legal and safety','11 Brand','12 Structure and markets','16 What you protect'],SLATE)]
     x0=30
@@ -477,6 +500,6 @@ def ipmoat():
     b+=T(24,y0+8*30+22,'Spend the patent budget on a novelty search first. File only if an attorney says the technical method is genuinely new.',11,SLATE)
     write('ip-protection.svg',svg(w,h,b,'What protects the business'))
 
-for f in (modules,pricingtiers,scaleladder,ipmoat,business_score,pillars,revenue,mix,cash,plan90,journey,how,pricing,funding,investors,partners,markets,readiness,traction,firstmillion,device,docmap):
+for f in (pilotladder,modules,pricingtiers,scaleladder,ipmoat,business_score,pillars,revenue,mix,cash,plan90,journey,how,pricing,funding,investors,partners,markets,readiness,traction,firstmillion,device,docmap):
     f()
 print('all diagrams written to diagrams/')

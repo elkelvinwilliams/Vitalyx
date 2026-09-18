@@ -107,7 +107,7 @@ There are two price books because what a UK hospital can pay and what an African
 | Programme analytics | Per site a year | £6,000–£12,000 |
 | Training | Per group of up to 25 | £2,500–£4,500 |
 | Setting it up | One-off per site | £25,000–£75,000 |
-| Pilot: 12 weeks, one site, up to 300 women | Fixed | £40,000–£90,000 |
+| Pilot: 12 weeks, one site, up to 300 women (once certified) | Fixed | £40,000–£90,000 |
 | Yearly service plan | Share of the licence value | 18–22% Standard, 25–28% Enhanced, 30–35% Premium |
 
 **Price book B — African and donor programmes (ESTIMATE)**
@@ -156,6 +156,7 @@ The withdrawn proposal asked £4.5m for that same group of women. This asks £37
 ## Rules you do not break
 
 - **Pilot first, always.** Sell a fixed-price pilot with a written evaluation. Credit half the pilot fee against year one.
+- **This price book is for the finished product.** For what you can charge today, see document 17.
 - **Minimum contract size.** £40,000 in the UK, £25,000 for a programme. Below that, walk away.
 - **Never discount below the floor.** The floor is £14 a woman in the UK and £4 in a programme, because that is what it costs to serve her. No founder day below £1,200. Bulk discounts only through the published tiers.
 - **Hardware is always a separate line.** Never fold the cost of a watch into the per-woman software price.
