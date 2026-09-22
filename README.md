@@ -11,7 +11,7 @@ Everything here is written in plain English. Nothing claims a customer, partner,
 - Vytalix: https://elkelvinwilliams.github.io/Vitalyx/
 - MaternaLink, with a demonstration dashboard: https://elkelvinwilliams.github.io/Vitalyx/maternalink/
 
-## The twenty documents
+## The twenty-one documents
 
 | # | Document | What it answers |
 |---|---|---|
@@ -35,6 +35,7 @@ Everything here is written in plain English. Nothing claims a customer, partner,
 | 17 | [What to charge for a pilot](docs/17_WHAT_TO_CHARGE_FOR_A_PILOT.md) | What you can sell this quarter, and at what price |
 | 18 | [The APPG event](docs/18_THE_APPG_EVENT.md) | What to say and do in a room of campaigners and clinicians |
 | 19 | [The supporter map](docs/19_THE_SUPPORTER_MAP.md) | Twelve maternity organisations, which to approach and which to leave |
+| 20 | [Getting money in](docs/20_GETTING_MONEY_IN.md) | Every funding route that is real, and the order to do them in |
 
 Plus [the facts](FACTS_BASE.md), which says what is proven and what is a guess. If any document disagrees with it, that file wins.
 
@@ -47,7 +48,7 @@ Plus [the facts](FACTS_BASE.md), which says what is proven and what is a guess. 
 | `finance/` | The three-year financial model |
 | `investors/` | 316 investors, top 25, call lists, scripts, and 88 partner organisations and contacts |
 | `operations/` | Weekly numbers and pipeline trackers |
-| `diagrams/` | The 23 charts used in the documents |
+| `diagrams/` | The 25 charts used in the documents |
 | `website/`, `maternalink-site/` | The two websites |
 | `exports/` | Everything as PDF, Word, Excel and PowerPoint, plus two zip files |
 

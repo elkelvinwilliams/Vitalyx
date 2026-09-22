@@ -387,6 +387,30 @@ def pilotladder():
     b+=T(28,y+18,'Stage C needs the data toolkit, DTAC, Cyber Essentials, a clinical safety officer and a company. About 4 to 9 months.',11.5,SLATE)
     write('pilot-ladder.svg',svg(w,h,b,'Pilot ladder'))
 
+def moneyspeed():
+    w,h=790,430; b=head(w,'Where money actually comes from, by speed','Grants are the slowest money in the room. Your own time is the fastest.')
+    rows=[('Your own time','Advisory and consulting days','30-60 days','£5k-30k','None',GREEN,0.95),
+          ('Discovery projects','Stage A and B pilots (doc 17)','6-12 weeks','£5k-25k','None',GREEN,0.80),
+          ('SBRI Healthcare','NHS contract, Phase 1','6-9 months','Up to £100k','None',BLUE,0.55),
+          ('NIHR i4i Connect','SME development grant','6-9 months','£50k-150k','None',BLUE,0.50),
+          ('Innovate UK Smart','Quarterly competition','9-12 months','£100k-500k','None',BLUE,0.40),
+          ('SEIS angels','Equity, 50% tax relief','4-8 months','Up to £250k','You sell shares',ROSE,0.35)]
+    y0=86
+    b+=T(34,y0-14,'ROUTE',9,SLATE,weight='700'); b+=T(210,y0-14,'CASH IN',9,SLATE,weight='700')
+    b+=T(300,y0-14,'HOW MUCH',9,SLATE,weight='700'); b+=T(410,y0-14,'YOU GIVE UP',9,SLATE,weight='700')
+    b+=T(530,y0-14,'HOW LIKELY TODAY',9,SLATE,weight='700')
+    for i,(t,d,when,amt,give,c,lik) in enumerate(rows):
+        yy=y0+i*52
+        b+=f'<rect x="28" y="{yy}" width="{w-56}" height="44" rx="6" fill="{MIST}" stroke="{LINE}"/>'
+        b+=f'<rect x="28" y="{yy}" width="5" height="44" rx="2" fill="{c}"/>'
+        b+=T(44,yy+19,t,12,INK,weight='700'); b+=T(44,yy+34,d,9.5,SLATE)
+        b+=T(210,yy+27,when,10.5,INK); b+=T(300,yy+27,amt,10.5,INK,weight='600')
+        b+=T(410,yy+27,give,10,ROSE if give!='None' else SLATE)
+        b+=f'<rect x="530" y="{yy+19}" width="200" height="10" rx="5" fill="{LINE}"/>'
+        b+=f'<rect x="530" y="{yy+19}" width="{int(200*lik)}" height="10" rx="5" fill="{c}"/>'
+    b+=T(28,y0+6*52+14,'Every route below the top two needs a UK-registered company. You do not have one yet. That is a £50 fix and it unblocks all of them.',11,RED,weight='600')
+    write('money-speed.svg',svg(w,h,b,'Funding by speed'))
+
 def docmap():
     w,h=760,368; b=head(w,'What to read, and when','Eighteen documents. You do not need to read them all at once.')
     groups=[('Read this week',['00 Start here','01 Where you stand','02 What we are building','06 The plan'],ROSE),
@@ -500,6 +524,6 @@ def ipmoat():
     b+=T(24,y0+8*30+22,'Spend the patent budget on a novelty search first. File only if an attorney says the technical method is genuinely new.',11,SLATE)
     write('ip-protection.svg',svg(w,h,b,'What protects the business'))
 
-for f in (pilotladder,modules,pricingtiers,scaleladder,ipmoat,business_score,pillars,revenue,mix,cash,plan90,journey,how,pricing,funding,investors,partners,markets,readiness,traction,firstmillion,device,docmap):
+for f in (moneyspeed,pilotladder,modules,pricingtiers,scaleladder,ipmoat,business_score,pillars,revenue,mix,cash,plan90,journey,how,pricing,funding,investors,partners,markets,readiness,traction,firstmillion,device,docmap):
     f()
 print('all diagrams written to diagrams/')
