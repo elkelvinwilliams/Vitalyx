@@ -24,7 +24,7 @@ A pregnancy lasts about 280 days. A woman spends perhaps 10 to 15 hours of that 
 
 That is where women get into trouble. Blood pressure rises. Symptoms start. Nobody notices in time. The national reviews keep finding the same thing: women are not listened to, and escalation fails when it matters. Ockenden (2022) reviewed around 1,500 families' cases. Kirkup (2022) reviewed 202 cases in East Kent.
 
-Black and Asian women are failed most. MBRRACE-UK is the UK national report into why mothers die. It is run by Oxford's National Perinatal Epidemiology Unit. It reports Black women at roughly 2.8 times the risk of White women. It reports Asian women at roughly 1.7 times. **Verify the current figure and report year before using it.** Never say "3x" without a source.
+Black and Asian women are failed most. MBRRACE-UK is the UK national report into why mothers die. It is run by Oxford's National Perinatal Epidemiology Unit. Its report *Maternal mortality 2022-2024*, published on 8 January 2026, puts Black women at nearly three times the risk of White women, and Asian women at about 1.3 times. It reviewed 252 deaths. For 61% of them, better care might have changed the outcome. The overall maternal death rate rose about 20% between 2009-11 and 2022-24. **Always name the report and its year when you quote these. The figures move between reports, and the people who care about this subject will know the current ones.**
 
 Care also stops too early. Midwives hand over at 10 to 28 days. Most late maternal deaths happen after that, in the year following birth, and mental-health causes lead them.
 
