@@ -44,7 +44,7 @@ Plus [the facts](FACTS_BASE.md), which says what is proven and what is a guess. 
 | `product/` | Four documents to hand to a software developer |
 | `assets/` | What you send out: company profile, service list, proposal template, pilot proposal template, one-pager, four slide decks |
 | `finance/` | The three-year financial model |
-| `investors/` | 316 investors, top 25, call lists, scripts, and 75 partner organisations and contacts |
+| `investors/` | 316 investors, top 25, call lists, scripts, and 76 partner organisations and contacts |
 | `operations/` | Weekly numbers and pipeline trackers |
 | `diagrams/` | The 23 charts used in the documents |
 | `website/`, `maternalink-site/` | The two websites |

@@ -45,7 +45,7 @@ def brand_existing(src,dst,title,desc):
 # 1) Brand existing workbooks
 brand_existing(os.path.join(ROOT,'investors','VYTALIX_INVESTOR_CRM.xlsx'),os.path.join(OUT,'Vytalix_Investor_CRM.xlsx'),'Investor CRM','316 investors scored for fit and contactability, with Top 25, four call lists, pipeline stages and dashboard. Phone numbers only where traced to an official public source.')
 brand_existing(os.path.join(ROOT,'finance','Vytalix_Financial_Model_3yr.xlsx'),os.path.join(OUT,'Vytalix_Financial_Model_3yr.xlsx'),'Financial Model (36 months)','Three scenarios (Conservative, Base, High-growth) driven from one assumptions sheet. Change the scenario selector on the Assumptions sheet. Nothing here is an actual; all figures are scenario outputs.')
-brand_existing(os.path.join(ROOT,'investors','partners','PARTNER_WAR_ROOM.xlsx'),os.path.join(OUT,'Partner_War_Room.xlsx'),'Partner War Room','75 target organisations and contacts with the job title to approach, a CRM with the eleven-stage partner pipeline, stage rules and monthly KPIs.')
+brand_existing(os.path.join(ROOT,'investors','partners','PARTNER_WAR_ROOM.xlsx'),os.path.join(OUT,'Partner_War_Room.xlsx'),'Partner War Room','76 target organisations and contacts with the job title to approach, a CRM with the eleven-stage partner pipeline, stage rules and monthly KPIs.')
 
 # 2) KPI dashboard and pipeline trackers from CSVs
 def from_csv(path,title,desc,sheetname):

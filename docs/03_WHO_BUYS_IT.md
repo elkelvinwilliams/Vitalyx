@@ -75,6 +75,8 @@ No relationship exists with any organisation named below (KNOWN). They are liste
 | **K2 Medical Systems** (Athena, Guardian) | Maternity record plus labour monitoring | Owns the clinical record and the relationship with the trust |
 | **Euroking** (Magentus) | Older maternity record being replaced in several trusts, 2026–28 | Every replacement is a moment when a trust is willing to talk |
 | **Baby Buddy** (Best Beginnings, a charity) | Free pregnancy information app | Sets the expectation that information is free. Better as a content partner than a rival |
+| **MamaDoc** (Leicester) | Education, antenatal classes and WhatsApp support for Black, Brown and migrant parents. Led by Dr Yusuf Shittu, an NHS GP, with Dr Nimat | Reaches the women you are talking about and is trusted by them. A partner, not a rival, unless they move into the clinical record |
+| **The Motherhood Group** (Sandra Igwe) | Black maternal health campaigning, community and training | Runs the conversation this subject happens inside. Influence, not software |
 | **NHS App and hospital patient portals** | Appointments, letters, results | Trusts will say "women already have an app". Your answer is handover and escalation, not information |
 | **Babyscripts** (USA, $37m raised) | Virtual maternity care built into the clinic's workflow | Not in the UK today. A model to learn from, and an investor's comparison |
 | **Maven Clinic** (USA, $425m+ raised) | Virtual women's-health clinic sold to employers | Already sells to global employers. Blocks the UK employer route |

@@ -1,112 +1,113 @@
-# Conversation: Dr Yusuf Shittu
+# Conversation: Dr Yusuf Shittu, MamaDoc
 
-**What to say to a GP who has founded three companies. Met at the APPG, 22 September 2026.**
+**Revised once we knew who he actually is. Met at the APPG, 22 September 2026.**
 
-He is a practising GP with an NHS Clinical Entrepreneur Programme place and a design
-background. He has built three companies, so he has been where you are and he has failed at
-least once. That makes him the most useful person in the room and the easiest to talk to.
+He is an NHS GP in Leicester and the **co-founder and chief executive of MamaDoc**, which he
+built with Dr Nimat after they became parents in the UK away from family. MamaDoc runs
+antenatal classes, education and WhatsApp support for Black, Brown and migrant parents.
 
-Two rules for the whole conversation. **Ask for his opinion, never for his help.** And **let
-him talk more than you do.** Founders who have been through it enjoy being asked properly.
+That makes him three things at once, and you have to hold all three in your head.
 
-## Opening
+| He is | So |
+|---|---|
+| A practising GP and three-time founder | His criticism is worth more than anyone's in that room |
+| Building in maternity, for the same women | Do not hand him your roadmap on a first meeting |
+| Running his own company | He will never be your clinical safety officer. Drop that ask entirely |
 
-> "Are you Yusuf? Kelvin. I build maternity software — nothing live yet, no customers.
-> You're on the Clinical Entrepreneur Programme, right? Can I ask you something I can't get
-> a straight answer on from anyone who isn't a clinician?"
+## The honest read on whether he is a competitor
 
-Then stop. Let him say yes. The pause matters; it makes it his conversation, not your pitch.
+Today, no. MamaDoc sells to and serves **women directly**: community, classes, information,
+a human on WhatsApp. MaternaLink sells to **hospitals and programmes**: coordination,
+monitoring, escalation, a record.
 
-## The question that earns the rest of the conversation
+He owns the demand side. You are building the supply side. Those fit together well.
 
-> "My whole claim is that the software writes down what a woman said and when, and what
-> happened next. So it's harder to say afterwards that she never mentioned it. Does that
-> land with clinicians as a safety record? Or does it just sound like more admin?"
+But he is one product decision away from overlapping with you, and you are one decision away
+from overlapping with him. Both of you know it. Say the useful parts out loud and keep the
+build details to yourself. That is not dishonesty; it is what every founder does on a first
+meeting, and he will be doing exactly the same.
 
-This is the crux of your product and a GP will answer it in five seconds. Whatever he says
-next is the most valuable thing you will hear this year. Write it down in front of him.
+## What to say, now that you know
 
-### If he says it sounds like admin
+Lead with his company. Not yours. It is the sincerest thing you can do and it is also correct.
 
-Do not defend it. Go further in:
+> "You're MamaDoc, aren't you? I've just been reading it. Can I ask you the thing I most
+> want to know — what do the women actually message you about? Not what you expected. What
+> they actually send."
 
-> "That's what I was afraid of. What would make it worth the typing? Or is the honest answer
-> that nobody adds a field to a maternity record unless someone forces them to?"
+That question is gold and only he can answer it. He has the real message log from the exact
+population every report in this building is about. Write down what he says.
 
-### If he says it lands
+### Then the one that opens the partnership
 
-> "Then who feels the benefit first — the midwife, the consultant, or the trust's legal team?
-> I've been assuming the midwife and I might have that wrong."
+> "Here's my problem. I'm building the hospital side — coordination, escalation, a record of
+> what was said. But I have no trust from women and you have all of it. Does the hospital
+> side even matter to the women you talk to, or is that me solving the wrong end of it?"
 
-### If he asks what it actually does
+You have just told him the shape of a partnership without proposing one. If he is interested,
+he will take it from there. If he is not, you have learned something important for free.
 
-Keep it to three sentences and stop:
+### If he asks what MaternaLink does
 
-> "Appointments, symptoms and a blood pressure monitor for the women who need watching.
-> It's care coordination, not diagnosis. There's a prediction engine in the old version that
-> I've pulled out, because it would make it a medical device and I can't back the claims."
+Three sentences. Category, not features.
 
-That last sentence is the one that will make him take you seriously. Founders respect
-someone who removed a feature for the right reason far more than someone with a big roadmap.
+> "Care coordination for maternity, sold to hospitals. Appointments, symptoms, and monitoring
+> for the women who need watching. There was a prediction engine in the old version and I
+> pulled it out, because it would make it a medical device and I can't back the claims."
 
-## The two things only he can tell you
+Then stop and turn it back: *"How did you handle the line between support and clinical advice?
+You're a GP running a parent service — you must have hit that early."* That is a real problem
+he has definitely solved and he will enjoy being asked.
 
-Ask these second, once he is talking freely.
+## The two questions still worth asking
 
-> "How did you find your clinical safety officer? Everyone tells me I need one and nobody
-> tells me where they come from or what they actually cost."
+> "How did you find your clinical safety officer — or did you structure MamaDoc so you didn't
+> need one?"
 
-> "Is there any route into the Clinical Entrepreneur Programme for a founder who isn't a
-> clinician? Or does it have to be a clinical co-founder?"
+> "Is there a route into the Clinical Entrepreneur Programme for a founder who isn't a
+> clinician, or does it need a clinical co-founder?"
 
-Both are real questions you genuinely need answered. Neither asks him for a favour.
+Both are genuine. Neither gives anything away.
 
-## How to close it
-
-> "This has been more useful than the last three months of reading. Can I connect with you
-> and send you one paragraph on what I change after tonight? No pitch, no deck. I'd just
-> like to tell you what you changed."
-
-Then leave. Do not extend the conversation past its natural end. Ending it yourself, early,
-is what makes him answer the message later.
-
-## What not to say
+## What not to say now
 
 | Do not | Why |
 |---|---|
-| "Would you be my clinical safety officer?" | It is a paid role carrying real legal liability. Asking in five minutes reads as naive |
-| "Can you introduce me to..." | Not on a first meeting. Earn it with the follow-up |
-| Anything about the raise, the valuation or the market size | He is a clinician first. It signals you care about the money before the care |
-| "We're working with the NHS" | You are not. He would know within one question |
-| Handing him anything printed | Nobody wants paper at a drinks reception. Send it after |
+| "Will you be my clinical safety officer?" | He is a chief executive of a maternity company. It is the wrong ask and it shows you had not looked him up |
+| Your module list, prices, or the government plan | He is building in maternity. Ordinary commercial care, nothing personal |
+| "We could merge / you should join me" | Ten minutes in. It reads as desperate and it insults what he has already built |
+| "I didn't know you had a company" | You do now. Never let him find out you researched him and pretended otherwise |
+| Anything about the raise | He is a clinician and a founder. He will hear it as the wrong priority |
 
-## The message that evening
+If he asks something you would rather not answer, say so plainly: *"I'd rather not go into
+that bit yet, if you don't mind."* Every founder respects that answer and nobody respects
+a vague one.
 
-Send it the same night, while he remembers your face. Short, specific, nothing attached.
+## Close
+
+> "This is the most useful ten minutes I've had on this. Can I connect, and send you one
+> paragraph on what I change after tonight? No deck, no pitch."
+
+## The message tonight
 
 > Yusuf — Kelvin, from the Black Maternal Health group this afternoon.
 >
-> You said [the exact thing he said]. I've been building on the opposite assumption, so
-> that is worth a lot to me.
+> I've spent the evening on MamaDoc. What you said about [the specific thing] is the part
+> I had wrong.
 >
-> I'm going to [the specific change you will make]. If that turns out to be wrong too,
-> I'd rather hear it from you early than from a trust in a year.
+> I build the hospital side of this — coordination and escalation, sold to trusts. You have
+> the women's trust and I don't. That may be worth a conversation at some point, or it may
+> not, and either is fine.
 >
-> No ask. Thank you for being straight with me.
+> Either way, thank you for being straight with me.
 
-If he replies, ask for twenty minutes on a call. Not before.
+Short. No attachment. It names the fit without asking for anything, which is the only version
+a busy chief executive replies to.
 
-## Where this could go, over months not days
+## Before any second conversation
 
-Do not raise any of this on the first meeting. It is what you are playing for.
-
-| Stage | What it looks like | Realistic timing |
-|---|---|---|
-| Honest critic | He tells you what is wrong, by message | Now |
-| Adviser | A recurring call. Unpaid at first | 1–3 months |
-| Named clinical adviser | On your website, with his permission in writing | 3–6 months |
-| Introductions | To a maternity clinician, and into the innovation networks | When he trusts you |
-| Clinical safety officer, or the person who names one | Paid, contracted, with the hazard log | 6 months plus |
-
-Never put his name or his photograph on anything without written permission. A clinician's
-name on a product implies endorsement, and it is his registration at risk, not yours.
+1. Read mamadoc.co.uk properly. All of it.
+2. Check MamaDoc at Companies House. Know whether it is a company, a CIC or a charity before
+   you propose anything, because it changes what a partnership can even look like.
+3. Work out what you would actually offer them. Do not arrive with a vague wish to work together.
+4. Decide, in advance, what you will not discuss.
