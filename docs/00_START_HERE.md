@@ -64,7 +64,7 @@ Everything else is reference material: spreadsheets, the documents for your deve
 | `product/` | Four documents to hand to a software developer |
 | `assets/` | Things you send to other people: company profile, service list, proposal template, pilot proposal template, one-pager, four slide decks |
 | `finance/` | The three-year financial model |
-| `investors/` | 316 investors, the top 25, call lists, scripts, and 74 partner organisations |
+| `investors/` | 316 investors, the top 25, call lists, scripts, and 75 partner organisations and contacts |
 | `operations/` | Weekly numbers to track and pipeline trackers |
 | `diagrams/` | The charts used in these documents |
 | `exports/` | Everything again as PDF, Word, Excel and PowerPoint |
