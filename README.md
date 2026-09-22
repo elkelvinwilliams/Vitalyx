@@ -11,7 +11,7 @@ Everything here is written in plain English. Nothing claims a customer, partner,
 - Vytalix: https://elkelvinwilliams.github.io/Vitalyx/
 - MaternaLink, with a demonstration dashboard: https://elkelvinwilliams.github.io/Vitalyx/maternalink/
 
-## The nineteen documents
+## The twenty documents
 
 | # | Document | What it answers |
 |---|---|---|
@@ -34,6 +34,7 @@ Everything here is written in plain English. Nothing claims a customer, partner,
 | 16 | [What you can protect](docs/16_WHAT_YOU_CAN_PROTECT.md) | What can be patented, what cannot, and what to spend on instead |
 | 17 | [What to charge for a pilot](docs/17_WHAT_TO_CHARGE_FOR_A_PILOT.md) | What you can sell this quarter, and at what price |
 | 18 | [The APPG event](docs/18_THE_APPG_EVENT.md) | What to say and do in a room of campaigners and clinicians |
+| 19 | [The supporter map](docs/19_THE_SUPPORTER_MAP.md) | Twelve maternity organisations, which to approach and which to leave |
 
 Plus [the facts](FACTS_BASE.md), which says what is proven and what is a guess. If any document disagrees with it, that file wins.
 
@@ -44,7 +45,7 @@ Plus [the facts](FACTS_BASE.md), which says what is proven and what is a guess. 
 | `product/` | Four documents to hand to a software developer |
 | `assets/` | What you send out: company profile, service list, proposal template, pilot proposal template, one-pager, four slide decks |
 | `finance/` | The three-year financial model |
-| `investors/` | 316 investors, top 25, call lists, scripts, and 76 partner organisations and contacts |
+| `investors/` | 316 investors, top 25, call lists, scripts, and 88 partner organisations and contacts |
 | `operations/` | Weekly numbers and pipeline trackers |
 | `diagrams/` | The 23 charts used in the documents |
 | `website/`, `maternalink-site/` | The two websites |
